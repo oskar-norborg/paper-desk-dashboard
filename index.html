@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DESK · Paper Trading Terminal</title>
+  <link rel="stylesheet" href="dashboard.css">
+  <!-- Chart.js 4.x from CDN (display only). Canvas fallback renders if offline. -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+  <!-- file:// fallback: state as JS, written by scripts/refresh_desk_state.py -->
+  <script src="desk_state.js"></script>
+</head>
+<body data-public="1">
+  <div class="paperbar">PAPER ONLY · SIMULATED EQUITY · NO LIVE KEYS · NO ORDER PLACEMENT · AUTO PAPER FILL ONLY WHEN ALL HARD RISK RULES PASS</div>
+  <header class="topbar">
+    <div class="brand">
+      <span class="dot"></span>
+      <h1>DESK<span class="thin">/paper-terminal</span><span class="badge-paper" style="background:#38bdf8;margin-left:4px">PUBLIC · READ-ONLY</span></h1>
+      <span class="badge-paper">PAPER ONLY</span>
+      <span id="approvalPill" class="pill">auto-fill: —</span>
+      <span id="pausePill" class="pill">risk: —</span>
+    </div>
+    <div class="meta">
+      <span id="quotesMeta">quotes —</span><span class="sep">│</span>
+      <span id="updated">loading…</span><span class="sep">│</span><span id="lastUpdated" class="pill ok">last updated: —</span><span class="sep">│</span>
+      <span id="source" class="muted"></span>
+      <button id="reload" class="btn" title="Re-read desk_state.json">⟳</button>
+    </div>
+  </header>
+  <div class="tape" id="tape"><div class="tape-inner" id="tapeInner"></div></div>
+
+  <div id="error" class="error hidden"></div>
+
+  <main class="grid">
+    <section class="panel metrics" id="metrics"></section>
+
+    <section class="panel p-review" id="reviewPanel">
+      <div class="panel-head"><h2>Ticker review (paper)</h2><span class="muted">read-only on public page · submit on local desk</span>
+        <span class="muted">temporary review · scores hard rules · does NOT auto-fill</span></div>
+      <div class="rv-wrap">
+        <div class="rv-left">
+          <form id="reviewForm" class="rv-form" autocomplete="off">
+            <span class="rv-prompt">&gt;</span>
+            <input id="reviewInput" type="text" maxlength="5" placeholder="TICKER e.g. MSFT" spellcheck="false" aria-label="Ticker symbol">
+            <select id="reviewDir" aria-label="Direction"><option value="long">long</option><option value="short">short</option></select>
+            <button id="reviewBtn" type="submit" class="btn rv-btn">Review</button>
+          </form>
+          <div id="reviewChips" class="rv-chips"></div>
+          <div id="reviewStatus" class="rv-status idle">idle · type any liquid US ticker or click a chip</div>
+          <div class="rv-sub">recent reviews</div>
+          <div id="reviewRecent" class="rv-recent"></div>
+        </div>
+        <div id="tickerReviewCard" class="rv-card"><div class="empty">&gt; no ticker review yet_</div></div>
+      </div>
+    </section>
+
+    <section class="panel p-curve">
+      <div class="panel-head"><h2>Equity curve</h2>
+        <span class="muted" id="curveMeta"></span></div>
+      <div class="chart-wrap"><canvas id="equityChart"></canvas></div>
+    </section>
+
+    <section class="panel p-side">
+      <div class="panel-head"><h2>Risk / auto-fill queue</h2><span class="muted" id="queueMeta">rules gate fills · PASS → auto paper fill</span></div>
+      <div id="approvalQueue" class="queue"></div>
+      <div class="panel-head sub"><h2>Open paper positions</h2><span class="muted" id="posMeta"></span></div>
+      <div id="positions"></div>
+    </section>
+
+    <section class="panel p-watch">
+      <div class="panel-head"><h2>Watchlist</h2><span class="muted" id="watchMeta">public quotes · display only</span></div>
+      <div id="watchlist" class="wgrid"></div>
+    </section>
+
+    <section class="panel p-net">
+      <div class="panel-head"><h2>Relationship map</h2><span class="muted">stock→ETF · card→symbol</span></div>
+      <div class="netwrap"><svg id="network" viewBox="0 0 420 270" preserveAspectRatio="xMidYMid meet"></svg>
+        <div id="netTip" class="nettip hidden"></div></div>
+      <div class="legend"><span><i class="lg etf"></i>ETF</span><span><i class="lg stk"></i>stock (color = day %)</span>
+        <span><i class="lg card"></i>decision card</span><span><i class="lg edge"></i>membership</span></div>
+    </section>
+
+    <section class="panel p-dec">
+      <div class="panel-head"><h2>Decision cards</h2><span class="muted" id="decMeta"></span></div>
+      <div id="decisions" class="dtable"></div>
+    </section>
+
+    <section class="panel p-research">
+      <div class="panel-head"><h2>Research drop</h2><span class="muted">from Daily stock report bot</span></div>
+      <div id="research" class="research"></div>
+    </section>
+
+    <section class="panel p-feed">
+      <div class="panel-head"><h2>Scanner / activity feed</h2>
+        <div class="filters" id="filters"></div></div>
+      <div id="activity" class="feedbox"></div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    Paper trading research desk · decisions/ are the source of truth · equity = cash + mark-to-market of auto-filled (rules PASS) paper positions ·
+    quotes: Yahoo public chart (display only) · public read-only mirror · updates after desk refresh pushes · PAPER ONLY
+  </footer>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-27T21:38:42-03:00",
+  "updated_at": "2026-10-28T10:06:28-03:00",
   "timezone_note": "Times shown America/Sao_Paulo (BRT); routines run on America/New_York",
   "paper_only": true,
   "quotes": {
@@ -19,9 +19,9 @@
     "cash": 7081.26,
     "realized_pnl": 406.26,
     "unrealized_pnl": 62.5,
-    "day_pnl": 468.76,
-    "day_pnl_pct": 0.938,
-    "day_baseline": 50000.0,
+    "day_pnl": 0.0,
+    "day_pnl_pct": 0.0,
+    "day_baseline": 50468.76,
     "open_positions": 1,
     "max_open": 3,
     "max_risk_per_trade": 500.0,
@@ -103,6 +103,11 @@
       "t": "2026-10-27T21:38:42-03:00",
       "equity": 50468.76,
       "kind": "mark"
+    },
+    {
+      "t": "2026-10-28T10:06:28-03:00",
+      "equity": 50468.76,
+      "kind": "mark"
     }
   ],
   "positions": [
@@ -132,7 +137,6 @@
       "last": 769.66,
       "change_pct": 0.56,
       "spark": [
-        778.57,
         778.1,
         778.01,
         769.6,
@@ -143,7 +147,8 @@
         773.09,
         763.96,
         759.97,
-        765.37
+        765.37,
+        769.66
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
@@ -157,7 +162,6 @@
       "last": 721.25,
       "change_pct": 1.27,
       "spark": [
-        751.27,
         746.04,
         743.57,
         728.95,
@@ -168,7 +172,8 @@
         725.2,
         704.47,
         704.4,
-        712.2
+        712.2,
+        721.25
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
@@ -182,7 +187,6 @@
       "last": 347.1,
       "change_pct": 0.93,
       "spark": [
-        336.64,
         340.97,
         341.27,
         342.96,
@@ -193,7 +197,8 @@
         343.99,
         348.22,
         347.73,
-        343.91
+        343.91,
+        347.1
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
@@ -207,7 +212,6 @@
       "last": 531.33,
       "change_pct": -0.24,
       "spark": [
-        535.07,
         541.15,
         543.45,
         533.69,
@@ -218,7 +222,8 @@
         532.95,
         521.08,
         524.51,
-        532.6
+        532.6,
+        531.33
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
@@ -232,7 +237,6 @@
       "last": 217.94,
       "change_pct": 0.9,
       "spark": [
-        229.28,
         226.32,
         228.52,
         221.3,
@@ -243,7 +247,8 @@
         221.97,
         212.21,
         210.96,
-        216.0
+        216.0,
+        217.94
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
@@ -257,7 +262,6 @@
       "last": 253.1,
       "change_pct": 1.61,
       "spark": [
-        262.43,
         259.53,
         258.58,
         254.08,
@@ -268,7 +272,8 @@
         262.37,
         250.38,
         248.0,
-        249.09
+        249.09,
+        253.1
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
@@ -282,7 +287,6 @@
       "last": 320.58,
       "change_pct": 1.19,
       "spark": [
-        351.66,
         352.72,
         353.78,
         347.64,
@@ -293,7 +297,8 @@
         334.76,
         324.22,
         320.21,
-        316.8
+        316.8,
+        320.58
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
@@ -307,7 +312,6 @@
       "last": 620.19,
       "change_pct": -1.65,
       "spark": [
-        718.67,
         742.96,
         762.5,
         737.54,
@@ -318,7 +322,8 @@
         697.52,
         648.85,
         642.62,
-        630.56
+        630.56,
+        620.19
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
@@ -332,7 +337,6 @@
       "last": 407.46,
       "change_pct": 4.04,
       "spark": [
-        382.7,
         378.03,
         375.23,
         367.16,
@@ -343,7 +347,8 @@
         386.47,
         374.58,
         372.22,
-        391.62
+        391.62,
+        407.46
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
@@ -430,13 +435,13 @@
   ],
   "research": {
     "available": true,
-    "files": 1,
+    "files": 2,
     "handoff_dir": "research/",
     "latest": {
-      "file": "research/daily_2026-10-27.md",
-      "title": "Daily research — 2026-10-27 (CLOSE version, supersedes pre-market)",
-      "t": "2026-10-27T17:23:41-03:00",
-      "summary": "Tech-led up day, third straight session of chip strength on Anthropic IPO buzz. Reuters close: S&P 500 +0.57% to 7,720.63, Nasdaq +1.14% to 26,467.06, Dow +2.44 pts (flat) at 52,364.02. SMH +3.02%. Energy was the worst sector as crude eased (XLE −2.05%). TLT flat (−0.06%). FOMC decision Wed Oct 28 2:00 PM ET (presser 2…",
+      "file": "research/daily_2026-10-28.md",
+      "title": "Daily research — 2026-10-28 (PRE-MARKET version)",
+      "t": "2026-10-28T08:46:30-03:00",
+      "summary": "FACT: Futures mixed-to-higher, tech-led. ES 7,770.75 (+0.16%), NQ 29,932.75 (+0.41%), RTY 2,825.6 (−0.10%) at ~7:35 AM ET (Yahoo). Reuters: chips bid after SK Hynix record results (Micron +4% pre). WTI 101.65 (+1.75%) at ~7:35 AM ET after Houthis claimed an attack on Saudi Arabia's Ras Tanura refinery (Yahoo/Reuters). …",
       "symbols": [
         "AAPL",
         "AMZN",
@@ -837,9 +842,19 @@
   },
   "activity": [
     {
-      "t": "2026-10-27T21:38:42-03:00",
+      "t": "2026-10-28T10:06:28-03:00",
       "kind": "quotes",
       "text": "Quotes refreshed 9/9 ok · Yahoo public chart · display only"
+    },
+    {
+      "t": "2026-10-28T10:06:27-03:00",
+      "kind": "brief",
+      "text": "Morning brief — 2026-10-28 (Wed) · briefs/2026-10-28_morning.md"
+    },
+    {
+      "t": "2026-10-28T08:46:30-03:00",
+      "kind": "research",
+      "text": "Daily research — 2026-10-28 (PRE-MARKET version) · research/daily_2026-10-28.md"
     },
     {
       "t": "2026-10-27T21:23:18-03:00",

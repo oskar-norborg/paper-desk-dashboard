@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-27T21:05:15-03:00",
+  "updated_at": "2026-10-27T21:38:42-03:00",
   "timezone_note": "Times shown America/Sao_Paulo (BRT); routines run on America/New_York",
   "paper_only": true,
   "quotes": {
@@ -100,7 +100,7 @@
       "kind": "open"
     },
     {
-      "t": "2026-10-27T21:05:15-03:00",
+      "t": "2026-10-27T21:38:42-03:00",
       "equity": 50468.76,
       "kind": "mark"
     }
@@ -453,35 +453,35 @@
   },
   "ticker_reviews": {
     "latest": {
-      "id": "2026-10-27_MSFT_204119",
+      "id": "2026-10-27_TSLA_212317",
       "kind": "ticker_review",
       "header": "PAPER ONLY · temporary review · NOT an auto-fill · not a live order",
       "paper_only": true,
       "auto_fill": false,
-      "symbol": "MSFT",
+      "symbol": "TSLA",
       "direction": "long",
-      "t": "2026-10-27T20:41:19-03:00",
+      "t": "2026-10-27T21:23:18-03:00",
       "quote": {
-        "last": 531.33,
-        "change_pct": -0.24,
-        "quote_time": "2026-10-27T17:00:01-03:00",
+        "last": 407.46,
+        "change_pct": 4.04,
+        "quote_time": "2026-10-27T17:00:00-03:00",
         "quote_source": "yahoo_finance_chart"
       },
       "research": {
         "file": "research/daily_2026-10-27.md",
         "t": "2026-10-27T17:23:41-03:00",
         "row": {
-          "close": 531.33,
-          "day_pct": "−0.24%",
-          "range_lo": 528.33,
-          "range_hi": 534.7,
-          "ah": 532.0,
-          "notes": "Earnings Oct 28 AMC"
+          "close": 407.46,
+          "day_pct": "+4.04%",
+          "range_lo": 395.25,
+          "range_hi": 408.45,
+          "ah": 406.53,
+          "notes": "Closed near day high"
         },
         "regime": "Tech-led up day, third straight session of chip strength on Anthropic IPO buzz. Reuters close: S&P 500 +0.57% to 7,720.63, Nasdaq +1.14% to 26,467.06, Dow +2.44 pts (flat) at 52,364.02.",
         "mentions": [
-          "Tech-led up day, third straight session of chip strength on Anthropic IPO buzz. Reuters close: S&P 500 +0.57% to 7,720.63, Nasdaq +1.14% to 26,467.06, Dow +2.44 pts (flat) at 52,364.02. SMH +3.02%. Energy was the worst sector as crude eased (XLE −2.05%). TLT f…",
-          "1. META — Close 620.19 (−1.64%), below the $625 common offer price. Reuters (Oct 27): planned equity raise upsized to $97.5B: $25B common at $625 (was $22.5B Mon), $12.5B convertible preferred depositary shares, plus a separate up-to-$60B at-the-market program…"
+          "1. META — Close 620.19 (−1.64%), below the $625 common offer price. Reuters (Oct 27): planned equity raise upsized to $97.5B: $25B common at $625 (was $22.5B Mon), $12.5B convertible preferred depositary shares, plus a separate up-to-$60B at-the-market program…",
+          "Yahoo Finance chart data (closes, ranges, AH), Reuters via financialnewsletter.com and Investing.com (session wrap, Meta raise, futures), Investing.com (TSLA), Yahoo Finance market wrap, Apple IR (AAPL date), Federal Reserve calendar, gov.house / TreasuryDirec…"
         ],
         "usable_levels": true,
         "note": null
@@ -493,34 +493,34 @@
         "max_open": 3,
         "day_pnl": 468.76
       },
-      "file": "reviews/ticker/2026-10-27_MSFT_204119.md",
-      "json": "reviews/ticker/2026-10-27_MSFT_204119.json",
+      "file": "reviews/ticker/2026-10-27_TSLA_212317.md",
+      "json": "reviews/ticker/2026-10-27_TSLA_212317.json",
       "promote": "Not filled. Say \"auto-fill this review\" in chat to promote it to a real decision card (it is re-checked against the hard rules at that time).",
       "levels": {
-        "entry": 531.33,
+        "entry": 407.46,
         "entry_zone": [
-          530.27,
-          532.39
+          406.65,
+          408.27
         ],
-        "stop": 527.54,
-        "target": 538.91,
-        "invalidation": "close below research day low 528.33 (research/daily_2026-10-27.md) — range thesis broken",
-        "source": "research day range 528.33–534.70 (research/daily_2026-10-27.md) · stop beyond range ±0.15% · target 2R",
+        "stop": 394.66,
+        "target": 433.06,
+        "invalidation": "close below research day low 395.25 (research/daily_2026-10-27.md) — range thesis broken",
+        "source": "research day range 395.25–408.45 (research/daily_2026-10-27.md) · stop beyond range ±0.15% · target 2R",
         "illustrative": false
       },
       "sizing": {
-        "raw_shares_rule1": 131,
-        "proposed_shares": 13,
+        "raw_shares_rule1": 39,
+        "proposed_shares": 17,
         "capped": true,
         "caps": {
-          "rule1_risk_shares": 131,
-          "rule9_equity_shares": 94,
-          "rule9_cash_shares": 13,
-          "rule10_event_shares": 37,
-          "rule9_total_headroom_shares": 13
+          "rule1_risk_shares": 39,
+          "rule9_equity_shares": 123,
+          "rule9_cash_shares": 17,
+          "rule10_event_shares": 49,
+          "rule9_total_headroom_shares": 17
         },
-        "risk_dollars": 49.27,
-        "notional": 6907.29,
+        "risk_dollars": 217.6,
+        "notional": 6926.82,
         "event_cap_dollars": 20187.5,
         "events": [
           {
@@ -529,13 +529,6 @@
             "when": "2026-10-28T14:00-04:00",
             "note": "FOMC decision + presser",
             "market_wide": true
-          },
-          {
-            "id": "msft-earn-2026-10-28",
-            "type": "earnings",
-            "when": "2026-10-28T16:00-04:00",
-            "note": "MSFT earnings AMC",
-            "market_wide": false
           },
           {
             "id": "gdp-pce-2026-10-29",
@@ -551,7 +544,7 @@
           "rule": "1",
           "label": "max $500 risk (1%)",
           "ok": true,
-          "detail": "risk $49.27 ≤ $500 (rule 1)"
+          "detail": "risk $217.60 ≤ $500 (rule 1)"
         },
         {
           "rule": "2",
@@ -575,44 +568,98 @@
           "rule": "9",
           "label": "notional ≤ equity · cash ≥ $0",
           "ok": true,
-          "detail": "notional new $6,907.29 / total $50,232.29 ≤ equity $50,468.76; cash after $173.97 ≥ 0 (rule 9) · resized 131→13 sh (rule9_cash_shares, rule9_total_headroom_shares)"
+          "detail": "notional new $6,926.82 / total $50,251.82 ≤ equity $50,468.76; cash after $154.44 ≥ 0 (rule 9) · resized 39→17 sh (rule9_cash_shares, rule9_total_headroom_shares)"
         },
         {
           "rule": "10",
           "label": "event in 48h → notional ≤ 40% equity",
           "ok": true,
-          "detail": "event window (48h): FOMC 2026-10-28T14:00-04:00 (FOMC decision + presser), earnings 2026-10-28T16:00-04:00 (MSFT earnings AMC), macro 2026-10-29T08:30-04:00 (Q3 GDP advance + Sep PCE) · notional $6,907.29 ≤ 40% cap $20,187.50 (rule 10)"
+          "detail": "event window (48h): FOMC 2026-10-28T14:00-04:00 (FOMC decision + presser), macro 2026-10-29T08:30-04:00 (Q3 GDP advance + Sep PCE) · notional $6,926.82 ≤ 40% cap $20,187.50 (rule 10)"
         }
       ],
       "outcome": "PASS",
       "reasons": [
         "all hard rules pass at proposed size — eligible for auto-fill if promoted to a decision card"
       ],
-      "thesis": "MSFT last 531.33 (-0.24% on the day); this is a paper long review, not a recommendation. Research (research/daily_2026-10-27.md) shows close 531.33, day range 528.33–534.70; note: Earnings Oct 28 AMC. Known high-impact event inside 48h (FOMC 2026-10-28T14:00-04:00, FOMC decision + presser) — size is capped and gap risk is elevated. Plan only works while price holds above 527.54; target 538.91.",
-      "risk_score": 3,
-      "risk_score_reason": "event in 48h, size capped by rule 9/10 — within hard rules"
+      "thesis": "TSLA last 407.46 (+4.04% on the day); this is a paper long review, not a recommendation. Research (research/daily_2026-10-27.md) shows close 407.46, day range 395.25–408.45; note: Closed near day high. Known high-impact event inside 48h (FOMC 2026-10-28T14:00-04:00, FOMC decision + presser) — size is capped and gap risk is elevated. Plan only works while price holds above 394.66; target 433.06.",
+      "risk_score": 4,
+      "risk_score_reason": "event in 48h, size capped by rule 9/10, large day move +4.04% — within hard rules"
     },
     "recent": [
       {
-        "id": "2026-10-27_MSFT_204119",
-        "symbol": "MSFT",
+        "id": "2026-10-27_TSLA_212317",
+        "symbol": "TSLA",
         "direction": "long",
         "outcome": "PASS",
-        "risk_score": 3,
-        "t": "2026-10-27T20:41:19-03:00",
-        "file": "reviews/ticker/2026-10-27_MSFT_204119.md"
+        "risk_score": 4,
+        "t": "2026-10-27T21:23:18-03:00",
+        "file": "reviews/ticker/2026-10-27_TSLA_212317.md"
       },
       {
-        "id": "2026-10-27_MSFT_204007",
+        "id": "2026-10-27_META_212317",
+        "symbol": "META",
+        "direction": "long",
+        "outcome": "PASS",
+        "risk_score": 3,
+        "t": "2026-10-27T21:23:17-03:00",
+        "file": "reviews/ticker/2026-10-27_META_212317.md"
+      },
+      {
+        "id": "2026-10-27_GOOGL_212317",
+        "symbol": "GOOGL",
+        "direction": "long",
+        "outcome": "PASS",
+        "risk_score": 3,
+        "t": "2026-10-27T21:23:17-03:00",
+        "file": "reviews/ticker/2026-10-27_GOOGL_212317.md"
+      },
+      {
+        "id": "2026-10-27_AMZN_212317",
+        "symbol": "AMZN",
+        "direction": "long",
+        "outcome": "PASS",
+        "risk_score": 3,
+        "t": "2026-10-27T21:23:17-03:00",
+        "file": "reviews/ticker/2026-10-27_AMZN_212317.md"
+      },
+      {
+        "id": "2026-10-27_NVDA_212317",
+        "symbol": "NVDA",
+        "direction": "long",
+        "outcome": "PASS",
+        "risk_score": 3,
+        "t": "2026-10-27T21:23:17-03:00",
+        "file": "reviews/ticker/2026-10-27_NVDA_212317.md"
+      },
+      {
+        "id": "2026-10-27_MSFT_212317",
         "symbol": "MSFT",
         "direction": "long",
         "outcome": "PASS",
         "risk_score": 3,
-        "t": "2026-10-27T20:40:07-03:00",
-        "file": "reviews/ticker/2026-10-27_MSFT_204007.md"
+        "t": "2026-10-27T21:23:17-03:00",
+        "file": "reviews/ticker/2026-10-27_MSFT_212317.md"
+      },
+      {
+        "id": "2026-10-27_AAPL_212317",
+        "symbol": "AAPL",
+        "direction": "long",
+        "outcome": "PASS",
+        "risk_score": 3,
+        "t": "2026-10-27T21:23:17-03:00",
+        "file": "reviews/ticker/2026-10-27_AAPL_212317.md"
+      },
+      {
+        "id": "2026-10-27_QQQ_212316",
+        "symbol": "QQQ",
+        "direction": "long",
+        "outcome": "PASS",
+        "risk_score": 3,
+        "t": "2026-10-27T21:23:16-03:00",
+        "file": "reviews/ticker/2026-10-27_QQQ_212316.md"
       }
     ],
-    "count": 2,
+    "count": 17,
     "dir": "reviews/ticker/",
     "note": "Temporary paper reviews. NOT auto-filled. Promote only via chat: 'auto-fill this review'."
   },
@@ -790,9 +837,99 @@
   },
   "activity": [
     {
-      "t": "2026-10-27T21:05:15-03:00",
+      "t": "2026-10-27T21:38:42-03:00",
       "kind": "quotes",
       "text": "Quotes refreshed 9/9 ok · Yahoo public chart · display only"
+    },
+    {
+      "t": "2026-10-27T21:23:18-03:00",
+      "kind": "review",
+      "text": "Ticker review TSLA long → PASS · score 4/5 · 17 sh · paper only · not filled",
+      "symbol": "TSLA"
+    },
+    {
+      "t": "2026-10-27T21:23:17-03:00",
+      "kind": "review",
+      "text": "Ticker review AAPL long → PASS · score 3/5 · 20 sh · paper only · not filled",
+      "symbol": "AAPL"
+    },
+    {
+      "t": "2026-10-27T21:23:17-03:00",
+      "kind": "review",
+      "text": "Ticker review MSFT long → PASS · score 3/5 · 13 sh · paper only · not filled",
+      "symbol": "MSFT"
+    },
+    {
+      "t": "2026-10-27T21:23:17-03:00",
+      "kind": "review",
+      "text": "Ticker review NVDA long → PASS · score 3/5 · 32 sh · paper only · not filled",
+      "symbol": "NVDA"
+    },
+    {
+      "t": "2026-10-27T21:23:17-03:00",
+      "kind": "review",
+      "text": "Ticker review AMZN long → PASS · score 3/5 · 27 sh · paper only · not filled",
+      "symbol": "AMZN"
+    },
+    {
+      "t": "2026-10-27T21:23:17-03:00",
+      "kind": "review",
+      "text": "Ticker review GOOGL long → PASS · score 3/5 · 22 sh · paper only · not filled",
+      "symbol": "GOOGL"
+    },
+    {
+      "t": "2026-10-27T21:23:17-03:00",
+      "kind": "review",
+      "text": "Ticker review META long → PASS · score 3/5 · 11 sh · paper only · not filled",
+      "symbol": "META"
+    },
+    {
+      "t": "2026-10-27T21:23:16-03:00",
+      "kind": "review",
+      "text": "Ticker review SPY long → PASS · score 3/5 · 9 sh · paper only · not filled",
+      "symbol": "SPY"
+    },
+    {
+      "t": "2026-10-27T21:23:16-03:00",
+      "kind": "review",
+      "text": "Ticker review QQQ long → PASS · score 3/5 · 9 sh · paper only · not filled",
+      "symbol": "QQQ"
+    },
+    {
+      "t": "2026-10-27T21:20:06-03:00",
+      "kind": "review",
+      "text": "Ticker review MSFT long → PASS · score 3/5 · 13 sh · paper only · not filled",
+      "symbol": "MSFT"
+    },
+    {
+      "t": "2026-10-27T21:15:43-03:00",
+      "kind": "review",
+      "text": "Ticker review MSFT long → PASS · score 3/5 · 13 sh · paper only · not filled",
+      "symbol": "MSFT"
+    },
+    {
+      "t": "2026-10-27T21:15:35-03:00",
+      "kind": "review",
+      "text": "Ticker review NVDA long → PASS · score 3/5 · 32 sh · paper only · not filled",
+      "symbol": "NVDA"
+    },
+    {
+      "t": "2026-10-27T21:15:34-03:00",
+      "kind": "review",
+      "text": "Ticker review MSFT long → PASS · score 3/5 · 13 sh · paper only · not filled",
+      "symbol": "MSFT"
+    },
+    {
+      "t": "2026-10-27T21:14:04-03:00",
+      "kind": "review",
+      "text": "Ticker review MSFT long → PASS · score 3/5 · 13 sh · paper only · not filled",
+      "symbol": "MSFT"
+    },
+    {
+      "t": "2026-10-27T21:14:04-03:00",
+      "kind": "review",
+      "text": "Ticker review NVDA long → PASS · score 3/5 · 32 sh · paper only · not filled",
+      "symbol": "NVDA"
     },
     {
       "t": "2026-10-27T20:41:19-03:00",

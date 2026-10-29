@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-29T13:06:37-03:00",
-  "timezone_note": "Times shown America/Sao_Paulo (BRT); routines run on America/New_York",
+  "updated_at": "2026-10-29T12:31:19-05:00",
+  "timezone_note": "Times shown America/Chicago; routines run on America/New_York",
   "paper_only": true,
   "quotes": {
     "provider": "yahoo_finance_public_chart",
@@ -15,58 +15,64 @@
   "paper": {
     "starting_equity": 50000.0,
     "currency": "USD",
-    "equity": 50753.76,
-    "cash": 7081.26,
+    "equity": 50571.82,
+    "cash": 191871.39,
     "realized_pnl": 406.26,
-    "unrealized_pnl": 347.5,
-    "day_pnl": 515.0,
-    "day_pnl_pct": 1.025,
+    "unrealized_pnl": 165.56,
+    "day_pnl": 333.06,
+    "day_pnl_pct": 0.663,
     "day_baseline": 50238.76,
-    "open_positions": 1,
-    "max_open": 3,
-    "max_risk_per_trade": 500.0,
-    "daily_loss_pause": -1000.0,
+    "open_positions": 8,
+    "max_open": 9,
+    "max_risk_per_trade": 50571.82,
+    "daily_loss_pause": -1000000000000.0,
     "paused": false,
+    "rules_mode": "2.0-YOLO",
+    "yolo": true,
+    "yolo_until": "2026-10-31T00:00:00-04:00",
+    "max_notional_mult": 10.0,
+    "open_notional": 476034.13,
+    "gross_leverage": 9.41,
     "accounting": "equity = cash + Σ mark-to-market of open paper positions; positions come only from approved (auto or manual) cards with a simulated fill and no close"
   },
   "approval": {
     "required": false,
     "mode": "auto",
-    "rules_version": "1.2",
+    "rules_version": "2.0-YOLO",
     "pending_count": 0,
     "pending_ids": [],
     "pending_meaning": "cards not yet auto-filled: awaiting risk check, REVISE (resize) or BLOCKED by book state",
-    "auto_fill_count": 1,
+    "auto_fill_count": 8,
     "auto_reject_count": 1,
     "last_auto_fill": {
-      "t": "2026-10-27T17:25:17-03:00",
+      "t": "2026-10-29T12:31:01-05:00",
       "kind": "auto",
-      "text": "AUTO-FILL 2026-10-27_AAPL_01 · long 125 AAPL @ 346.60 · risk $500.00 · PASS: risk-check outcome PASS; exit plan complete (stop + target + invalidation); risk $500.00 ≤ $500 (rule 1); open 0/3 (rule 2); day P&L 406.26 > -1000 (rule 3); notional new $43,325.00 / total $43,325.00 ≤ equity $50,406.26; cash after $7,081.26 ≥ 0 (rule 9)",
-      "symbol": "AAPL",
-      "card_id": "2026-10-27_AAPL_01",
+      "text": "AUTO-FILL 2026-10-29_TSLA_02 · long 153 TSLA @ 404.85 · risk $3716.37 · PASS: risk-check outcome PASS; exit plan complete (stop + target + invalidation); risk $3,716.37 ≤ $50,754 [YOLO v2.0] (rule 1); open 7/9 (rule 2); daily loss pause OFF (YOLO) (rule 3); notional new $61,942.05 / total $475,400.83 ≤ $507,537.60 (10× equity); cash after $191,871.39 (paper margin allowed, YOLO) (rule 9); event notional cap OFF (YOLO v2.0) (rule 10)",
+      "symbol": "TSLA",
+      "card_id": "2026-10-29_TSLA_02",
       "action": "auto_fill",
       "by": "desk-auto",
-      "size": 125.0,
-      "fill": 346.6,
-      "risk": 500.0,
-      "notional": 43325.0,
-      "cash_after": 7081.26,
-      "reason": "all hard rules PASS — risk-check outcome PASS; exit plan complete (stop + target + invalidation); risk $500.00 ≤ $500 (rule 1); open 0/3 (rule 2); day P&L 406.26 > -1000 (rule 3); notional new $43,325.00 / total $43,325.00 ≤ equity $50,406.26; cash after $7,081.26 ≥ 0 (rule 9)"
+      "size": 153.0,
+      "fill": 404.85,
+      "risk": 3716.37,
+      "notional": 61942.05,
+      "cash_after": 191871.39,
+      "reason": "all hard rules PASS — risk-check outcome PASS; exit plan complete (stop + target + invalidation); risk $3,716.37 ≤ $50,754 [YOLO v2.0] (rule 1); open 7/9 (rule 2); daily loss pause OFF (YOLO) (rule 3); notional new $61,942.05 / total $475,400.83 ≤ $507,537.60 (10× equity); cash after $191,871.39 (paper margin allowed, YOLO) (rule 9); event notional cap OFF (YOLO v2.0) (rule 10)"
     },
     "last_auto_action": {
-      "t": "2026-10-27T17:25:17-03:00",
+      "t": "2026-10-29T12:31:01-05:00",
       "kind": "auto",
-      "text": "AUTO-FILL 2026-10-27_AAPL_01 · long 125 AAPL @ 346.60 · risk $500.00 · PASS: risk-check outcome PASS; exit plan complete (stop + target + invalidation); risk $500.00 ≤ $500 (rule 1); open 0/3 (rule 2); day P&L 406.26 > -1000 (rule 3); notional new $43,325.00 / total $43,325.00 ≤ equity $50,406.26; cash after $7,081.26 ≥ 0 (rule 9)",
-      "symbol": "AAPL",
-      "card_id": "2026-10-27_AAPL_01",
+      "text": "AUTO-FILL 2026-10-29_TSLA_02 · long 153 TSLA @ 404.85 · risk $3716.37 · PASS: risk-check outcome PASS; exit plan complete (stop + target + invalidation); risk $3,716.37 ≤ $50,754 [YOLO v2.0] (rule 1); open 7/9 (rule 2); daily loss pause OFF (YOLO) (rule 3); notional new $61,942.05 / total $475,400.83 ≤ $507,537.60 (10× equity); cash after $191,871.39 (paper margin allowed, YOLO) (rule 9); event notional cap OFF (YOLO v2.0) (rule 10)",
+      "symbol": "TSLA",
+      "card_id": "2026-10-29_TSLA_02",
       "action": "auto_fill",
       "by": "desk-auto",
-      "size": 125.0,
-      "fill": 346.6,
-      "risk": 500.0,
-      "notional": 43325.0,
-      "cash_after": 7081.26,
-      "reason": "all hard rules PASS — risk-check outcome PASS; exit plan complete (stop + target + invalidation); risk $500.00 ≤ $500 (rule 1); open 0/3 (rule 2); day P&L 406.26 > -1000 (rule 3); notional new $43,325.00 / total $43,325.00 ≤ equity $50,406.26; cash after $7,081.26 ≥ 0 (rule 9)"
+      "size": 153.0,
+      "fill": 404.85,
+      "risk": 3716.37,
+      "notional": 61942.05,
+      "cash_after": 191871.39,
+      "reason": "all hard rules PASS — risk-check outcome PASS; exit plan complete (stop + target + invalidation); risk $3,716.37 ≤ $50,754 [YOLO v2.0] (rule 1); open 7/9 (rule 2); daily loss pause OFF (YOLO) (rule 3); notional new $61,942.05 / total $475,400.83 ≤ $507,537.60 (10× equity); cash after $191,871.39 (paper margin allowed, YOLO) (rule 9); event notional cap OFF (YOLO v2.0) (rule 10)"
     },
     "last_human_action": {
       "t": "2026-10-27T17:15:16-03:00",
@@ -110,12 +116,136 @@
       "kind": "mark"
     },
     {
-      "t": "2026-10-29T13:06:37-03:00",
+      "t": "2026-10-29T12:31:01-05:00",
       "equity": 50753.76,
+      "kind": "open"
+    },
+    {
+      "t": "2026-10-29T12:31:19-05:00",
+      "equity": 50571.82,
       "kind": "mark"
     }
   ],
   "positions": [
+    {
+      "card_id": "2026-10-29_TSLA_02",
+      "symbol": "TSLA",
+      "direction": "long",
+      "size": 153.0,
+      "entry": 404.85,
+      "stop": 380.56,
+      "target": 465.58,
+      "mark": 404.93,
+      "mark_source": "quote",
+      "market_value": 61954.29,
+      "unrealized_pnl": 12.24,
+      "risk_dollars": 3716.37,
+      "r_multiple": 0.0,
+      "opened_at": "2026-10-29 12:31 (America/Chicago)",
+      "file": "decisions/2026-10-29_TSLA_02.md"
+    },
+    {
+      "card_id": "2026-10-29_QQQ_02",
+      "symbol": "QQQ",
+      "direction": "short",
+      "size": 86.0,
+      "entry": 714.54,
+      "stop": 735.98,
+      "target": 660.94,
+      "mark": 714.88,
+      "mark_source": "quote",
+      "market_value": -61479.68,
+      "unrealized_pnl": -29.24,
+      "risk_dollars": 1843.84,
+      "r_multiple": -0.02,
+      "opened_at": "2026-10-29 12:31 (America/Chicago)",
+      "file": "decisions/2026-10-29_QQQ_02.md"
+    },
+    {
+      "card_id": "2026-10-29_NVDA_02",
+      "symbol": "NVDA",
+      "direction": "short",
+      "size": 290.0,
+      "entry": 213.52,
+      "stop": 224.2,
+      "target": 186.82,
+      "mark": 213.71,
+      "mark_source": "quote",
+      "market_value": -61975.9,
+      "unrealized_pnl": -55.1,
+      "risk_dollars": 3097.2,
+      "r_multiple": -0.02,
+      "opened_at": "2026-10-29 12:31 (America/Chicago)",
+      "file": "decisions/2026-10-29_NVDA_02.md"
+    },
+    {
+      "card_id": "2026-10-29_MSFT_02",
+      "symbol": "MSFT",
+      "direction": "short",
+      "size": 117.0,
+      "entry": 525.58,
+      "stop": 546.6,
+      "target": 473.03,
+      "mark": 526.25,
+      "mark_source": "quote",
+      "market_value": -61571.25,
+      "unrealized_pnl": -78.39,
+      "risk_dollars": 2459.34,
+      "r_multiple": -0.03,
+      "opened_at": "2026-10-29 12:31 (America/Chicago)",
+      "file": "decisions/2026-10-29_MSFT_02.md"
+    },
+    {
+      "card_id": "2026-10-29_META_02",
+      "symbol": "META",
+      "direction": "long",
+      "size": 98.0,
+      "entry": 629.6,
+      "stop": 598.12,
+      "target": 708.3,
+      "mark": 629.38,
+      "mark_source": "quote",
+      "market_value": 61679.24,
+      "unrealized_pnl": -21.56,
+      "risk_dollars": 3085.04,
+      "r_multiple": -0.01,
+      "opened_at": "2026-10-29 12:31 (America/Chicago)",
+      "file": "decisions/2026-10-29_META_02.md"
+    },
+    {
+      "card_id": "2026-10-29_GOOGL_02",
+      "symbol": "GOOGL",
+      "direction": "short",
+      "size": 218.0,
+      "entry": 283.43,
+      "stop": 300.44,
+      "target": 240.91,
+      "mark": 283.48,
+      "mark_source": "quote",
+      "market_value": -61798.64,
+      "unrealized_pnl": -10.9,
+      "risk_dollars": 3708.18,
+      "r_multiple": -0.0,
+      "opened_at": "2026-10-29 12:31 (America/Chicago)",
+      "file": "decisions/2026-10-29_GOOGL_02.md"
+    },
+    {
+      "card_id": "2026-10-29_AMZN_02",
+      "symbol": "AMZN",
+      "direction": "short",
+      "size": 251.0,
+      "entry": 246.14,
+      "stop": 263.37,
+      "target": 203.06,
+      "mark": 246.38,
+      "mark_source": "quote",
+      "market_value": -61841.38,
+      "unrealized_pnl": -60.24,
+      "risk_dollars": 4324.73,
+      "r_multiple": -0.01,
+      "opened_at": "2026-10-29 12:31 (America/Chicago)",
+      "file": "decisions/2026-10-29_AMZN_02.md"
+    },
     {
       "card_id": "2026-10-27_AAPL_01",
       "symbol": "AAPL",
@@ -124,12 +254,12 @@
       "entry": 346.6,
       "stop": 342.6,
       "target": 354.6,
-      "mark": 349.38,
+      "mark": 349.87,
       "mark_source": "quote",
-      "market_value": 43672.5,
-      "unrealized_pnl": 347.5,
+      "market_value": 43733.75,
+      "unrealized_pnl": 408.75,
       "risk_dollars": 500.0,
-      "r_multiple": 0.69,
+      "r_multiple": 0.82,
       "opened_at": "2026-10-27 17:25 (America/Sao_Paulo)",
       "file": "decisions/2026-10-27_AAPL_01.md"
     }
@@ -139,8 +269,8 @@
       "symbol": "SPY",
       "name": "SPDR S&P 500 ETF",
       "sector": "index",
-      "last": 769.95,
-      "change_pct": -0.31,
+      "last": 768.65,
+      "change_pct": -0.47,
       "spark": [
         769.6,
         771.79,
@@ -153,19 +283,19 @@
         765.37,
         769.66,
         772.31,
-        769.95
+        768.66
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-10-29T13:06:33-03:00",
+      "quote_time": "2026-10-29T12:31:13-05:00",
       "stale": false
     },
     {
       "symbol": "QQQ",
       "name": "Invesco QQQ Trust",
       "sector": "index",
-      "last": 716.7,
-      "change_pct": -1.23,
+      "last": 714.88,
+      "change_pct": -1.48,
       "spark": [
         728.95,
         728.0,
@@ -178,19 +308,19 @@
         712.2,
         721.25,
         725.61,
-        716.7
+        714.88
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-10-29T13:06:31-03:00",
+      "quote_time": "2026-10-29T12:31:14-05:00",
       "stale": false
     },
     {
       "symbol": "AAPL",
       "name": "Apple",
       "sector": "tech",
-      "last": 349.38,
-      "change_pct": 1.62,
+      "last": 349.87,
+      "change_pct": 1.76,
       "spark": [
         342.96,
         342.0,
@@ -203,19 +333,19 @@
         343.91,
         347.1,
         343.83,
-        349.39
+        349.87
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-10-29T13:06:33-03:00",
+      "quote_time": "2026-10-29T12:31:15-05:00",
       "stale": false
     },
     {
       "symbol": "MSFT",
       "name": "Microsoft",
       "sector": "tech",
-      "last": 523.38,
-      "change_pct": -1.44,
+      "last": 526.25,
+      "change_pct": -0.9,
       "spark": [
         533.69,
         539.44,
@@ -228,19 +358,19 @@
         532.6,
         531.33,
         531.01,
-        523.39
+        526.26
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-10-29T13:06:35-03:00",
+      "quote_time": "2026-10-29T12:31:16-05:00",
       "stale": false
     },
     {
       "symbol": "NVDA",
       "name": "NVIDIA",
       "sector": "semis",
-      "last": 213.96,
-      "change_pct": -0.66,
+      "last": 213.71,
+      "change_pct": -0.78,
       "spark": [
         221.3,
         217.23,
@@ -253,19 +383,19 @@
         216.0,
         217.94,
         215.38,
-        213.96
+        213.71
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-10-29T13:06:34-03:00",
+      "quote_time": "2026-10-29T12:31:16-05:00",
       "stale": false
     },
     {
       "symbol": "AMZN",
       "name": "Amazon",
       "sector": "consumer/cloud",
-      "last": 246.98,
-      "change_pct": -2.99,
+      "last": 246.38,
+      "change_pct": -3.23,
       "spark": [
         254.08,
         254.76,
@@ -278,19 +408,19 @@
         249.09,
         253.1,
         254.6,
-        246.98
+        246.38
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-10-29T13:06:34-03:00",
+      "quote_time": "2026-10-29T12:31:17-05:00",
       "stale": false
     },
     {
       "symbol": "GOOGL",
       "name": "Alphabet Class A",
       "sector": "comm/ads",
-      "last": 286.88,
-      "change_pct": -11.7,
+      "last": 283.48,
+      "change_pct": -12.75,
       "spark": [
         347.64,
         349.22,
@@ -303,19 +433,19 @@
         316.8,
         320.58,
         324.89,
-        286.88
+        283.48
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-10-29T13:06:35-03:00",
+      "quote_time": "2026-10-29T12:31:17-05:00",
       "stale": false
     },
     {
       "symbol": "META",
       "name": "Meta Platforms",
       "sector": "comm/ads",
-      "last": 630.41,
-      "change_pct": 2.93,
+      "last": 629.38,
+      "change_pct": 2.76,
       "spark": [
         737.54,
         736.72,
@@ -328,19 +458,19 @@
         630.56,
         620.19,
         612.49,
-        630.41
+        629.38
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-10-29T13:06:36-03:00",
+      "quote_time": "2026-10-29T12:31:17-05:00",
       "stale": false
     },
     {
       "symbol": "TSLA",
       "name": "Tesla",
       "sector": "auto/EV",
-      "last": 406.23,
-      "change_pct": 0.5,
+      "last": 404.93,
+      "change_pct": 0.18,
       "spark": [
         367.16,
         362.44,
@@ -353,15 +483,190 @@
         391.62,
         407.46,
         404.22,
-        406.23
+        404.93
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-10-29T13:06:35-03:00",
+      "quote_time": "2026-10-29T12:31:17-05:00",
       "stale": false
     }
   ],
   "decisions": [
+    {
+      "id": "2026-10-29_TSLA_02",
+      "status": "approved",
+      "symbol": "TSLA",
+      "direction": "long",
+      "recommend": "take",
+      "file": "decisions/2026-10-29_TSLA_02.md",
+      "risk_outcome": "PASS",
+      "risk_score": 5,
+      "entry_plan": 404.85,
+      "stop": 380.56,
+      "target": 465.58,
+      "planned_size": 153.0,
+      "dollar_risk": 3716.37,
+      "invalidation": "TSLA loses 380.5 — momentum broken (stop 380.56)",
+      "decision": "auto-approve",
+      "decision_note": "YOLO v2.0 blast (user t30u) — PAPER ONLY · auto-filled by desk-auto: all hard rules PASS — risk-check outcome PASS; exit plan complete (stop + target + invalidation); risk $3,716.37 ≤ $50,754 [YOLO v2.0] (rule 1); open 7/9 (rule 2); daily loss pause OFF (YOLO) (rule 3); notional new $61,942.05 / total $475,400.83 ≤ $507,537.60 (10× equity); cash after $191,871.39 (paper margin allowed, YOLO) (rule 9); event notional cap OFF (YOLO v2.0) (rule 10)",
+      "fill": 404.85,
+      "size": 153.0,
+      "opened_at": "2026-10-29 12:31 (America/Chicago)",
+      "exit": null,
+      "closed_at": null,
+      "lesson": null,
+      "realized_pnl": null
+    },
+    {
+      "id": "2026-10-29_QQQ_02",
+      "status": "approved",
+      "symbol": "QQQ",
+      "direction": "short",
+      "recommend": "take",
+      "file": "decisions/2026-10-29_QQQ_02.md",
+      "risk_outcome": "PASS",
+      "risk_score": 5,
+      "entry_plan": 714.54,
+      "stop": 735.98,
+      "target": 660.94,
+      "planned_size": 86.0,
+      "dollar_risk": 1843.84,
+      "invalidation": "QQQ reclaims 736 (back above Wed high + 1.4%) — risk-off thesis wrong (stop 735.98)",
+      "decision": "auto-approve",
+      "decision_note": "YOLO v2.0 blast (user t30u) — PAPER ONLY · auto-filled by desk-auto: all hard rules PASS — risk-check outcome PASS; exit plan complete (stop + target + invalidation); risk $1,843.84 ≤ $50,754 [YOLO v2.0] (rule 1); open 3/9 (rule 2); daily loss pause OFF (YOLO) (rule 3); notional new $61,450.44 / total $228,344.32 ≤ $507,537.60 (10× equity); cash after $192,100.58 (paper margin allowed, YOLO) (rule 9); event notional cap OFF (YOLO v2.0) (rule 10)",
+      "fill": 714.54,
+      "size": 86.0,
+      "opened_at": "2026-10-29 12:31 (America/Chicago)",
+      "exit": null,
+      "closed_at": null,
+      "lesson": null,
+      "realized_pnl": null
+    },
+    {
+      "id": "2026-10-29_NVDA_02",
+      "status": "approved",
+      "symbol": "NVDA",
+      "direction": "short",
+      "recommend": "take",
+      "file": "decisions/2026-10-29_NVDA_02.md",
+      "risk_outcome": "PASS",
+      "risk_score": 5,
+      "entry_plan": 213.52,
+      "stop": 224.2,
+      "target": 186.82,
+      "planned_size": 290.0,
+      "dollar_risk": 3097.2,
+      "invalidation": "NVDA reclaims 224 — AI capex trade back on (stop 224.2)",
+      "decision": "auto-approve",
+      "decision_note": "YOLO v2.0 blast (user t30u) — PAPER ONLY · auto-filled by desk-auto: all hard rules PASS — risk-check outcome PASS; exit plan complete (stop + target + invalidation); risk $3,097.20 ≤ $50,754 [YOLO v2.0] (rule 1); open 4/9 (rule 2); daily loss pause OFF (YOLO) (rule 3); notional new $61,920.80 / total $290,265.12 ≤ $507,537.60 (10× equity); cash after $254,021.38 (paper margin allowed, YOLO) (rule 9); event notional cap OFF (YOLO v2.0) (rule 10)",
+      "fill": 213.52,
+      "size": 290.0,
+      "opened_at": "2026-10-29 12:31 (America/Chicago)",
+      "exit": null,
+      "closed_at": null,
+      "lesson": null,
+      "realized_pnl": null
+    },
+    {
+      "id": "2026-10-29_MSFT_02",
+      "status": "approved",
+      "symbol": "MSFT",
+      "direction": "short",
+      "recommend": "take",
+      "file": "decisions/2026-10-29_MSFT_02.md",
+      "risk_outcome": "PASS",
+      "risk_score": 5,
+      "entry_plan": 525.58,
+      "stop": 546.6,
+      "target": 473.03,
+      "planned_size": 117.0,
+      "dollar_risk": 2459.34,
+      "invalidation": "MSFT reclaims 546 (above today's high) — pop was real (stop 546.6)",
+      "decision": "auto-approve",
+      "decision_note": "YOLO v2.0 blast (user t30u) — PAPER ONLY · auto-filled by desk-auto: all hard rules PASS — risk-check outcome PASS; exit plan complete (stop + target + invalidation); risk $2,459.34 ≤ $50,754 [YOLO v2.0] (rule 1); open 5/9 (rule 2); daily loss pause OFF (YOLO) (rule 3); notional new $61,492.86 / total $351,757.98 ≤ $507,537.60 (10× equity); cash after $315,514.24 (paper margin allowed, YOLO) (rule 9); event notional cap OFF (YOLO v2.0) (rule 10)",
+      "fill": 525.58,
+      "size": 117.0,
+      "opened_at": "2026-10-29 12:31 (America/Chicago)",
+      "exit": null,
+      "closed_at": null,
+      "lesson": null,
+      "realized_pnl": null
+    },
+    {
+      "id": "2026-10-29_META_02",
+      "status": "approved",
+      "symbol": "META",
+      "direction": "long",
+      "recommend": "take",
+      "file": "decisions/2026-10-29_META_02.md",
+      "risk_outcome": "PASS",
+      "risk_score": 5,
+      "entry_plan": 629.6,
+      "stop": 598.12,
+      "target": 708.3,
+      "planned_size": 98.0,
+      "dollar_risk": 3085.04,
+      "invalidation": "META loses 598 — relative strength broken (stop 598.12)",
+      "decision": "auto-approve",
+      "decision_note": "YOLO v2.0 blast (user t30u) — PAPER ONLY · auto-filled by desk-auto: all hard rules PASS — risk-check outcome PASS; exit plan complete (stop + target + invalidation); risk $3,085.04 ≤ $50,754 [YOLO v2.0] (rule 1); open 6/9 (rule 2); daily loss pause OFF (YOLO) (rule 3); notional new $61,700.80 / total $413,458.78 ≤ $507,537.60 (10× equity); cash after $253,813.44 (paper margin allowed, YOLO) (rule 9); event notional cap OFF (YOLO v2.0) (rule 10)",
+      "fill": 629.6,
+      "size": 98.0,
+      "opened_at": "2026-10-29 12:31 (America/Chicago)",
+      "exit": null,
+      "closed_at": null,
+      "lesson": null,
+      "realized_pnl": null
+    },
+    {
+      "id": "2026-10-29_GOOGL_02",
+      "status": "approved",
+      "symbol": "GOOGL",
+      "direction": "short",
+      "recommend": "take",
+      "file": "decisions/2026-10-29_GOOGL_02.md",
+      "risk_outcome": "PASS",
+      "risk_score": 5,
+      "entry_plan": 283.43,
+      "stop": 300.44,
+      "target": 240.91,
+      "planned_size": 218.0,
+      "dollar_risk": 3708.18,
+      "invalidation": "reclaims the gap (close above stop) — sellers exhausted, gap-fill bid (stop 300.44)",
+      "decision": "auto-approve",
+      "decision_note": "YOLO v2.0 blast (user t30u) — PAPER ONLY · auto-filled by desk-auto: all hard rules PASS — risk-check outcome PASS; exit plan complete (stop + target + invalidation); risk $3,708.18 ≤ $50,754 [YOLO v2.0] (rule 1); open 1/9 (rule 2); daily loss pause OFF (YOLO) (rule 3); notional new $61,787.74 / total $105,112.74 ≤ $507,537.60 (10× equity); cash after $68,869.00 (paper margin allowed, YOLO) (rule 9); event notional cap OFF (YOLO v2.0) (rule 10)",
+      "fill": 283.43,
+      "size": 218.0,
+      "opened_at": "2026-10-29 12:31 (America/Chicago)",
+      "exit": null,
+      "closed_at": null,
+      "lesson": null,
+      "realized_pnl": null
+    },
+    {
+      "id": "2026-10-29_AMZN_02",
+      "status": "approved",
+      "symbol": "AMZN",
+      "direction": "short",
+      "recommend": "take",
+      "file": "decisions/2026-10-29_AMZN_02.md",
+      "risk_outcome": "PASS",
+      "risk_score": 5,
+      "entry_plan": 246.14,
+      "stop": 263.37,
+      "target": 203.06,
+      "planned_size": 251.0,
+      "dollar_risk": 4324.73,
+      "invalidation": "post-earnings gap up through stop — capex fear priced out (stop 263.37)",
+      "decision": "auto-approve",
+      "decision_note": "YOLO v2.0 blast (user t30u) — PAPER ONLY · auto-filled by desk-auto: all hard rules PASS — risk-check outcome PASS; exit plan complete (stop + target + invalidation); risk $4,324.73 ≤ $50,754 [YOLO v2.0] (rule 1); open 2/9 (rule 2); daily loss pause OFF (YOLO) (rule 3); notional new $61,781.14 / total $166,893.88 ≤ $507,537.60 (10× equity); cash after $130,650.14 (paper margin allowed, YOLO) (rule 9); event notional cap OFF (YOLO v2.0) (rule 10)",
+      "fill": 246.14,
+      "size": 251.0,
+      "opened_at": "2026-10-29 12:31 (America/Chicago)",
+      "exit": null,
+      "closed_at": null,
+      "lesson": null,
+      "realized_pnl": null
+    },
     {
       "id": "2026-10-27_TSLA_01",
       "status": "rejected",
@@ -445,7 +750,7 @@
     "latest": {
       "file": "research/daily_2026-10-29.md",
       "title": "Daily research — 2026-10-29 (PRE-MARKET version; close refresh to follow)",
-      "t": "2026-10-29T08:50:44-03:00",
+      "t": "2026-10-29T06:50:44-05:00",
       "summary": "FACT: Nasdaq-led risk-off pre-market after Alphabet results. NQ futures 29,640.25 (−1.13% vs prior session bar) and ES 7,756.75 (−0.34%) at ~7:39 AM ET (Yahoo). Headlines: Reuters \"Nasdaq futures slide as Alphabet results intensify AI spending fears\"; Yahoo \"Dow rises, S&P 500 and Nasdaq futures fall... AI jitters retu…",
       "symbols": [
         "AAPL",
@@ -678,56 +983,105 @@
       {
         "id": "SPY",
         "type": "etf",
-        "change_pct": -0.31,
+        "change_pct": -0.47,
         "sector": "index"
       },
       {
         "id": "QQQ",
         "type": "etf",
-        "change_pct": -1.23,
+        "change_pct": -1.48,
         "sector": "index"
       },
       {
         "id": "AAPL",
         "type": "stock",
-        "change_pct": 1.62,
+        "change_pct": 1.76,
         "sector": "tech"
       },
       {
         "id": "MSFT",
         "type": "stock",
-        "change_pct": -1.44,
+        "change_pct": -0.9,
         "sector": "tech"
       },
       {
         "id": "NVDA",
         "type": "stock",
-        "change_pct": -0.66,
+        "change_pct": -0.78,
         "sector": "semis"
       },
       {
         "id": "AMZN",
         "type": "stock",
-        "change_pct": -2.99,
+        "change_pct": -3.23,
         "sector": "consumer/cloud"
       },
       {
         "id": "GOOGL",
         "type": "stock",
-        "change_pct": -11.7,
+        "change_pct": -12.75,
         "sector": "comm/ads"
       },
       {
         "id": "META",
         "type": "stock",
-        "change_pct": 2.93,
+        "change_pct": 2.76,
         "sector": "comm/ads"
       },
       {
         "id": "TSLA",
         "type": "stock",
-        "change_pct": 0.5,
+        "change_pct": 0.18,
         "sector": "auto/EV"
+      },
+      {
+        "id": "2026-10-29_TSLA_02",
+        "type": "card",
+        "status": "approved",
+        "symbol": "TSLA",
+        "direction": "long"
+      },
+      {
+        "id": "2026-10-29_QQQ_02",
+        "type": "card",
+        "status": "approved",
+        "symbol": "QQQ",
+        "direction": "short"
+      },
+      {
+        "id": "2026-10-29_NVDA_02",
+        "type": "card",
+        "status": "approved",
+        "symbol": "NVDA",
+        "direction": "short"
+      },
+      {
+        "id": "2026-10-29_MSFT_02",
+        "type": "card",
+        "status": "approved",
+        "symbol": "MSFT",
+        "direction": "short"
+      },
+      {
+        "id": "2026-10-29_META_02",
+        "type": "card",
+        "status": "approved",
+        "symbol": "META",
+        "direction": "long"
+      },
+      {
+        "id": "2026-10-29_GOOGL_02",
+        "type": "card",
+        "status": "approved",
+        "symbol": "GOOGL",
+        "direction": "short"
+      },
+      {
+        "id": "2026-10-29_AMZN_02",
+        "type": "card",
+        "status": "approved",
+        "symbol": "AMZN",
+        "direction": "short"
       },
       {
         "id": "2026-10-27_TSLA_01",
@@ -828,6 +1182,41 @@
         "kind": "member"
       },
       {
+        "source": "2026-10-29_TSLA_02",
+        "target": "TSLA",
+        "kind": "card"
+      },
+      {
+        "source": "2026-10-29_QQQ_02",
+        "target": "QQQ",
+        "kind": "card"
+      },
+      {
+        "source": "2026-10-29_NVDA_02",
+        "target": "NVDA",
+        "kind": "card"
+      },
+      {
+        "source": "2026-10-29_MSFT_02",
+        "target": "MSFT",
+        "kind": "card"
+      },
+      {
+        "source": "2026-10-29_META_02",
+        "target": "META",
+        "kind": "card"
+      },
+      {
+        "source": "2026-10-29_GOOGL_02",
+        "target": "GOOGL",
+        "kind": "card"
+      },
+      {
+        "source": "2026-10-29_AMZN_02",
+        "target": "AMZN",
+        "kind": "card"
+      },
+      {
         "source": "2026-10-27_TSLA_01",
         "target": "TSLA",
         "kind": "card"
@@ -847,27 +1236,230 @@
   },
   "activity": [
     {
-      "t": "2026-10-29T13:06:37-03:00",
+      "t": "2026-10-29T12:31:19-05:00",
       "kind": "quotes",
       "text": "Quotes refreshed 9/9 ok · Yahoo public chart · display only"
     },
     {
-      "t": "2026-10-29T10:10:22-03:00",
+      "t": "2026-10-29T12:31:01-05:00",
+      "kind": "card",
+      "symbol": "TSLA",
+      "text": "2026-10-29_TSLA_02 TSLA long · APPROVED · rec take · risk score 5/5"
+    },
+    {
+      "t": "2026-10-29T12:31:01-05:00",
+      "kind": "card",
+      "symbol": "QQQ",
+      "text": "2026-10-29_QQQ_02 QQQ short · APPROVED · rec take · risk score 5/5"
+    },
+    {
+      "t": "2026-10-29T12:31:01-05:00",
+      "kind": "card",
+      "symbol": "NVDA",
+      "text": "2026-10-29_NVDA_02 NVDA short · APPROVED · rec take · risk score 5/5"
+    },
+    {
+      "t": "2026-10-29T12:31:01-05:00",
+      "kind": "card",
+      "symbol": "MSFT",
+      "text": "2026-10-29_MSFT_02 MSFT short · APPROVED · rec take · risk score 5/5"
+    },
+    {
+      "t": "2026-10-29T12:31:01-05:00",
+      "kind": "card",
+      "symbol": "META",
+      "text": "2026-10-29_META_02 META long · APPROVED · rec take · risk score 5/5"
+    },
+    {
+      "t": "2026-10-29T12:31:01-05:00",
+      "kind": "card",
+      "symbol": "GOOGL",
+      "text": "2026-10-29_GOOGL_02 GOOGL short · APPROVED · rec take · risk score 5/5"
+    },
+    {
+      "t": "2026-10-29T12:31:01-05:00",
+      "kind": "card",
+      "symbol": "AMZN",
+      "text": "2026-10-29_AMZN_02 AMZN short · APPROVED · rec take · risk score 5/5"
+    },
+    {
+      "t": "2026-10-29T12:31:01-05:00",
+      "kind": "journal",
+      "text": "Trade journal — AMZN — 2026-10-29_AMZN_02 · journal/2026-10-29_AMZN.md"
+    },
+    {
+      "t": "2026-10-29T12:31:01-05:00",
+      "kind": "journal",
+      "text": "Trade journal — MSFT — 2026-10-29_MSFT_02 · journal/2026-10-29_MSFT.md"
+    },
+    {
+      "t": "2026-10-29T12:31:01-05:00",
+      "kind": "journal",
+      "text": "Trade journal — NVDA — 2026-10-29_NVDA_02 · journal/2026-10-29_NVDA.md"
+    },
+    {
+      "t": "2026-10-29T12:31:01-05:00",
+      "kind": "journal",
+      "text": "Trade journal — TSLA — 2026-10-29_TSLA_02 · journal/2026-10-29_TSLA.md"
+    },
+    {
+      "t": "2026-10-29T12:31:01-05:00",
+      "kind": "journal",
+      "text": "Trade journal — GOOGL — 2026-10-29_GOOGL_02 · journal/2026-10-29_GOOGL.md"
+    },
+    {
+      "t": "2026-10-29T12:31:01-05:00",
+      "kind": "journal",
+      "text": "Trade journal — META — 2026-10-29_META_02 · journal/2026-10-29_META.md"
+    },
+    {
+      "t": "2026-10-29T12:31:01-05:00",
+      "kind": "journal",
+      "text": "Trade journal — QQQ — 2026-10-29_QQQ_02 · journal/2026-10-29_QQQ.md"
+    },
+    {
+      "t": "2026-10-29T12:31:01-05:00",
+      "kind": "auto",
+      "text": "AUTO-FILL 2026-10-29_GOOGL_02 · short 218 GOOGL @ 283.43 · risk $3708.18 · PASS: risk-check outcome PASS; exit plan complete (stop + target + invalidation); risk $3,708.18 ≤ $50,754 [YOLO v2.0] (rule 1); open 1/9 (rule 2); daily loss pause OFF (YOLO) (rule 3); notional new $61,787.74 / total $105,112.74 ≤ $507,537.60 (10× equity); cash after $68,869.00 (paper margin allowed, YOLO) (rule 9); event notional cap OFF (YOLO v2.0) (rule 10)",
+      "symbol": "GOOGL"
+    },
+    {
+      "t": "2026-10-29T12:31:01-05:00",
+      "kind": "equity",
+      "text": "OPEN GOOGL short 218 @ 283.43 · risk $3708.18 · equity flat at fill",
+      "symbol": "GOOGL"
+    },
+    {
+      "t": "2026-10-29T12:31:01-05:00",
+      "kind": "journal",
+      "text": "Trade note opened · journal/2026-10-29_GOOGL.md",
+      "symbol": "GOOGL"
+    },
+    {
+      "t": "2026-10-29T12:31:01-05:00",
+      "kind": "auto",
+      "text": "AUTO-FILL 2026-10-29_AMZN_02 · short 251 AMZN @ 246.14 · risk $4324.73 · PASS: risk-check outcome PASS; exit plan complete (stop + target + invalidation); risk $4,324.73 ≤ $50,754 [YOLO v2.0] (rule 1); open 2/9 (rule 2); daily loss pause OFF (YOLO) (rule 3); notional new $61,781.14 / total $166,893.88 ≤ $507,537.60 (10× equity); cash after $130,650.14 (paper margin allowed, YOLO) (rule 9); event notional cap OFF (YOLO v2.0) (rule 10)",
+      "symbol": "AMZN"
+    },
+    {
+      "t": "2026-10-29T12:31:01-05:00",
+      "kind": "equity",
+      "text": "OPEN AMZN short 251 @ 246.14 · risk $4324.73 · equity flat at fill",
+      "symbol": "AMZN"
+    },
+    {
+      "t": "2026-10-29T12:31:01-05:00",
+      "kind": "journal",
+      "text": "Trade note opened · journal/2026-10-29_AMZN.md",
+      "symbol": "AMZN"
+    },
+    {
+      "t": "2026-10-29T12:31:01-05:00",
+      "kind": "auto",
+      "text": "AUTO-FILL 2026-10-29_QQQ_02 · short 86 QQQ @ 714.54 · risk $1843.84 · PASS: risk-check outcome PASS; exit plan complete (stop + target + invalidation); risk $1,843.84 ≤ $50,754 [YOLO v2.0] (rule 1); open 3/9 (rule 2); daily loss pause OFF (YOLO) (rule 3); notional new $61,450.44 / total $228,344.32 ≤ $507,537.60 (10× equity); cash after $192,100.58 (paper margin allowed, YOLO) (rule 9); event notional cap OFF (YOLO v2.0) (rule 10)",
+      "symbol": "QQQ"
+    },
+    {
+      "t": "2026-10-29T12:31:01-05:00",
+      "kind": "equity",
+      "text": "OPEN QQQ short 86 @ 714.54 · risk $1843.84 · equity flat at fill",
+      "symbol": "QQQ"
+    },
+    {
+      "t": "2026-10-29T12:31:01-05:00",
+      "kind": "journal",
+      "text": "Trade note opened · journal/2026-10-29_QQQ.md",
+      "symbol": "QQQ"
+    },
+    {
+      "t": "2026-10-29T12:31:01-05:00",
+      "kind": "auto",
+      "text": "AUTO-FILL 2026-10-29_NVDA_02 · short 290 NVDA @ 213.52 · risk $3097.20 · PASS: risk-check outcome PASS; exit plan complete (stop + target + invalidation); risk $3,097.20 ≤ $50,754 [YOLO v2.0] (rule 1); open 4/9 (rule 2); daily loss pause OFF (YOLO) (rule 3); notional new $61,920.80 / total $290,265.12 ≤ $507,537.60 (10× equity); cash after $254,021.38 (paper margin allowed, YOLO) (rule 9); event notional cap OFF (YOLO v2.0) (rule 10)",
+      "symbol": "NVDA"
+    },
+    {
+      "t": "2026-10-29T12:31:01-05:00",
+      "kind": "equity",
+      "text": "OPEN NVDA short 290 @ 213.52 · risk $3097.20 · equity flat at fill",
+      "symbol": "NVDA"
+    },
+    {
+      "t": "2026-10-29T12:31:01-05:00",
+      "kind": "journal",
+      "text": "Trade note opened · journal/2026-10-29_NVDA.md",
+      "symbol": "NVDA"
+    },
+    {
+      "t": "2026-10-29T12:31:01-05:00",
+      "kind": "auto",
+      "text": "AUTO-FILL 2026-10-29_MSFT_02 · short 117 MSFT @ 525.58 · risk $2459.34 · PASS: risk-check outcome PASS; exit plan complete (stop + target + invalidation); risk $2,459.34 ≤ $50,754 [YOLO v2.0] (rule 1); open 5/9 (rule 2); daily loss pause OFF (YOLO) (rule 3); notional new $61,492.86 / total $351,757.98 ≤ $507,537.60 (10× equity); cash after $315,514.24 (paper margin allowed, YOLO) (rule 9); event notional cap OFF (YOLO v2.0) (rule 10)",
+      "symbol": "MSFT"
+    },
+    {
+      "t": "2026-10-29T12:31:01-05:00",
+      "kind": "equity",
+      "text": "OPEN MSFT short 117 @ 525.58 · risk $2459.34 · equity flat at fill",
+      "symbol": "MSFT"
+    },
+    {
+      "t": "2026-10-29T12:31:01-05:00",
+      "kind": "journal",
+      "text": "Trade note opened · journal/2026-10-29_MSFT.md",
+      "symbol": "MSFT"
+    },
+    {
+      "t": "2026-10-29T12:31:01-05:00",
+      "kind": "auto",
+      "text": "AUTO-FILL 2026-10-29_META_02 · long 98 META @ 629.60 · risk $3085.04 · PASS: risk-check outcome PASS; exit plan complete (stop + target + invalidation); risk $3,085.04 ≤ $50,754 [YOLO v2.0] (rule 1); open 6/9 (rule 2); daily loss pause OFF (YOLO) (rule 3); notional new $61,700.80 / total $413,458.78 ≤ $507,537.60 (10× equity); cash after $253,813.44 (paper margin allowed, YOLO) (rule 9); event notional cap OFF (YOLO v2.0) (rule 10)",
+      "symbol": "META"
+    },
+    {
+      "t": "2026-10-29T12:31:01-05:00",
+      "kind": "equity",
+      "text": "OPEN META long 98 @ 629.60 · risk $3085.04 · equity flat at fill",
+      "symbol": "META"
+    },
+    {
+      "t": "2026-10-29T12:31:01-05:00",
+      "kind": "journal",
+      "text": "Trade note opened · journal/2026-10-29_META.md",
+      "symbol": "META"
+    },
+    {
+      "t": "2026-10-29T12:31:01-05:00",
+      "kind": "auto",
+      "text": "AUTO-FILL 2026-10-29_TSLA_02 · long 153 TSLA @ 404.85 · risk $3716.37 · PASS: risk-check outcome PASS; exit plan complete (stop + target + invalidation); risk $3,716.37 ≤ $50,754 [YOLO v2.0] (rule 1); open 7/9 (rule 2); daily loss pause OFF (YOLO) (rule 3); notional new $61,942.05 / total $475,400.83 ≤ $507,537.60 (10× equity); cash after $191,871.39 (paper margin allowed, YOLO) (rule 9); event notional cap OFF (YOLO v2.0) (rule 10)",
+      "symbol": "TSLA"
+    },
+    {
+      "t": "2026-10-29T12:31:01-05:00",
+      "kind": "equity",
+      "text": "OPEN TSLA long 153 @ 404.85 · risk $3716.37 · equity flat at fill",
+      "symbol": "TSLA"
+    },
+    {
+      "t": "2026-10-29T12:31:01-05:00",
+      "kind": "journal",
+      "text": "Trade note opened · journal/2026-10-29_TSLA.md",
+      "symbol": "TSLA"
+    },
+    {
+      "t": "2026-10-29T08:10:22-05:00",
       "kind": "brief",
       "text": "Morning brief — 2026-10-29 (Thu) · briefs/2026-10-29_morning.md"
     },
     {
-      "t": "2026-10-29T08:50:44-03:00",
+      "t": "2026-10-29T06:50:44-05:00",
       "kind": "research",
       "text": "Daily research — 2026-10-29 (PRE-MARKET version; close refresh to follow) · research/daily_2026-10-29.md"
     },
     {
-      "t": "2026-10-28T17:30:55-03:00",
+      "t": "2026-10-28T15:30:55-05:00",
       "kind": "research",
       "text": "Daily research — 2026-10-28 (CLOSE version, authoritative; replaces pre-market file) · research/daily_2026-10-28.md"
     },
     {
-      "t": "2026-10-28T10:06:33-03:00",
+      "t": "2026-10-28T08:06:33-05:00",
       "kind": "brief",
       "text": "Morning brief — 2026-10-28 (Wed) · briefs/2026-10-28_morning.md"
     },
@@ -974,151 +1566,20 @@
       "symbol": "MSFT"
     },
     {
-      "t": "2026-10-27T18:06:54-03:00",
+      "t": "2026-10-27T16:06:54-05:00",
       "kind": "journal",
       "text": "Session journal — 2026-10-27 · journal/2026-10-27.md"
     },
     {
-      "t": "2026-10-27T18:06:54-03:00",
+      "t": "2026-10-27T16:06:54-05:00",
       "kind": "review",
       "text": "Daily review pointer — 2026-10-27 · reviews/2026-10-27.md"
     },
     {
-      "t": "2026-10-27T17:25:17-03:00",
+      "t": "2026-10-27T15:25:17-05:00",
       "kind": "card",
       "symbol": "AAPL",
       "text": "2026-10-27_AAPL_01 AAPL long · APPROVED · rec take · risk score 2/5"
-    },
-    {
-      "t": "2026-10-27T17:25:17-03:00",
-      "kind": "journal",
-      "text": "Trade journal — AAPL — 2026-10-27_AAPL_01 · journal/2026-10-27_AAPL.md"
-    },
-    {
-      "t": "2026-10-27T17:25:17-03:00",
-      "kind": "auto",
-      "text": "AUTO-FILL 2026-10-27_AAPL_01 · long 125 AAPL @ 346.60 · risk $500.00 · PASS: risk-check outcome PASS; exit plan complete (stop + target + invalidation); risk $500.00 ≤ $500 (rule 1); open 0/3 (rule 2); day P&L 406.26 > -1000 (rule 3); notional new $43,325.00 / total $43,325.00 ≤ equity $50,406.26; cash after $7,081.26 ≥ 0 (rule 9)",
-      "symbol": "AAPL"
-    },
-    {
-      "t": "2026-10-27T17:25:17-03:00",
-      "kind": "equity",
-      "text": "OPEN AAPL long 125 @ 346.60 · risk $500.00 · equity flat at fill",
-      "symbol": "AAPL"
-    },
-    {
-      "t": "2026-10-27T17:25:17-03:00",
-      "kind": "journal",
-      "text": "Trade note opened · journal/2026-10-27_AAPL.md",
-      "symbol": "AAPL"
-    },
-    {
-      "t": "2026-10-27T17:23:41-03:00",
-      "kind": "research",
-      "text": "Daily research — 2026-10-27 (CLOSE version, supersedes pre-market) · research/daily_2026-10-27.md"
-    },
-    {
-      "t": "2026-10-27T17:15:17-03:00",
-      "kind": "equity",
-      "text": "CLOSE 2026-10-27_SPY_01 realized → equity $50406.26"
-    },
-    {
-      "t": "2026-10-27T17:15:16-03:00",
-      "kind": "card",
-      "symbol": "SPY",
-      "text": "2026-10-27_SPY_01 SPY long · CLOSED · rec wait · risk score 2/5"
-    },
-    {
-      "t": "2026-10-27T17:15:16-03:00",
-      "kind": "lesson",
-      "symbol": "SPY",
-      "text": "2026-10-27_SPY_01: Sample long worked on R, but size above equity broke the cash/notional guard — always size to rule 9 before fill."
-    },
-    {
-      "t": "2026-10-27T17:15:16-03:00",
-      "kind": "journal",
-      "text": "Trade journal — SPY — 2026-10-27_SPY_01 · journal/2026-10-27_SPY.md"
-    },
-    {
-      "t": "2026-10-27T17:15:16-03:00",
-      "kind": "human",
-      "text": "CLOSE 2026-10-27_SPY_01 by desk-auto @ 769.66",
-      "symbol": "SPY"
-    },
-    {
-      "t": "2026-10-27T17:15:16-03:00",
-      "kind": "journal",
-      "text": "Trade closed · win $+406.26 (0.81R) · journal/2026-10-27_SPY.md",
-      "symbol": "SPY"
-    },
-    {
-      "t": "2026-10-27T17:15:16-03:00",
-      "kind": "lesson",
-      "text": "2026-10-27_SPY_01: Sample long worked on R, but size above equity broke the cash/notional guard — always size to rule 9 before fill.",
-      "symbol": "SPY"
-    },
-    {
-      "t": "2026-10-27T17:12:17-03:00",
-      "kind": "auto",
-      "text": "AUTO-BLOCKED 2026-10-27_AAPL_01 · not filled · rule 9: total open notional $128,351.00 (opens $85,026.00 + new $43,325.00) > paper equity $50,411.81; rule 9: fill would leave cash $-78,351.00 (need ≥ $0; cash now $-35,026.00)",
-      "symbol": "AAPL"
-    },
-    {
-      "t": "2026-10-27T17:11:57-03:00",
-      "kind": "card",
-      "symbol": "TSLA",
-      "text": "2026-10-27_TSLA_01 TSLA long · REJECTED · rec skip · risk score 5/5"
-    },
-    {
-      "t": "2026-10-27T17:11:57-03:00",
-      "kind": "auto",
-      "text": "AUTO-REJECT 2026-10-27_TSLA_01 · no fill · risk-check: risk check outcome is FAIL, must be PASS; rule 4: exit plan incomplete — missing invalidation; rule 1: risk at fill 408.2 = $720.00 > $500",
-      "symbol": "TSLA"
-    },
-    {
-      "t": "2026-10-27T17:11:57-03:00",
-      "kind": "card",
-      "text": "2026-10-27_TSLA_01 rejected · no position",
-      "symbol": "TSLA"
-    },
-    {
-      "t": "2026-10-27T17:11:56-03:00",
-      "kind": "risk",
-      "text": "2026-10-27_AAPL_01 → PASS · risk $500.00 · opens 1 · v1.2 example; pullback long 125 sh; card-level PASS, fits rule 9 on flat book; expect rule-9 BLOCK while SPY_01 open"
-    },
-    {
-      "t": "2026-10-27T17:11:56-03:00",
-      "kind": "risk",
-      "text": "2026-10-27_TSLA_01 → FAIL · risk $720.00 · opens 1 · v1.2 example; rule 1 risk 720>500 + rule 4 invalidation missing; expect auto-reject"
-    },
-    {
-      "t": "2026-10-27T17:11:56-03:00",
-      "kind": "auto",
-      "text": "AUTO-BLOCKED 2026-10-27_AAPL_01 · not filled · rule 9: total open notional $128,351.00 (opens $85,026.00 + new $43,325.00) > paper equity $50,549.45; rule 9: fill would leave cash $-78,351.00 (need ≥ $0; cash now $-35,026.00)",
-      "symbol": "AAPL"
-    },
-    {
-      "t": "2026-10-27T16:46:54-03:00",
-      "kind": "human",
-      "text": "APPROVE 2026-10-27_SPY_01 by human (Oskar) · sample approved paper flow per Oskar expand request (demo learning)",
-      "symbol": "SPY"
-    },
-    {
-      "t": "2026-10-27T16:46:54-03:00",
-      "kind": "equity",
-      "text": "OPEN SPY long 111 @ 766.00 · risk $499.50 · equity flat at fill",
-      "symbol": "SPY"
-    },
-    {
-      "t": "2026-10-27T16:46:54-03:00",
-      "kind": "journal",
-      "text": "Trade note opened · journal/2026-10-27_SPY.md",
-      "symbol": "SPY"
-    },
-    {
-      "t": "2026-10-27T15:54:04-03:00",
-      "kind": "risk",
-      "text": "2026-10-27_SPY_01 → PASS · risk $499.50 · opens 0 · sample card; pullback long; size 111"
     }
   ]
 }

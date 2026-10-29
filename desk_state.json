@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-29T16:09:43-05:00",
+  "updated_at": "2026-10-29T16:09:50-05:00",
   "timezone_note": "Times shown America/Chicago; routines run on America/New_York",
   "paper_only": true,
   "quotes": {
@@ -121,7 +121,7 @@
       "kind": "open"
     },
     {
-      "t": "2026-10-29T16:09:43-05:00",
+      "t": "2026-10-29T16:09:50-05:00",
       "equity": 49821.93,
       "kind": "mark"
     }
@@ -1236,9 +1236,19 @@
   },
   "activity": [
     {
-      "t": "2026-10-29T16:09:43-05:00",
+      "t": "2026-10-29T16:09:50-05:00",
       "kind": "quotes",
       "text": "Quotes refreshed 9/9 ok · Yahoo public chart · display only"
+    },
+    {
+      "t": "2026-10-29T16:09:47-05:00",
+      "kind": "journal",
+      "text": "Session journal — 2026-10-29 (Thu) · journal/2026-10-29.md"
+    },
+    {
+      "t": "2026-10-29T16:09:47-05:00",
+      "kind": "review",
+      "text": "Daily review pointer — 2026-10-29 · reviews/2026-10-29.md"
     },
     {
       "t": "2026-10-29T15:26:46-05:00",
@@ -1569,17 +1579,6 @@
       "t": "2026-10-27T16:06:54-05:00",
       "kind": "journal",
       "text": "Session journal — 2026-10-27 · journal/2026-10-27.md"
-    },
-    {
-      "t": "2026-10-27T16:06:54-05:00",
-      "kind": "review",
-      "text": "Daily review pointer — 2026-10-27 · reviews/2026-10-27.md"
-    },
-    {
-      "t": "2026-10-27T15:25:17-05:00",
-      "kind": "card",
-      "symbol": "AAPL",
-      "text": "2026-10-27_AAPL_01 AAPL long · APPROVED · rec take · risk score 2/5"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-29T16:09:50-05:00",
+  "updated_at": "2026-10-29T16:10:57-05:00",
   "timezone_note": "Times shown America/Chicago; routines run on America/New_York",
   "paper_only": true,
   "quotes": {
@@ -15,24 +15,24 @@
   "paper": {
     "starting_equity": 50000.0,
     "currency": "USD",
-    "equity": 49821.93,
-    "cash": 191871.39,
+    "equity": 49688.53,
+    "cash": 214049.43,
     "realized_pnl": 406.26,
-    "unrealized_pnl": -584.33,
-    "day_pnl": -416.83,
-    "day_pnl_pct": -0.83,
+    "unrealized_pnl": -717.73,
+    "day_pnl": -550.23,
+    "day_pnl_pct": -1.095,
     "day_baseline": 50238.76,
-    "open_positions": 8,
+    "open_positions": 9,
     "max_open": 9,
-    "max_risk_per_trade": 49821.93,
+    "max_risk_per_trade": 49688.53,
     "daily_loss_pause": -1000000000000.0,
     "paused": false,
     "rules_mode": "2.0-YOLO",
     "yolo": true,
     "yolo_until": "2026-10-31T00:00:00-04:00",
     "max_notional_mult": 10.0,
-    "open_notional": 475092.68,
-    "gross_leverage": 9.54,
+    "open_notional": 497404.12,
+    "gross_leverage": 10.01,
     "accounting": "equity = cash + Σ mark-to-market of open paper positions; positions come only from approved (auto or manual) cards with a simulated fill and no close"
   },
   "approval": {
@@ -42,37 +42,37 @@
     "pending_count": 0,
     "pending_ids": [],
     "pending_meaning": "cards not yet auto-filled: awaiting risk check, REVISE (resize) or BLOCKED by book state",
-    "auto_fill_count": 8,
+    "auto_fill_count": 9,
     "auto_reject_count": 1,
     "last_auto_fill": {
-      "t": "2026-10-29T12:31:01-05:00",
+      "t": "2026-10-29T16:10:45-05:00",
       "kind": "auto",
-      "text": "AUTO-FILL 2026-10-29_TSLA_02 · long 153 TSLA @ 404.85 · risk $3716.37 · PASS: risk-check outcome PASS; exit plan complete (stop + target + invalidation); risk $3,716.37 ≤ $50,754 [YOLO v2.0] (rule 1); open 7/9 (rule 2); daily loss pause OFF (YOLO) (rule 3); notional new $61,942.05 / total $475,400.83 ≤ $507,537.60 (10× equity); cash after $191,871.39 (paper margin allowed, YOLO) (rule 9); event notional cap OFF (YOLO v2.0) (rule 10)",
-      "symbol": "TSLA",
-      "card_id": "2026-10-29_TSLA_02",
+      "text": "AUTO-FILL 2026-10-29_SPY_02 · short 29 SPY @ 764.76 · risk $665.26 · PASS: risk-check outcome PASS; exit plan complete (stop + target + invalidation); risk $665.26 ≤ $49,822 [YOLO v2.0] (rule 1); open 8/9 (rule 2); daily loss pause OFF (YOLO) (rule 3); notional new $22,178.04 / total $497,578.87 ≤ $498,219.30 (10× equity); cash after $214,049.43 (paper margin allowed, YOLO) (rule 9); event notional cap OFF (YOLO v2.0) (rule 10)",
+      "symbol": "SPY",
+      "card_id": "2026-10-29_SPY_02",
       "action": "auto_fill",
       "by": "desk-auto",
-      "size": 153.0,
-      "fill": 404.85,
-      "risk": 3716.37,
-      "notional": 61942.05,
-      "cash_after": 191871.39,
-      "reason": "all hard rules PASS — risk-check outcome PASS; exit plan complete (stop + target + invalidation); risk $3,716.37 ≤ $50,754 [YOLO v2.0] (rule 1); open 7/9 (rule 2); daily loss pause OFF (YOLO) (rule 3); notional new $61,942.05 / total $475,400.83 ≤ $507,537.60 (10× equity); cash after $191,871.39 (paper margin allowed, YOLO) (rule 9); event notional cap OFF (YOLO v2.0) (rule 10)"
+      "size": 29.0,
+      "fill": 764.76,
+      "risk": 665.26,
+      "notional": 22178.04,
+      "cash_after": 214049.43,
+      "reason": "all hard rules PASS — risk-check outcome PASS; exit plan complete (stop + target + invalidation); risk $665.26 ≤ $49,822 [YOLO v2.0] (rule 1); open 8/9 (rule 2); daily loss pause OFF (YOLO) (rule 3); notional new $22,178.04 / total $497,578.87 ≤ $498,219.30 (10× equity); cash after $214,049.43 (paper margin allowed, YOLO) (rule 9); event notional cap OFF (YOLO v2.0) (rule 10)"
     },
     "last_auto_action": {
-      "t": "2026-10-29T12:31:01-05:00",
+      "t": "2026-10-29T16:10:45-05:00",
       "kind": "auto",
-      "text": "AUTO-FILL 2026-10-29_TSLA_02 · long 153 TSLA @ 404.85 · risk $3716.37 · PASS: risk-check outcome PASS; exit plan complete (stop + target + invalidation); risk $3,716.37 ≤ $50,754 [YOLO v2.0] (rule 1); open 7/9 (rule 2); daily loss pause OFF (YOLO) (rule 3); notional new $61,942.05 / total $475,400.83 ≤ $507,537.60 (10× equity); cash after $191,871.39 (paper margin allowed, YOLO) (rule 9); event notional cap OFF (YOLO v2.0) (rule 10)",
-      "symbol": "TSLA",
-      "card_id": "2026-10-29_TSLA_02",
+      "text": "AUTO-FILL 2026-10-29_SPY_02 · short 29 SPY @ 764.76 · risk $665.26 · PASS: risk-check outcome PASS; exit plan complete (stop + target + invalidation); risk $665.26 ≤ $49,822 [YOLO v2.0] (rule 1); open 8/9 (rule 2); daily loss pause OFF (YOLO) (rule 3); notional new $22,178.04 / total $497,578.87 ≤ $498,219.30 (10× equity); cash after $214,049.43 (paper margin allowed, YOLO) (rule 9); event notional cap OFF (YOLO v2.0) (rule 10)",
+      "symbol": "SPY",
+      "card_id": "2026-10-29_SPY_02",
       "action": "auto_fill",
       "by": "desk-auto",
-      "size": 153.0,
-      "fill": 404.85,
-      "risk": 3716.37,
-      "notional": 61942.05,
-      "cash_after": 191871.39,
-      "reason": "all hard rules PASS — risk-check outcome PASS; exit plan complete (stop + target + invalidation); risk $3,716.37 ≤ $50,754 [YOLO v2.0] (rule 1); open 7/9 (rule 2); daily loss pause OFF (YOLO) (rule 3); notional new $61,942.05 / total $475,400.83 ≤ $507,537.60 (10× equity); cash after $191,871.39 (paper margin allowed, YOLO) (rule 9); event notional cap OFF (YOLO v2.0) (rule 10)"
+      "size": 29.0,
+      "fill": 764.76,
+      "risk": 665.26,
+      "notional": 22178.04,
+      "cash_after": 214049.43,
+      "reason": "all hard rules PASS — risk-check outcome PASS; exit plan complete (stop + target + invalidation); risk $665.26 ≤ $49,822 [YOLO v2.0] (rule 1); open 8/9 (rule 2); daily loss pause OFF (YOLO) (rule 3); notional new $22,178.04 / total $497,578.87 ≤ $498,219.30 (10× equity); cash after $214,049.43 (paper margin allowed, YOLO) (rule 9); event notional cap OFF (YOLO v2.0) (rule 10)"
     },
     "last_human_action": {
       "t": "2026-10-27T17:15:16-03:00",
@@ -121,8 +121,13 @@
       "kind": "open"
     },
     {
-      "t": "2026-10-29T16:09:50-05:00",
+      "t": "2026-10-29T16:10:45-05:00",
       "equity": 49821.93,
+      "kind": "open"
+    },
+    {
+      "t": "2026-10-29T16:10:57-05:00",
+      "equity": 49688.53,
       "kind": "mark"
     }
   ],
@@ -143,6 +148,23 @@
       "r_multiple": -0.06,
       "opened_at": "2026-10-29 12:31 (America/Chicago)",
       "file": "decisions/2026-10-29_TSLA_02.md"
+    },
+    {
+      "card_id": "2026-10-29_SPY_02",
+      "symbol": "SPY",
+      "direction": "short",
+      "size": 29.0,
+      "entry": 764.76,
+      "stop": 787.7,
+      "target": 695.9,
+      "mark": 769.36,
+      "mark_source": "quote",
+      "market_value": -22311.44,
+      "unrealized_pnl": -133.4,
+      "risk_dollars": 665.26,
+      "r_multiple": -0.2,
+      "opened_at": "2026-10-29 16:10 (America/Chicago)",
+      "file": "decisions/2026-10-29_SPY_02.md"
     },
     {
       "card_id": "2026-10-29_QQQ_02",
@@ -512,6 +534,31 @@
       "fill": 404.85,
       "size": 153.0,
       "opened_at": "2026-10-29 12:31 (America/Chicago)",
+      "exit": null,
+      "closed_at": null,
+      "lesson": null,
+      "realized_pnl": null
+    },
+    {
+      "id": "2026-10-29_SPY_02",
+      "status": "approved",
+      "symbol": "SPY",
+      "direction": "short",
+      "recommend": "take",
+      "file": "decisions/2026-10-29_SPY_02.md",
+      "risk_outcome": "PASS",
+      "risk_score": 5,
+      "entry_plan": 764.76,
+      "stop": 787.7,
+      "target": 695.9,
+      "planned_size": 29.0,
+      "dollar_risk": 665.26,
+      "invalidation": "SPY reclaims 787.70 (new highs above the 5-day 775.75 high) — AMZN/AI-capex selloff gets bought, risk-off thesis wrong",
+      "decision": "auto-approve",
+      "decision_note": "YOLO v2.0 $1M race — last slot, PAPER ONLY · auto-filled by desk-auto: all hard rules PASS — risk-check outcome PASS; exit plan complete (stop + target + invalidation); risk $665.26 ≤ $49,822 [YOLO v2.0] (rule 1); open 8/9 (rule 2); daily loss pause OFF (YOLO) (rule 3); notional new $22,178.04 / total $497,578.87 ≤ $498,219.30 (10× equity); cash after $214,049.43 (paper margin allowed, YOLO) (rule 9); event notional cap OFF (YOLO v2.0) (rule 10)",
+      "fill": 764.76,
+      "size": 29.0,
+      "opened_at": "2026-10-29 16:10 (America/Chicago)",
       "exit": null,
       "closed_at": null,
       "lesson": null,
@@ -1042,6 +1089,13 @@
         "direction": "long"
       },
       {
+        "id": "2026-10-29_SPY_02",
+        "type": "card",
+        "status": "approved",
+        "symbol": "SPY",
+        "direction": "short"
+      },
+      {
         "id": "2026-10-29_QQQ_02",
         "type": "card",
         "status": "approved",
@@ -1187,6 +1241,11 @@
         "kind": "card"
       },
       {
+        "source": "2026-10-29_SPY_02",
+        "target": "SPY",
+        "kind": "card"
+      },
+      {
         "source": "2026-10-29_QQQ_02",
         "target": "QQQ",
         "kind": "card"
@@ -1236,9 +1295,43 @@
   },
   "activity": [
     {
-      "t": "2026-10-29T16:09:50-05:00",
+      "t": "2026-10-29T16:10:57-05:00",
       "kind": "quotes",
       "text": "Quotes refreshed 9/9 ok · Yahoo public chart · display only"
+    },
+    {
+      "t": "2026-10-29T16:10:45-05:00",
+      "kind": "card",
+      "symbol": "SPY",
+      "text": "2026-10-29_SPY_02 SPY short · APPROVED · rec take · risk score 5/5"
+    },
+    {
+      "t": "2026-10-29T18:10:45-03:00",
+      "kind": "risk",
+      "text": "2026-10-29_SPY_02 → PASS · risk $665.26 · opens 8 · YOLO v2.0 SPY short 29 @ 764.76; notional 22178 within 10x headroom"
+    },
+    {
+      "t": "2026-10-29T16:10:45-05:00",
+      "kind": "journal",
+      "text": "Trade journal — SPY — 2026-10-29_SPY_02 · journal/2026-10-29_SPY.md"
+    },
+    {
+      "t": "2026-10-29T16:10:45-05:00",
+      "kind": "auto",
+      "text": "AUTO-FILL 2026-10-29_SPY_02 · short 29 SPY @ 764.76 · risk $665.26 · PASS: risk-check outcome PASS; exit plan complete (stop + target + invalidation); risk $665.26 ≤ $49,822 [YOLO v2.0] (rule 1); open 8/9 (rule 2); daily loss pause OFF (YOLO) (rule 3); notional new $22,178.04 / total $497,578.87 ≤ $498,219.30 (10× equity); cash after $214,049.43 (paper margin allowed, YOLO) (rule 9); event notional cap OFF (YOLO v2.0) (rule 10)",
+      "symbol": "SPY"
+    },
+    {
+      "t": "2026-10-29T16:10:45-05:00",
+      "kind": "equity",
+      "text": "OPEN SPY short 29 @ 764.76 · risk $665.26 · equity flat at fill",
+      "symbol": "SPY"
+    },
+    {
+      "t": "2026-10-29T16:10:45-05:00",
+      "kind": "journal",
+      "text": "Trade note opened · journal/2026-10-29_SPY.md",
+      "symbol": "SPY"
     },
     {
       "t": "2026-10-29T16:09:47-05:00",
@@ -1544,41 +1637,6 @@
       "kind": "review",
       "text": "Ticker review NVDA long → PASS · score 3/5 · 32 sh · paper only · not filled",
       "symbol": "NVDA"
-    },
-    {
-      "t": "2026-10-27T21:15:34-03:00",
-      "kind": "review",
-      "text": "Ticker review MSFT long → PASS · score 3/5 · 13 sh · paper only · not filled",
-      "symbol": "MSFT"
-    },
-    {
-      "t": "2026-10-27T21:14:04-03:00",
-      "kind": "review",
-      "text": "Ticker review MSFT long → PASS · score 3/5 · 13 sh · paper only · not filled",
-      "symbol": "MSFT"
-    },
-    {
-      "t": "2026-10-27T21:14:04-03:00",
-      "kind": "review",
-      "text": "Ticker review NVDA long → PASS · score 3/5 · 32 sh · paper only · not filled",
-      "symbol": "NVDA"
-    },
-    {
-      "t": "2026-10-27T20:41:19-03:00",
-      "kind": "review",
-      "text": "Ticker review MSFT long → PASS · score 3/5 · 13 sh · paper only · not filled",
-      "symbol": "MSFT"
-    },
-    {
-      "t": "2026-10-27T20:40:07-03:00",
-      "kind": "review",
-      "text": "Ticker review MSFT long → PASS · score 3/5 · 13 sh · paper only · not filled",
-      "symbol": "MSFT"
-    },
-    {
-      "t": "2026-10-27T16:06:54-05:00",
-      "kind": "journal",
-      "text": "Session journal — 2026-10-27 · journal/2026-10-27.md"
     }
   ]
 }

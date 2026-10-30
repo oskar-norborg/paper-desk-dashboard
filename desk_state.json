@@ -1,38 +1,38 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-30T16:04:07-05:00",
+  "updated_at": "2026-10-30T16:35:23-05:00",
   "timezone_note": "Times shown America/Chicago; routines run on America/New_York",
   "paper_only": true,
   "quotes": {
     "provider": "yahoo_finance_public_chart",
     "purpose": "display_only",
     "paper_only": true,
-    "ok": 3,
+    "ok": 6,
     "total": 9,
-    "stale": 6,
+    "stale": 3,
     "note": "Delayed/near-real public quotes for display and paper mark-to-market only. No brokerage keys. No order placement."
   },
   "paper": {
     "starting_equity": 50000.0,
     "currency": "USD",
-    "equity": 56105.45,
+    "equity": 55630.25,
     "cash": 1144933.13,
     "realized_pnl": -2115.99,
-    "unrealized_pnl": 8221.44,
-    "day_pnl": 6416.92,
-    "day_pnl_pct": 12.914,
+    "unrealized_pnl": 7746.24,
+    "day_pnl": 5941.72,
+    "day_pnl_pct": 11.958,
     "day_baseline": 49688.53,
     "open_positions": 12,
     "max_open": 15,
-    "max_risk_per_trade": 56105.45,
+    "max_risk_per_trade": 55630.25,
     "daily_loss_pause": -1000000000000.0,
     "paused": false,
     "rules_mode": "2.1-YOLO",
     "yolo": true,
     "yolo_until": "2026-10-31T00:00:00-04:00",
     "max_notional_mult": 20.0,
-    "open_notional": 1088827.68,
-    "gross_leverage": 19.41,
+    "open_notional": 1089302.88,
+    "gross_leverage": 19.58,
     "accounting": "equity = cash + Σ mark-to-market of open paper positions; positions come only from approved (auto or manual) cards with a simulated fill and no close"
   },
   "approval": {
@@ -136,8 +136,8 @@
       "kind": "open"
     },
     {
-      "t": "2026-10-30T16:04:07-05:00",
-      "equity": 56105.45,
+      "t": "2026-10-30T16:35:23-05:00",
+      "equity": 55630.25,
       "kind": "mark"
     }
   ],
@@ -235,12 +235,12 @@
       "entry": 236.2,
       "stop": 248.01,
       "target": 200.77,
-      "mark": 239.75,
+      "mark": 240.35,
       "mark_source": "quote",
-      "market_value": -129704.75,
-      "unrealized_pnl": -1920.55,
+      "market_value": -130029.35,
+      "unrealized_pnl": -2245.15,
       "risk_dollars": 6389.21,
-      "r_multiple": -0.3,
+      "r_multiple": -0.35,
       "opened_at": "2026-10-30 09:18 (America/Chicago)",
       "file": "decisions/2026-10-30_AMZN_03.md"
     },
@@ -337,12 +337,12 @@
       "entry": 246.14,
       "stop": 263.37,
       "target": 203.06,
-      "mark": 239.75,
+      "mark": 240.35,
       "mark_source": "quote",
-      "market_value": -60177.25,
-      "unrealized_pnl": 1603.89,
+      "market_value": -60327.85,
+      "unrealized_pnl": 1453.29,
       "risk_dollars": 4324.73,
-      "r_multiple": 0.37,
+      "r_multiple": 0.34,
       "opened_at": "2026-10-29 12:31 (America/Chicago)",
       "file": "decisions/2026-10-29_AMZN_02.md"
     }
@@ -418,10 +418,10 @@
         348.91,
         344.63
       ],
-      "quote_time": "2026-10-30T15:00:01-05:00",
       "quote_source": "yahoo_finance_chart",
-      "quote_ok": false,
-      "stale": true
+      "quote_ok": true,
+      "quote_time": "2026-10-30T15:00:01-05:00",
+      "stale": false
     },
     {
       "symbol": "MSFT",
@@ -477,8 +477,8 @@
       "symbol": "AMZN",
       "name": "Amazon",
       "sector": "consumer/cloud",
-      "last": 239.75,
-      "change_pct": -1.66,
+      "last": 240.35,
+      "change_pct": -1.41,
       "spark": [
         254.76,
         250.0,
@@ -491,12 +491,12 @@
         253.1,
         254.6,
         243.79,
-        239.75
+        240.35
       ],
-      "quote_time": "2026-10-30T14:45:47-05:00",
       "quote_source": "yahoo_finance_chart",
-      "quote_ok": false,
-      "stale": true
+      "quote_ok": true,
+      "quote_time": "2026-10-30T15:00:01-05:00",
+      "stale": false
     },
     {
       "symbol": "GOOGL",
@@ -527,8 +527,8 @@
       "symbol": "META",
       "name": "Meta Platforms",
       "sector": "comm/ads",
-      "last": 613.84,
-      "change_pct": -1.71,
+      "last": 614.99,
+      "change_pct": -1.53,
       "spark": [
         736.72,
         709.33,
@@ -541,12 +541,12 @@
         620.19,
         612.49,
         624.52,
-        613.84
+        614.99
       ],
-      "quote_time": "2026-10-30T14:57:17-05:00",
       "quote_source": "yahoo_finance_chart",
-      "quote_ok": false,
-      "stale": true
+      "quote_ok": true,
+      "quote_time": "2026-10-30T15:00:01-05:00",
+      "stale": false
     },
     {
       "symbol": "TSLA",
@@ -1271,7 +1271,7 @@
       {
         "id": "AMZN",
         "type": "stock",
-        "change_pct": -1.66,
+        "change_pct": -1.41,
         "sector": "consumer/cloud"
       },
       {
@@ -1283,7 +1283,7 @@
       {
         "id": "META",
         "type": "stock",
-        "change_pct": -1.71,
+        "change_pct": -1.53,
         "sector": "comm/ads"
       },
       {
@@ -1578,12 +1578,12 @@
   },
   "activity": [
     {
-      "t": "2026-10-30T16:04:07-05:00",
+      "t": "2026-10-30T16:35:23-05:00",
       "kind": "quotes",
-      "text": "Quotes refreshed 3/9 ok · Yahoo public chart · display only"
+      "text": "Quotes refreshed 6/9 ok · Yahoo public chart · display only"
     },
     {
-      "t": "2026-10-30T16:04:02-05:00",
+      "t": "2026-10-30T16:04:12-05:00",
       "kind": "journal",
       "text": "Session journal — 2026-10-30 (Fri) · journal/2026-10-30.md"
     },

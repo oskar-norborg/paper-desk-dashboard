@@ -1,15 +1,15 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-30T16:03:15-05:00",
+  "updated_at": "2026-10-30T16:03:27-05:00",
   "timezone_note": "Times shown America/Chicago; routines run on America/New_York",
   "paper_only": true,
   "quotes": {
     "provider": "yahoo_finance_public_chart",
     "purpose": "display_only",
     "paper_only": true,
-    "ok": 1,
+    "ok": 2,
     "total": 9,
-    "stale": 8,
+    "stale": 7,
     "note": "Delayed/near-real public quotes for display and paper mark-to-market only. No brokerage keys. No order placement."
   },
   "paper": {
@@ -136,7 +136,7 @@
       "kind": "open"
     },
     {
-      "t": "2026-10-30T16:03:15-05:00",
+      "t": "2026-10-30T16:03:27-05:00",
       "equity": 57576.41,
       "kind": "mark"
     }
@@ -393,10 +393,10 @@
         715.34,
         690.49
       ],
-      "quote_time": "2026-10-30T15:00:01-05:00",
       "quote_source": "yahoo_finance_chart",
-      "quote_ok": false,
-      "stale": true
+      "quote_ok": true,
+      "quote_time": "2026-10-30T15:00:01-05:00",
+      "stale": false
     },
     {
       "symbol": "AAPL",
@@ -418,10 +418,10 @@
         348.91,
         344.63
       ],
-      "quote_time": "2026-10-30T15:00:01-05:00",
       "quote_source": "yahoo_finance_chart",
-      "quote_ok": false,
-      "stale": true
+      "quote_ok": true,
+      "quote_time": "2026-10-30T15:00:01-05:00",
+      "stale": false
     },
     {
       "symbol": "MSFT",
@@ -518,10 +518,10 @@
         283.82,
         279.84
       ],
-      "quote_source": "yahoo_finance_chart",
-      "quote_ok": true,
       "quote_time": "2026-10-30T15:00:01-05:00",
-      "stale": false
+      "quote_source": "yahoo_finance_chart",
+      "quote_ok": false,
+      "stale": true
     },
     {
       "symbol": "META",
@@ -1578,9 +1578,9 @@
   },
   "activity": [
     {
-      "t": "2026-10-30T16:03:15-05:00",
+      "t": "2026-10-30T16:03:27-05:00",
       "kind": "quotes",
-      "text": "Quotes refreshed 1/9 ok · Yahoo public chart · display only"
+      "text": "Quotes refreshed 2/9 ok · Yahoo public chart · display only"
     },
     {
       "t": "2026-10-30T15:23:22-05:00",

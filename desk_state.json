@@ -1,38 +1,38 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-30T16:03:27-05:00",
+  "updated_at": "2026-10-30T16:04:07-05:00",
   "timezone_note": "Times shown America/Chicago; routines run on America/New_York",
   "paper_only": true,
   "quotes": {
     "provider": "yahoo_finance_public_chart",
     "purpose": "display_only",
     "paper_only": true,
-    "ok": 2,
+    "ok": 3,
     "total": 9,
-    "stale": 7,
+    "stale": 6,
     "note": "Delayed/near-real public quotes for display and paper mark-to-market only. No brokerage keys. No order placement."
   },
   "paper": {
     "starting_equity": 50000.0,
     "currency": "USD",
-    "equity": 57576.41,
+    "equity": 56105.45,
     "cash": 1144933.13,
     "realized_pnl": -2115.99,
-    "unrealized_pnl": 9692.4,
-    "day_pnl": 7887.88,
-    "day_pnl_pct": 15.875,
+    "unrealized_pnl": 8221.44,
+    "day_pnl": 6416.92,
+    "day_pnl_pct": 12.914,
     "day_baseline": 49688.53,
     "open_positions": 12,
     "max_open": 15,
-    "max_risk_per_trade": 57576.41,
+    "max_risk_per_trade": 56105.45,
     "daily_loss_pause": -1000000000000.0,
     "paused": false,
     "rules_mode": "2.1-YOLO",
     "yolo": true,
     "yolo_until": "2026-10-31T00:00:00-04:00",
     "max_notional_mult": 20.0,
-    "open_notional": 1087356.72,
-    "gross_leverage": 18.89,
+    "open_notional": 1088827.68,
+    "gross_leverage": 19.41,
     "accounting": "equity = cash + Σ mark-to-market of open paper positions; positions come only from approved (auto or manual) cards with a simulated fill and no close"
   },
   "approval": {
@@ -136,8 +136,8 @@
       "kind": "open"
     },
     {
-      "t": "2026-10-30T16:03:27-05:00",
-      "equity": 57576.41,
+      "t": "2026-10-30T16:04:07-05:00",
+      "equity": 56105.45,
       "kind": "mark"
     }
   ],
@@ -184,12 +184,12 @@
       "entry": 206.84,
       "stop": 216.15,
       "target": 178.91,
-      "mark": 203.02,
+      "mark": 204.64,
       "mark_source": "quote",
-      "market_value": -125466.36,
-      "unrealized_pnl": 2360.76,
+      "market_value": -126467.52,
+      "unrealized_pnl": 1359.6,
       "risk_dollars": 5753.58,
-      "r_multiple": 0.41,
+      "r_multiple": 0.24,
       "opened_at": "2026-10-30 09:18 (America/Chicago)",
       "file": "decisions/2026-10-30_NVDA_03.md"
     },
@@ -286,12 +286,12 @@
       "entry": 213.52,
       "stop": 224.2,
       "target": 186.82,
-      "mark": 203.02,
+      "mark": 204.64,
       "mark_source": "quote",
-      "market_value": -58875.8,
-      "unrealized_pnl": 3045.0,
+      "market_value": -59345.6,
+      "unrealized_pnl": 2575.2,
       "risk_dollars": 3097.2,
-      "r_multiple": 0.98,
+      "r_multiple": 0.83,
       "opened_at": "2026-10-29 12:31 (America/Chicago)",
       "file": "decisions/2026-10-29_NVDA_02.md"
     },
@@ -368,10 +368,10 @@
         769.36,
         755.72
       ],
-      "quote_time": "2026-10-30T15:00:00-05:00",
       "quote_source": "yahoo_finance_chart",
-      "quote_ok": false,
-      "stale": true
+      "quote_ok": true,
+      "quote_time": "2026-10-30T15:00:00-05:00",
+      "stale": false
     },
     {
       "symbol": "QQQ",
@@ -418,10 +418,10 @@
         348.91,
         344.63
       ],
-      "quote_source": "yahoo_finance_chart",
-      "quote_ok": true,
       "quote_time": "2026-10-30T15:00:01-05:00",
-      "stale": false
+      "quote_source": "yahoo_finance_chart",
+      "quote_ok": false,
+      "stale": true
     },
     {
       "symbol": "MSFT",
@@ -452,8 +452,8 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "sector": "semis",
-      "last": 203.02,
-      "change_pct": -4.98,
+      "last": 204.64,
+      "change_pct": -4.22,
       "spark": [
         217.23,
         214.13,
@@ -466,12 +466,12 @@
         217.94,
         215.38,
         213.66,
-        203.02
+        204.64
       ],
-      "quote_time": "2026-10-30T14:27:03-05:00",
       "quote_source": "yahoo_finance_chart",
-      "quote_ok": false,
-      "stale": true
+      "quote_ok": true,
+      "quote_time": "2026-10-30T15:00:01-05:00",
+      "stale": false
     },
     {
       "symbol": "AMZN",
@@ -1265,7 +1265,7 @@
       {
         "id": "NVDA",
         "type": "stock",
-        "change_pct": -4.98,
+        "change_pct": -4.22,
         "sector": "semis"
       },
       {
@@ -1578,9 +1578,19 @@
   },
   "activity": [
     {
-      "t": "2026-10-30T16:03:27-05:00",
+      "t": "2026-10-30T16:04:07-05:00",
       "kind": "quotes",
-      "text": "Quotes refreshed 2/9 ok · Yahoo public chart · display only"
+      "text": "Quotes refreshed 3/9 ok · Yahoo public chart · display only"
+    },
+    {
+      "t": "2026-10-30T16:04:02-05:00",
+      "kind": "journal",
+      "text": "Session journal — 2026-10-30 (Fri) · journal/2026-10-30.md"
+    },
+    {
+      "t": "2026-10-30T16:04:02-05:00",
+      "kind": "review",
+      "text": "Daily review pointer — 2026-10-30 · reviews/2026-10-30.md"
     },
     {
       "t": "2026-10-30T15:23:22-05:00",
@@ -1909,16 +1919,6 @@
       "t": "2026-10-29T16:09:47-05:00",
       "kind": "journal",
       "text": "Session journal — 2026-10-29 (Thu) · journal/2026-10-29.md"
-    },
-    {
-      "t": "2026-10-29T16:09:47-05:00",
-      "kind": "review",
-      "text": "Daily review pointer — 2026-10-29 · reviews/2026-10-29.md"
-    },
-    {
-      "t": "2026-10-29T15:26:46-05:00",
-      "kind": "research",
-      "text": "Daily research — 2026-10-29 (CLOSE version; supersedes pre-market file) · research/daily_2026-10-29.md"
     }
   ]
 }

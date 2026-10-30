@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-29T16:10:57-05:00",
+  "updated_at": "2026-10-30T08:10:35-05:00",
   "timezone_note": "Times shown America/Chicago; routines run on America/New_York",
   "paper_only": true,
   "quotes": {
@@ -19,9 +19,9 @@
     "cash": 214049.43,
     "realized_pnl": 406.26,
     "unrealized_pnl": -717.73,
-    "day_pnl": -550.23,
-    "day_pnl_pct": -1.095,
-    "day_baseline": 50238.76,
+    "day_pnl": 0.0,
+    "day_pnl_pct": 0.0,
+    "day_baseline": 49688.53,
     "open_positions": 9,
     "max_open": 9,
     "max_risk_per_trade": 49688.53,
@@ -127,6 +127,11 @@
     },
     {
       "t": "2026-10-29T16:10:57-05:00",
+      "equity": 49688.53,
+      "kind": "mark"
+    },
+    {
+      "t": "2026-10-30T08:10:35-05:00",
       "equity": 49688.53,
       "kind": "mark"
     }
@@ -792,13 +797,13 @@
   ],
   "research": {
     "available": true,
-    "files": 3,
+    "files": 4,
     "handoff_dir": "research/",
     "latest": {
-      "file": "research/daily_2026-10-29.md",
-      "title": "Daily research — 2026-10-29 (CLOSE version; supersedes pre-market file)",
-      "t": "2026-10-29T15:26:46-05:00",
-      "summary": "FACT: Nasdaq-led down day with positive breadth. S&P 500 −0.3% to 7,720.39, Nasdaq −1.38% to 26,184.72, Dow −0.25% to 52,342.56 (CNBC/AP). Russell 2000 up (IWM +0.97%). NYSE advancers beat decliners 1.59:1 (Reuters, ~2:40 PM ET). Q3 GDP advance +3.4% vs 3.1% est; Sep PCE +0.5% m/m, 3.6% y/y (CNBC). VIX 17.16 (4:10 PM E…",
+      "file": "research/daily_2026-10-30.md",
+      "title": "Daily research — 2026-10-30 (PRE-MARKET version)",
+      "t": "2026-10-30T06:46:56-05:00",
+      "summary": "FACT: Tech-led risk-off pre-market. S&P 500 E-mini 7,673.00 vs 7,754.25 prior settle (−1.05%); Nasdaq-100 E-mini 28,830.25 vs 29,562.00 (−2.47%) (~7:36 AM ET, Yahoo). Dow futures roughly flat (Reuters/CNBC, earlier morning). VIX 18.39 (~7:31 AM ET) vs 17.20. WTI 104.07 (~7:36 AM ET) vs 102.00; Brent above $117 (Stocktw…",
       "symbols": [
         "AAPL",
         "AMZN",
@@ -1295,9 +1300,19 @@
   },
   "activity": [
     {
-      "t": "2026-10-29T16:10:57-05:00",
+      "t": "2026-10-30T08:10:35-05:00",
       "kind": "quotes",
       "text": "Quotes refreshed 9/9 ok · Yahoo public chart · display only"
+    },
+    {
+      "t": "2026-10-30T08:10:34-05:00",
+      "kind": "brief",
+      "text": "Morning brief — 2026-10-30 (Fri) · briefs/2026-10-30_morning.md"
+    },
+    {
+      "t": "2026-10-30T06:46:56-05:00",
+      "kind": "research",
+      "text": "Daily research — 2026-10-30 (PRE-MARKET version) · research/daily_2026-10-30.md"
     },
     {
       "t": "2026-10-29T16:10:45-05:00",
@@ -1625,18 +1640,6 @@
       "kind": "review",
       "text": "Ticker review MSFT long → PASS · score 3/5 · 13 sh · paper only · not filled",
       "symbol": "MSFT"
-    },
-    {
-      "t": "2026-10-27T21:15:43-03:00",
-      "kind": "review",
-      "text": "Ticker review MSFT long → PASS · score 3/5 · 13 sh · paper only · not filled",
-      "symbol": "MSFT"
-    },
-    {
-      "t": "2026-10-27T21:15:35-03:00",
-      "kind": "review",
-      "text": "Ticker review NVDA long → PASS · score 3/5 · 32 sh · paper only · not filled",
-      "symbol": "NVDA"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-30T11:36:36-05:00",
+  "updated_at": "2026-10-30T12:03:54-05:00",
   "timezone_note": "Times shown America/Chicago; routines run on America/New_York",
   "paper_only": true,
   "quotes": {
@@ -15,24 +15,24 @@
   "paper": {
     "starting_equity": 50000.0,
     "currency": "USD",
-    "equity": 54788.81,
+    "equity": 58114.35,
     "cash": 1144933.13,
     "realized_pnl": -2115.99,
-    "unrealized_pnl": 6904.8,
-    "day_pnl": 5100.28,
-    "day_pnl_pct": 10.265,
+    "unrealized_pnl": 10230.34,
+    "day_pnl": 8425.82,
+    "day_pnl_pct": 16.957,
     "day_baseline": 49688.53,
     "open_positions": 12,
     "max_open": 15,
-    "max_risk_per_trade": 54788.81,
+    "max_risk_per_trade": 58114.35,
     "daily_loss_pause": -1000000000000.0,
     "paused": false,
     "rules_mode": "2.1-YOLO",
     "yolo": true,
     "yolo_until": "2026-10-31T00:00:00-04:00",
     "max_notional_mult": 20.0,
-    "open_notional": 1090144.32,
-    "gross_leverage": 19.9,
+    "open_notional": 1086818.78,
+    "gross_leverage": 18.7,
     "accounting": "equity = cash + Σ mark-to-market of open paper positions; positions come only from approved (auto or manual) cards with a simulated fill and no close"
   },
   "approval": {
@@ -136,8 +136,8 @@
       "kind": "open"
     },
     {
-      "t": "2026-10-30T11:36:36-05:00",
-      "equity": 54788.81,
+      "t": "2026-10-30T12:03:54-05:00",
+      "equity": 58114.35,
       "kind": "mark"
     }
   ],
@@ -150,12 +150,12 @@
       "entry": 758.32,
       "stop": 781.07,
       "target": 690.07,
-      "mark": 757.18,
+      "mark": 755.85,
       "mark_source": "quote",
-      "market_value": -127206.24,
-      "unrealized_pnl": 191.52,
+      "market_value": -126982.8,
+      "unrealized_pnl": 414.96,
       "risk_dollars": 3822.0,
-      "r_multiple": 0.05,
+      "r_multiple": 0.11,
       "opened_at": "2026-10-30 09:18 (America/Chicago)",
       "file": "decisions/2026-10-30_SPY_03.md"
     },
@@ -167,12 +167,12 @@
       "entry": 694.19,
       "stop": 718.49,
       "target": 621.29,
-      "mark": 692.17,
+      "mark": 690.17,
       "mark_source": "quote",
-      "market_value": -127359.28,
-      "unrealized_pnl": 371.68,
+      "market_value": -126991.28,
+      "unrealized_pnl": 739.68,
       "risk_dollars": 4471.2,
-      "r_multiple": 0.08,
+      "r_multiple": 0.17,
       "opened_at": "2026-10-30 09:18 (America/Chicago)",
       "file": "decisions/2026-10-30_QQQ_03.md"
     },
@@ -184,12 +184,12 @@
       "entry": 206.84,
       "stop": 216.15,
       "target": 178.91,
-      "mark": 204.32,
+      "mark": 203.93,
       "mark_source": "quote",
-      "market_value": -126269.76,
-      "unrealized_pnl": 1557.36,
+      "market_value": -126028.74,
+      "unrealized_pnl": 1798.38,
       "risk_dollars": 5753.58,
-      "r_multiple": 0.27,
+      "r_multiple": 0.31,
       "opened_at": "2026-10-30 09:18 (America/Chicago)",
       "file": "decisions/2026-10-30_NVDA_03.md"
     },
@@ -201,12 +201,12 @@
       "entry": 522.07,
       "stop": 540.34,
       "target": 467.26,
-      "mark": 522.72,
+      "mark": 522.11,
       "mark_source": "quote",
-      "market_value": -128066.4,
-      "unrealized_pnl": -159.25,
+      "market_value": -127916.95,
+      "unrealized_pnl": -9.8,
       "risk_dollars": 4476.15,
-      "r_multiple": -0.04,
+      "r_multiple": -0.0,
       "opened_at": "2026-10-30 09:18 (America/Chicago)",
       "file": "decisions/2026-10-30_MSFT_03.md"
     },
@@ -218,12 +218,12 @@
       "entry": 279.63,
       "stop": 292.21,
       "target": 241.89,
-      "mark": 280.36,
+      "mark": 279.55,
       "mark_source": "quote",
-      "market_value": -128124.52,
-      "unrealized_pnl": -333.61,
+      "market_value": -127754.35,
+      "unrealized_pnl": 36.56,
       "risk_dollars": 5749.06,
-      "r_multiple": -0.06,
+      "r_multiple": 0.01,
       "opened_at": "2026-10-30 09:18 (America/Chicago)",
       "file": "decisions/2026-10-30_GOOGL_03.md"
     },
@@ -235,12 +235,12 @@
       "entry": 236.2,
       "stop": 248.01,
       "target": 200.77,
-      "mark": 240.03,
+      "mark": 238.26,
       "mark_source": "quote",
-      "market_value": -129856.23,
-      "unrealized_pnl": -2072.03,
+      "market_value": -128898.66,
+      "unrealized_pnl": -1114.46,
       "risk_dollars": 6389.21,
-      "r_multiple": -0.32,
+      "r_multiple": -0.17,
       "opened_at": "2026-10-30 09:18 (America/Chicago)",
       "file": "decisions/2026-10-30_AMZN_03.md"
     },
@@ -252,12 +252,12 @@
       "entry": 764.76,
       "stop": 787.7,
       "target": 695.9,
-      "mark": 757.18,
+      "mark": 755.85,
       "mark_source": "quote",
-      "market_value": -21958.22,
-      "unrealized_pnl": 219.82,
+      "market_value": -21919.65,
+      "unrealized_pnl": 258.39,
       "risk_dollars": 665.26,
-      "r_multiple": 0.33,
+      "r_multiple": 0.39,
       "opened_at": "2026-10-29 16:10 (America/Chicago)",
       "file": "decisions/2026-10-29_SPY_02.md"
     },
@@ -269,12 +269,12 @@
       "entry": 714.54,
       "stop": 735.98,
       "target": 660.94,
-      "mark": 692.17,
+      "mark": 690.17,
       "mark_source": "quote",
-      "market_value": -59526.62,
-      "unrealized_pnl": 1923.82,
+      "market_value": -59354.62,
+      "unrealized_pnl": 2095.82,
       "risk_dollars": 1843.84,
-      "r_multiple": 1.04,
+      "r_multiple": 1.14,
       "opened_at": "2026-10-29 12:31 (America/Chicago)",
       "file": "decisions/2026-10-29_QQQ_02.md"
     },
@@ -286,12 +286,12 @@
       "entry": 213.52,
       "stop": 224.2,
       "target": 186.82,
-      "mark": 204.32,
+      "mark": 203.93,
       "mark_source": "quote",
-      "market_value": -59252.8,
-      "unrealized_pnl": 2668.0,
+      "market_value": -59139.7,
+      "unrealized_pnl": 2781.1,
       "risk_dollars": 3097.2,
-      "r_multiple": 0.86,
+      "r_multiple": 0.9,
       "opened_at": "2026-10-29 12:31 (America/Chicago)",
       "file": "decisions/2026-10-29_NVDA_02.md"
     },
@@ -303,12 +303,12 @@
       "entry": 525.58,
       "stop": 546.6,
       "target": 473.03,
-      "mark": 522.72,
+      "mark": 522.11,
       "mark_source": "quote",
-      "market_value": -61158.24,
-      "unrealized_pnl": 334.62,
+      "market_value": -61086.87,
+      "unrealized_pnl": 405.99,
       "risk_dollars": 2459.34,
-      "r_multiple": 0.14,
+      "r_multiple": 0.17,
       "opened_at": "2026-10-29 12:31 (America/Chicago)",
       "file": "decisions/2026-10-29_MSFT_02.md"
     },
@@ -320,12 +320,12 @@
       "entry": 283.43,
       "stop": 300.44,
       "target": 240.91,
-      "mark": 280.36,
+      "mark": 279.55,
       "mark_source": "quote",
-      "market_value": -61118.48,
-      "unrealized_pnl": 669.26,
+      "market_value": -60941.9,
+      "unrealized_pnl": 845.84,
       "risk_dollars": 3708.18,
-      "r_multiple": 0.18,
+      "r_multiple": 0.23,
       "opened_at": "2026-10-29 12:31 (America/Chicago)",
       "file": "decisions/2026-10-29_GOOGL_02.md"
     },
@@ -337,12 +337,12 @@
       "entry": 246.14,
       "stop": 263.37,
       "target": 203.06,
-      "mark": 240.03,
+      "mark": 238.26,
       "mark_source": "quote",
-      "market_value": -60247.53,
-      "unrealized_pnl": 1533.61,
+      "market_value": -59803.26,
+      "unrealized_pnl": 1977.88,
       "risk_dollars": 4324.73,
-      "r_multiple": 0.35,
+      "r_multiple": 0.46,
       "opened_at": "2026-10-29 12:31 (America/Chicago)",
       "file": "decisions/2026-10-29_AMZN_02.md"
     }
@@ -352,8 +352,8 @@
       "symbol": "SPY",
       "name": "SPDR S&P 500 ETF",
       "sector": "index",
-      "last": 757.18,
-      "change_pct": -1.58,
+      "last": 755.85,
+      "change_pct": -1.76,
       "spark": [
         771.79,
         763.25,
@@ -366,19 +366,19 @@
         769.66,
         772.31,
         769.36,
-        757.18
+        755.85
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-10-30T11:36:34-05:00",
+      "quote_time": "2026-10-30T12:03:50-05:00",
       "stale": false
     },
     {
       "symbol": "QQQ",
       "name": "Invesco QQQ Trust",
       "sector": "index",
-      "last": 692.17,
-      "change_pct": -3.24,
+      "last": 690.17,
+      "change_pct": -3.52,
       "spark": [
         728.0,
         709.8,
@@ -391,19 +391,19 @@
         721.25,
         725.61,
         715.34,
-        692.17
+        690.17
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-10-30T11:36:35-05:00",
+      "quote_time": "2026-10-30T12:03:52-05:00",
       "stale": false
     },
     {
       "symbol": "AAPL",
       "name": "Apple",
       "sector": "tech",
-      "last": 347.15,
-      "change_pct": -0.5,
+      "last": 347.11,
+      "change_pct": -0.52,
       "spark": [
         342.0,
         343.46,
@@ -416,19 +416,19 @@
         347.1,
         343.83,
         348.91,
-        347.15
+        347.11
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-10-30T11:36:33-05:00",
+      "quote_time": "2026-10-30T12:03:51-05:00",
       "stale": false
     },
     {
       "symbol": "MSFT",
       "name": "Microsoft",
       "sector": "tech",
-      "last": 522.72,
-      "change_pct": -1.4,
+      "last": 522.11,
+      "change_pct": -1.51,
       "spark": [
         539.44,
         529.05,
@@ -441,19 +441,19 @@
         531.33,
         531.01,
         530.14,
-        522.72
+        522.1
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-10-30T11:36:34-05:00",
+      "quote_time": "2026-10-30T12:03:51-05:00",
       "stale": false
     },
     {
       "symbol": "NVDA",
       "name": "NVIDIA",
       "sector": "semis",
-      "last": 204.32,
-      "change_pct": -4.37,
+      "last": 203.93,
+      "change_pct": -4.55,
       "spark": [
         217.23,
         214.13,
@@ -466,19 +466,19 @@
         217.94,
         215.38,
         213.66,
-        204.32
+        203.93
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-10-30T11:36:35-05:00",
+      "quote_time": "2026-10-30T12:03:52-05:00",
       "stale": false
     },
     {
       "symbol": "AMZN",
       "name": "Amazon",
       "sector": "consumer/cloud",
-      "last": 240.03,
-      "change_pct": -1.54,
+      "last": 238.26,
+      "change_pct": -2.27,
       "spark": [
         254.76,
         250.0,
@@ -491,19 +491,19 @@
         253.1,
         254.6,
         243.79,
-        240.02
+        238.26
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-10-30T11:36:35-05:00",
+      "quote_time": "2026-10-30T12:03:51-05:00",
       "stale": false
     },
     {
       "symbol": "GOOGL",
       "name": "Alphabet Class A",
       "sector": "comm/ads",
-      "last": 280.36,
-      "change_pct": -1.22,
+      "last": 279.55,
+      "change_pct": -1.5,
       "spark": [
         349.22,
         340.59,
@@ -516,19 +516,19 @@
         320.58,
         324.89,
         283.82,
-        280.36
+        279.55
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-10-30T11:36:34-05:00",
+      "quote_time": "2026-10-30T12:03:53-05:00",
       "stale": false
     },
     {
       "symbol": "META",
       "name": "Meta Platforms",
       "sector": "comm/ads",
-      "last": 620.69,
-      "change_pct": -0.61,
+      "last": 620.92,
+      "change_pct": -0.58,
       "spark": [
         736.72,
         709.33,
@@ -541,19 +541,19 @@
         620.19,
         612.49,
         624.52,
-        620.69
+        620.92
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-10-30T11:36:34-05:00",
+      "quote_time": "2026-10-30T12:03:51-05:00",
       "stale": false
     },
     {
       "symbol": "TSLA",
       "name": "Tesla",
       "sector": "auto/EV",
-      "last": 400.33,
-      "change_pct": -0.74,
+      "last": 398.69,
+      "change_pct": -1.14,
       "spark": [
         362.44,
         354.72,
@@ -566,11 +566,11 @@
         407.46,
         404.22,
         403.3,
-        400.33
+        398.69
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-10-30T11:36:35-05:00",
+      "quote_time": "2026-10-30T12:03:53-05:00",
       "stale": false
     }
   ],
@@ -1241,55 +1241,55 @@
       {
         "id": "SPY",
         "type": "etf",
-        "change_pct": -1.58,
+        "change_pct": -1.76,
         "sector": "index"
       },
       {
         "id": "QQQ",
         "type": "etf",
-        "change_pct": -3.24,
+        "change_pct": -3.52,
         "sector": "index"
       },
       {
         "id": "AAPL",
         "type": "stock",
-        "change_pct": -0.5,
+        "change_pct": -0.52,
         "sector": "tech"
       },
       {
         "id": "MSFT",
         "type": "stock",
-        "change_pct": -1.4,
+        "change_pct": -1.51,
         "sector": "tech"
       },
       {
         "id": "NVDA",
         "type": "stock",
-        "change_pct": -4.37,
+        "change_pct": -4.55,
         "sector": "semis"
       },
       {
         "id": "AMZN",
         "type": "stock",
-        "change_pct": -1.54,
+        "change_pct": -2.27,
         "sector": "consumer/cloud"
       },
       {
         "id": "GOOGL",
         "type": "stock",
-        "change_pct": -1.22,
+        "change_pct": -1.5,
         "sector": "comm/ads"
       },
       {
         "id": "META",
         "type": "stock",
-        "change_pct": -0.61,
+        "change_pct": -0.58,
         "sector": "comm/ads"
       },
       {
         "id": "TSLA",
         "type": "stock",
-        "change_pct": -0.74,
+        "change_pct": -1.14,
         "sector": "auto/EV"
       },
       {
@@ -1578,7 +1578,7 @@
   },
   "activity": [
     {
-      "t": "2026-10-30T11:36:36-05:00",
+      "t": "2026-10-30T12:03:54-05:00",
       "kind": "quotes",
       "text": "Quotes refreshed 9/9 ok · Yahoo public chart · display only"
     },

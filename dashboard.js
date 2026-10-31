@@ -14,16 +14,16 @@
   const cls = (n) => (n > 0 ? "pos" : n < 0 ? "neg" : "flat");
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const fmtTime = (iso, withDay = true) => {
-    const d = new Date(String(iso).length === 10 ? iso + "T00:00:00-03:00" : iso);
+    const d = new Date(String(iso).length === 10 ? iso + "T00:00:00-04:00" : iso);
     if (isNaN(d)) return esc(iso);
-    const o = { timeZone: "America/Sao_Paulo", hour: "2-digit", minute: "2-digit", hour12: false };
+    const o = { timeZone: "America/New_York", hour: "2-digit", minute: "2-digit", hour12: false };
     if (withDay) Object.assign(o, { month: "short", day: "2-digit" });
     return d.toLocaleString("en-US", o);
   };
   const shortTime = (iso) => {
-    const d = new Date(String(iso).length === 10 ? iso + "T00:00:00-03:00" : iso);
+    const d = new Date(String(iso).length === 10 ? iso + "T00:00:00-04:00" : iso);
     if (isNaN(d)) return esc(iso);
-    const f = new Intl.DateTimeFormat("en-GB", { timeZone: "America/Sao_Paulo", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hour12: false }).formatToParts(d);
+    const f = new Intl.DateTimeFormat("en-GB", { timeZone: "America/New_York", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hour12: false }).formatToParts(d);
     const g = (t) => (f.find((x) => x.type === t) || {}).value;
     return `${g("month")}/${g("day")} ${g("hour")}:${g("minute")}`;
   };
@@ -49,7 +49,7 @@
   function renderHeader(s) {
     const ap = s.approval || {}, p = s.paper || {}, q = s.quotes || {};
     const n = ap.pending_count || 0;
-    const lu = $("lastUpdated"); if (lu) lu.textContent = "last updated: " + fmtTime(s.updated_at, true) + " BRT";
+    const lu = $("lastUpdated"); if (lu) lu.textContent = "last updated: " + fmtTime(s.updated_at, true) + " ET";
     const pill = $("approvalPill");
     const auto = ap.mode === "auto" || ap.required === false;
     pill.textContent = auto
@@ -61,7 +61,7 @@
     pp.textContent = paused ? "■ DAILY LOSS PAUSE — no new proposals" : "risk: clear to propose";
     pp.className = "pill " + (paused ? "bad" : "ok");
     $("quotesMeta").innerHTML = `quotes <b class="${q.ok === q.total ? "pos" : "neg"}">${q.ok ?? 0}/${q.total ?? 0}</b> yahoo·display` + (q.stale ? ` · ${q.stale} stale` : "");
-    $("updated").textContent = "upd " + fmtTime(s.updated_at) + " BRT";
+    $("updated").textContent = "upd " + fmtTime(s.updated_at) + " ET";
     // ticker tape (duplicated for seamless loop)
     const t = (s.watchlist || []).map((w) => `<span><b>${esc(w.symbol)}</b>${w.last == null ? "—" : num(w.last)} <i class="${cls(w.change_pct)}">${pct(w.change_pct)}</i></span>`).join("");
     $("tapeInner").innerHTML = t + t;
@@ -151,7 +151,7 @@
       <div class="cmd">${d.decision_note ? esc(d.decision_note) : "awaiting risk check → auto-fill on PASS (scripts/auto_fill_pending.sh)"}</div></div>`).join("")
       : `<div class="none">&gt; queue clear · cards auto-fill when all hard rules PASS</div>`;
     const la = ap.last_auto_fill, lx = ap.last_auto_action;
-    $("queueMeta").innerHTML = (la ? `last auto-fill: ${esc(la.symbol || "")} ${esc(la.card_id || "")} @ ${fmtTime(la.t)} BRT`
+    $("queueMeta").innerHTML = (la ? `last auto-fill: ${esc(la.symbol || "")} ${esc(la.card_id || "")} @ ${fmtTime(la.t)} ET`
       : "no auto-fills yet") + (lx && lx !== la && lx.action !== "auto_fill" ? ` · last: ${esc((lx.action || "").replace("auto_", "auto-"))} ${esc(lx.card_id || "")}` : "");
     const ps = s.positions || [];
     $("posMeta").textContent = `${ps.length}/${(s.paper || {}).max_open ?? 3} open`;
@@ -170,7 +170,7 @@
     if (!items.length) { box.innerHTML = '<div class="empty">No symbols in WATCHLIST.md</div>'; return; }
     box.innerHTML = items.map((w, i) => {
       const c = w.change_pct;
-      return `<div data-sym="${esc(w.symbol)}" class="wcard ${c > 0 ? "up" : c < 0 ? "dn" : ""} ${cardSyms.has(w.symbol) ? "hasCard" : ""}" title="${esc(w.name)}${w.quote_time ? " · quote " + fmtTime(w.quote_time) + " BRT" : ""}${cardSyms.has(w.symbol) ? " · active decision card" : ""} · click to run a paper ticker review">
+      return `<div data-sym="${esc(w.symbol)}" class="wcard ${c > 0 ? "up" : c < 0 ? "dn" : ""} ${cardSyms.has(w.symbol) ? "hasCard" : ""}" title="${esc(w.name)}${w.quote_time ? " · quote " + fmtTime(w.quote_time) + " ET" : ""}${cardSyms.has(w.symbol) ? " · active decision card" : ""} · click to run a paper ticker review">
         <div class="wtop"><span class="wsym">${esc(w.symbol)}</span><span class="wchg ${c == null ? "muted" : cls(c)}">${pct(c)}</span></div>
         <div class="wname">${esc(w.name)}</div><canvas id="spark${i}"></canvas>
         <div class="wlast"><span>${w.last == null ? "no quote" : num(w.last)}</span><span class="muted">${w.placeholder ? "placeholder" : w.stale ? "stale" : esc(w.sector || "")}</span></div></div>`;
@@ -263,7 +263,7 @@
     const r = s.research || {}, box = $("research");
     if (!r.available || !r.latest) { box.innerHTML = `<div class="empty">&gt; no research drop yet · bot writes to <code>research/daily_YYYY-MM-DD.md</code></div>`; return; }
     const L = r.latest;
-    box.innerHTML = `<div class="rt">${esc(L.title)}</div><div class="rf">${fmtTime(L.t)} BRT · ${r.files} file(s) · <a href="../${esc(L.file)}" target="_blank">${esc(L.file)}</a>${L.placeholder ? " · placeholder" : ""}</div>
+    box.innerHTML = `<div class="rt">${esc(L.title)}</div><div class="rf">${fmtTime(L.t)} ET · ${r.files} file(s) · <a href="../${esc(L.file)}" target="_blank">${esc(L.file)}</a>${L.placeholder ? " · placeholder" : ""}</div>
       <div class="rs">${esc(L.summary || "")}</div><div class="rsym">${(L.symbols || []).map((x) => `<span>${esc(x)}</span>`).join("")}</div>
       <div class="rf">facts only · Desk Lead cites it in the morning brief · no buy/sell/hold</div>`;
   }
@@ -299,11 +299,11 @@
     box.innerHTML = `<div class="rv-head"><div><span class="rv-sym">${esc(r.symbol)}</span><span class="dir ${esc(r.direction)}">${esc((r.direction || "").toUpperCase())}</span>
         <span class="muted">${q.last != null ? "last " + num(q.last) + " " : ""}${q.change_pct != null ? `<i class="${cls(q.change_pct)}">${pct(q.change_pct)}</i>` : ""}</span></div>
         <span class="rv-out ${oc(r.outcome)}">${esc(r.outcome)}</span></div>
-      <div class="rv-meta">${esc(r.id)} · ${fmtTime(r.t)} BRT · risk score <b>${r.risk_score ?? "—"}/5</b> — ${esc(r.risk_score_reason || "")}</div>
+      <div class="rv-meta">${esc(r.id)} · ${fmtTime(r.t)} ET · risk score <b>${r.risk_score ?? "—"}/5</b> — ${esc(r.risk_score_reason || "")}</div>
       <div class="rv-thesis">${esc(r.thesis || "")}</div>
       <div class="rv-cols"><div>${lv}${sz}</div><ul class="rv-checks">${ck || '<li class="bad"><span class="ck">?</span>no rule checks — missing data</li>'}</ul></div>
       <div class="rv-reasons">${(r.reasons || []).map((x) => `<div>• ${esc(x)}</div>`).join("")}</div>
-      <div class="rv-foot">src: ${rs.file ? ((IS_PUBLIC ? `<code>${esc(rs.file)}</code>` : `<a href="../${esc(rs.file)}" target="_blank">${esc(rs.file)}</a>`) + ` (${fmtTime(rs.t)} BRT)`) : "no research file"}${rs.note ? " · " + esc(rs.note) : ""} · quote Yahoo public chart (display only) · ${IS_PUBLIC ? `<code>${esc(r.file || "")}</code>` : `<a href="../${esc(r.file)}" target="_blank">${esc(r.file)}</a>`}</div>
+      <div class="rv-foot">src: ${rs.file ? ((IS_PUBLIC ? `<code>${esc(rs.file)}</code>` : `<a href="../${esc(rs.file)}" target="_blank">${esc(rs.file)}</a>`) + ` (${fmtTime(rs.t)} ET)`) : "no research file"}${rs.note ? " · " + esc(rs.note) : ""} · quote Yahoo public chart (display only) · ${IS_PUBLIC ? `<code>${esc(r.file || "")}</code>` : `<a href="../${esc(r.file)}" target="_blank">${esc(r.file)}</a>`}</div>
       <div class="rv-warn">PAPER ONLY · temporary review · does NOT auto-fill · say <b>“auto-fill this review”</b> in chat to promote it to a real decision card (re-checked then)</div>`;
   }
   function renderReviews(s) {
@@ -331,7 +331,7 @@
       const j = await r.json();
       if (!j.ok) throw new Error(j.error || "review failed");
       shownReview = j.review; renderReviewCard(j.review);
-      setStatus(`done · ${j.review.symbol} → ${j.review.outcome} · ${j.review.risk_score}/5 · not filled · ${fmtTime(j.review.t)} BRT`, "done");
+      setStatus(`done · ${j.review.symbol} → ${j.review.outcome} · ${j.review.risk_score}/5 · not filled · ${fmtTime(j.review.t)} ET`, "done");
       load();
     } catch (e) {
       setStatus("error · " + (e.message === "Failed to fetch" ? "server unreachable — start scripts/desk_server.py on 8765" : e.message), "err");

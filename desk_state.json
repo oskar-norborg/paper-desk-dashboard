@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-30T23:04:31-05:00",
-  "timezone_note": "Times shown America/Chicago; routines run on America/New_York",
+  "updated_at": "2026-10-31T18:16:39-04:00",
+  "timezone_note": "Times shown America/New_York; routines run on America/New_York",
   "paper_only": true,
   "quotes": {
     "provider": "yahoo_finance_public_chart",
@@ -19,9 +19,9 @@
     "cash": 1144933.13,
     "realized_pnl": -2115.99,
     "unrealized_pnl": 7746.24,
-    "day_pnl": 5941.72,
-    "day_pnl_pct": 11.958,
-    "day_baseline": 49688.53,
+    "day_pnl": 0.0,
+    "day_pnl_pct": 0.0,
+    "day_baseline": 55630.25,
     "open_positions": 12,
     "max_open": 3,
     "max_risk_per_trade": 500.0,
@@ -137,6 +137,11 @@
     },
     {
       "t": "2026-10-30T23:04:31-05:00",
+      "equity": 55630.25,
+      "kind": "mark"
+    },
+    {
+      "t": "2026-10-31T18:16:39-04:00",
       "equity": 55630.25,
       "kind": "mark"
     }
@@ -370,7 +375,7 @@
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-10-30T15:00:00-05:00",
+      "quote_time": "2026-10-30T16:00:00-04:00",
       "stale": false
     },
     {
@@ -395,7 +400,7 @@
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-10-30T15:00:01-05:00",
+      "quote_time": "2026-10-30T16:00:01-04:00",
       "stale": false
     },
     {
@@ -420,7 +425,7 @@
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-10-30T15:00:01-05:00",
+      "quote_time": "2026-10-30T16:00:01-04:00",
       "stale": false
     },
     {
@@ -445,7 +450,7 @@
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-10-30T15:00:01-05:00",
+      "quote_time": "2026-10-30T16:00:01-04:00",
       "stale": false
     },
     {
@@ -470,7 +475,7 @@
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-10-30T15:00:01-05:00",
+      "quote_time": "2026-10-30T16:00:01-04:00",
       "stale": false
     },
     {
@@ -495,7 +500,7 @@
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-10-30T15:00:01-05:00",
+      "quote_time": "2026-10-30T16:00:01-04:00",
       "stale": false
     },
     {
@@ -520,7 +525,7 @@
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-10-30T15:00:01-05:00",
+      "quote_time": "2026-10-30T16:00:01-04:00",
       "stale": false
     },
     {
@@ -545,7 +550,7 @@
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-10-30T15:00:01-05:00",
+      "quote_time": "2026-10-30T16:00:01-04:00",
       "stale": false
     },
     {
@@ -570,7 +575,7 @@
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-10-30T15:00:00-05:00",
+      "quote_time": "2026-10-30T16:00:00-04:00",
       "stale": false
     }
   ],
@@ -1008,7 +1013,7 @@
     "latest": {
       "file": "research/daily_2026-10-30.md",
       "title": "Daily research — 2026-10-30 (CLOSE version; overwrites pre-market)",
-      "t": "2026-10-30T15:23:22-05:00",
+      "t": "2026-10-30T16:23:22-04:00",
       "summary": "FACT: Broad tech-led risk-off. S&P 500 −2.08% to 7,559.85; Nasdaq Composite −3.37% to 25,303.37 (three-month low, >8% below Oct 6 closing high); Dow −1.08% to 51,778.86 (Reuters). Semis index −8.7% (Reuters) / −9% (NBC). SPY −2.31%, QQQ −3.50% (Yahoo). Drivers: Intel ~−30% on weak Q4 guide (Q4 rev $15–16B); Amazon Q3 m…",
       "symbols": [
         "AAPL",
@@ -1578,88 +1583,88 @@
   },
   "activity": [
     {
-      "t": "2026-10-30T23:04:31-05:00",
+      "t": "2026-10-31T18:16:39-04:00",
       "kind": "quotes",
       "text": "Quotes refreshed 9/9 ok · Yahoo public chart · display only"
     },
     {
-      "t": "2026-10-30T16:04:12-05:00",
+      "t": "2026-10-30T17:04:12-04:00",
       "kind": "journal",
       "text": "Session journal — 2026-10-30 (Fri) · journal/2026-10-30.md"
     },
     {
-      "t": "2026-10-30T16:04:02-05:00",
+      "t": "2026-10-30T17:04:02-04:00",
       "kind": "review",
       "text": "Daily review pointer — 2026-10-30 · reviews/2026-10-30.md"
     },
     {
-      "t": "2026-10-30T15:23:22-05:00",
+      "t": "2026-10-30T16:23:22-04:00",
       "kind": "research",
       "text": "Daily research — 2026-10-30 (CLOSE version; overwrites pre-market) · research/daily_2026-10-30.md"
     },
     {
-      "t": "2026-10-30T09:18:48-05:00",
+      "t": "2026-10-30T10:18:48-04:00",
       "kind": "card",
       "symbol": "SPY",
       "text": "2026-10-30_SPY_03 SPY short · APPROVED · rec take · risk score 5/5"
     },
     {
-      "t": "2026-10-30T09:18:48-05:00",
+      "t": "2026-10-30T10:18:48-04:00",
       "kind": "card",
       "symbol": "QQQ",
       "text": "2026-10-30_QQQ_03 QQQ short · APPROVED · rec take · risk score 5/5"
     },
     {
-      "t": "2026-10-30T09:18:48-05:00",
+      "t": "2026-10-30T10:18:48-04:00",
       "kind": "card",
       "symbol": "NVDA",
       "text": "2026-10-30_NVDA_03 NVDA short · APPROVED · rec take · risk score 5/5"
     },
     {
-      "t": "2026-10-30T09:18:48-05:00",
+      "t": "2026-10-30T10:18:48-04:00",
       "kind": "card",
       "symbol": "MSFT",
       "text": "2026-10-30_MSFT_03 MSFT short · APPROVED · rec take · risk score 5/5"
     },
     {
-      "t": "2026-10-30T09:18:48-05:00",
+      "t": "2026-10-30T10:18:48-04:00",
       "kind": "card",
       "symbol": "GOOGL",
       "text": "2026-10-30_GOOGL_03 GOOGL short · APPROVED · rec take · risk score 5/5"
     },
     {
-      "t": "2026-10-30T09:18:48-05:00",
+      "t": "2026-10-30T10:18:48-04:00",
       "kind": "card",
       "symbol": "AMZN",
       "text": "2026-10-30_AMZN_03 AMZN short · APPROVED · rec take · risk score 5/5"
     },
     {
-      "t": "2026-10-30T09:18:48-05:00",
+      "t": "2026-10-30T10:18:48-04:00",
       "kind": "journal",
       "text": "Trade journal — QQQ — 2026-10-30_QQQ_03 · journal/2026-10-30_QQQ.md"
     },
     {
-      "t": "2026-10-30T09:18:48-05:00",
+      "t": "2026-10-30T10:18:48-04:00",
       "kind": "journal",
       "text": "Trade journal — SPY — 2026-10-30_SPY_03 · journal/2026-10-30_SPY.md"
     },
     {
-      "t": "2026-10-30T09:18:48-05:00",
+      "t": "2026-10-30T10:18:48-04:00",
       "kind": "journal",
       "text": "Trade journal — GOOGL — 2026-10-30_GOOGL_03 · journal/2026-10-30_GOOGL.md"
     },
     {
-      "t": "2026-10-30T09:18:48-05:00",
+      "t": "2026-10-30T10:18:48-04:00",
       "kind": "journal",
       "text": "Trade journal — NVDA — 2026-10-30_NVDA_03 · journal/2026-10-30_NVDA.md"
     },
     {
-      "t": "2026-10-30T09:18:48-05:00",
+      "t": "2026-10-30T10:18:48-04:00",
       "kind": "journal",
       "text": "Trade journal — AMZN — 2026-10-30_AMZN_03 · journal/2026-10-30_AMZN.md"
     },
     {
-      "t": "2026-10-30T09:18:48-05:00",
+      "t": "2026-10-30T10:18:48-04:00",
       "kind": "journal",
       "text": "Trade journal — MSFT — 2026-10-30_MSFT_03 · journal/2026-10-30_MSFT.md"
     },
@@ -1772,53 +1777,53 @@
       "symbol": "MSFT"
     },
     {
-      "t": "2026-10-30T09:18:19-05:00",
+      "t": "2026-10-30T10:18:19-04:00",
       "kind": "card",
       "symbol": "TSLA",
       "text": "2026-10-29_TSLA_02 TSLA long · CLOSED · rec take · risk score 5/5"
     },
     {
-      "t": "2026-10-30T09:18:19-05:00",
+      "t": "2026-10-30T10:18:19-04:00",
       "kind": "lesson",
       "symbol": "TSLA",
       "text": "2026-10-29_TSLA_02: v2.1 race rotate (user t38u): long against tech risk-off tape closed at mark to free risk/notional for bigger shorts — don't hold counter-thesis longs in a one-theme book."
     },
     {
-      "t": "2026-10-30T09:18:19-05:00",
+      "t": "2026-10-30T10:18:19-04:00",
       "kind": "card",
       "symbol": "META",
       "text": "2026-10-29_META_02 META long · CLOSED · rec take · risk score 5/5"
     },
     {
-      "t": "2026-10-30T09:18:19-05:00",
+      "t": "2026-10-30T10:18:19-04:00",
       "kind": "lesson",
       "symbol": "META",
       "text": "2026-10-29_META_02: v2.1 race rotate (user t38u): long against tech risk-off tape closed at mark to free risk/notional for bigger shorts — don't hold counter-thesis longs in a one-theme book."
     },
     {
-      "t": "2026-10-30T09:18:19-05:00",
+      "t": "2026-10-30T10:18:19-04:00",
       "kind": "card",
       "symbol": "AAPL",
       "text": "2026-10-27_AAPL_01 AAPL long · CLOSED · rec take · risk score 2/5"
     },
     {
-      "t": "2026-10-30T09:18:19-05:00",
+      "t": "2026-10-30T10:18:19-04:00",
       "kind": "lesson",
       "symbol": "AAPL",
       "text": "2026-10-27_AAPL_01: v2.1 race rotate (user t38u): long against tech risk-off tape closed at mark to free risk/notional for bigger shorts — don't hold counter-thesis longs in a one-theme book."
     },
     {
-      "t": "2026-10-30T09:18:19-05:00",
+      "t": "2026-10-30T10:18:19-04:00",
       "kind": "journal",
       "text": "Trade journal — META — 2026-10-29_META_02 · journal/2026-10-30_META.md"
     },
     {
-      "t": "2026-10-30T09:18:19-05:00",
+      "t": "2026-10-30T10:18:19-04:00",
       "kind": "journal",
       "text": "Trade journal — TSLA — 2026-10-29_TSLA_02 · journal/2026-10-30_TSLA.md"
     },
     {
-      "t": "2026-10-30T09:18:19-05:00",
+      "t": "2026-10-30T10:18:19-04:00",
       "kind": "journal",
       "text": "Trade journal — AAPL — 2026-10-27_AAPL_01 · journal/2026-10-30_AAPL.md"
     },
@@ -1877,12 +1882,12 @@
       "symbol": "AAPL"
     },
     {
-      "t": "2026-10-30T08:10:34-05:00",
+      "t": "2026-10-30T09:10:34-04:00",
       "kind": "brief",
       "text": "Morning brief — 2026-10-30 (Fri) · briefs/2026-10-30_morning.md"
     },
     {
-      "t": "2026-10-29T16:10:45-05:00",
+      "t": "2026-10-29T17:10:45-04:00",
       "kind": "card",
       "symbol": "SPY",
       "text": "2026-10-29_SPY_02 SPY short · APPROVED · rec take · risk score 5/5"
@@ -1893,7 +1898,7 @@
       "text": "2026-10-29_SPY_02 → PASS · risk $665.26 · opens 8 · YOLO v2.0 SPY short 29 @ 764.76; notional 22178 within 10x headroom"
     },
     {
-      "t": "2026-10-29T16:10:45-05:00",
+      "t": "2026-10-29T17:10:45-04:00",
       "kind": "journal",
       "text": "Trade journal — SPY — 2026-10-29_SPY_02 · journal/2026-10-29_SPY.md"
     },
@@ -1916,7 +1921,7 @@
       "symbol": "SPY"
     },
     {
-      "t": "2026-10-29T16:09:47-05:00",
+      "t": "2026-10-29T17:09:47-04:00",
       "kind": "journal",
       "text": "Session journal — 2026-10-29 (Thu) · journal/2026-10-29.md"
     }

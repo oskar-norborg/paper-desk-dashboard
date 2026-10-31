@@ -1,7 +1,6 @@
 /* DESK paper terminal — read-only renderer for desk_state.json. PAPER ONLY. No orders, no keys. */
 (function () {
   "use strict";
-  const IS_PUBLIC = document.body?.dataset?.public === "1" || /github\.io$/i.test(location.hostname);
   const $ = (id) => document.getElementById(id);
   const G = "#22c55e", R = "#ef4444", A = "#f59e0b";
   const num = (n, d = 2) => (n == null || isNaN(n) ? "—" : Number(n).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }));
@@ -49,7 +48,6 @@
   function renderHeader(s) {
     const ap = s.approval || {}, p = s.paper || {}, q = s.quotes || {};
     const n = ap.pending_count || 0;
-    const lu = $("lastUpdated"); if (lu) lu.textContent = "last updated: " + fmtTime(s.updated_at, true) + " ET";
     const pill = $("approvalPill");
     const auto = ap.mode === "auto" || ap.required === false;
     pill.textContent = auto
@@ -303,21 +301,20 @@
       <div class="rv-thesis">${esc(r.thesis || "")}</div>
       <div class="rv-cols"><div>${lv}${sz}</div><ul class="rv-checks">${ck || '<li class="bad"><span class="ck">?</span>no rule checks — missing data</li>'}</ul></div>
       <div class="rv-reasons">${(r.reasons || []).map((x) => `<div>• ${esc(x)}</div>`).join("")}</div>
-      <div class="rv-foot">src: ${rs.file ? ((IS_PUBLIC ? `<code>${esc(rs.file)}</code>` : `<a href="../${esc(rs.file)}" target="_blank">${esc(rs.file)}</a>`) + ` (${fmtTime(rs.t)} ET)`) : "no research file"}${rs.note ? " · " + esc(rs.note) : ""} · quote Yahoo public chart (display only) · ${IS_PUBLIC ? `<code>${esc(r.file || "")}</code>` : `<a href="../${esc(r.file)}" target="_blank">${esc(r.file)}</a>`}</div>
+      <div class="rv-foot">src: ${rs.file ? `<a href="../${esc(rs.file)}" target="_blank">${esc(rs.file)}</a> (${fmtTime(rs.t)} ET)` : "no research file"}${rs.note ? " · " + esc(rs.note) : ""} · quote Yahoo public chart (display only) · <a href="../${esc(r.file)}" target="_blank">${esc(r.file)}</a></div>
       <div class="rv-warn">PAPER ONLY · temporary review · does NOT auto-fill · say <b>“auto-fill this review”</b> in chat to promote it to a real decision card (re-checked then)</div>`;
   }
   function renderReviews(s) {
     const tr = s.ticker_reviews || {};
     $("reviewChips").innerHTML = (s.watchlist || []).map((w) => `<button type="button" class="rv-chip" data-sym="${esc(w.symbol)}">${esc(w.symbol)}</button>`).join("");
     $("reviewChips").querySelectorAll(".rv-chip").forEach((b) => b.addEventListener("click", () => runReview(b.dataset.sym)));
-    $("reviewRecent").innerHTML = (tr.recent || []).length ? tr.recent.map((x) => `<div class="rv-ri" data-id="${esc(x.id)}"><span>${shortTime(x.t)}</span><b>${esc(x.symbol)}</b><span class="muted">${esc(x.direction || "")}</span><span class="rv-out sm ${oc(x.outcome)}">${esc(x.outcome)}</span><span class="muted">${x.risk_score ?? "—"}/5</span>${IS_PUBLIC ? "" : `<a href="../${esc(x.file)}" target="_blank">md</a>`}</div>`).join("")
+    $("reviewRecent").innerHTML = (tr.recent || []).length ? tr.recent.map((x) => `<div class="rv-ri" data-id="${esc(x.id)}"><span>${shortTime(x.t)}</span><b>${esc(x.symbol)}</b><span class="muted">${esc(x.direction || "")}</span><span class="rv-out sm ${oc(x.outcome)}">${esc(x.outcome)}</span><span class="muted">${x.risk_score ?? "—"}/5</span><a href="../${esc(x.file)}" target="_blank">md</a></div>`).join("")
       : '<div class="empty">none yet</div>';
     if (!shownReview || (tr.latest && tr.latest.id !== shownReview.id && tr.latest.t > shownReview.t)) shownReview = tr.latest || null;
     renderReviewCard(shownReview);
   }
   async function runReview(sym) {
     if (reviewBusy) return;
-    if (IS_PUBLIC) { setStatus("public page is read-only — open local desk to run a new ticker review", "err"); return; }
     sym = String(sym || "").trim().toUpperCase().replace(/^\$/, "");
     if (!/^[A-Z]{1,5}$/.test(sym)) { setStatus("error · ticker must be 1–5 letters A–Z", "err"); return; }
     $("reviewInput").value = sym;
@@ -350,5 +347,5 @@
   function load() { loadState().then(({ state, source }) => renderAll(state, source)).catch(showError); }
   $("reload").addEventListener("click", load);
   load();
-  setInterval(load, IS_PUBLIC ? 60 * 1000 : 5 * 60 * 1000); // re-read local state every 5 min (no network calls beyond the file)
+  setInterval(load, 5 * 60 * 1000); // re-read local state every 5 min (no network calls beyond the file)
 })();

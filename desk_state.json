@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-30T18:35:50-05:00",
+  "updated_at": "2026-10-30T19:01:00-05:00",
   "timezone_note": "Times shown America/Chicago; routines run on America/New_York",
   "paper_only": true,
   "quotes": {
@@ -136,7 +136,7 @@
       "kind": "open"
     },
     {
-      "t": "2026-10-30T18:35:50-05:00",
+      "t": "2026-10-30T19:01:00-05:00",
       "equity": 55630.25,
       "kind": "mark"
     }
@@ -355,6 +355,7 @@
       "last": 755.72,
       "change_pct": -1.77,
       "spark": [
+        769.6,
         771.79,
         763.25,
         766.48,
@@ -365,8 +366,7 @@
         765.37,
         769.66,
         772.31,
-        769.36,
-        755.72
+        769.36
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
@@ -380,6 +380,7 @@
       "last": 690.49,
       "change_pct": -3.47,
       "spark": [
+        728.95,
         728.0,
         709.8,
         718.36,
@@ -390,8 +391,7 @@
         712.2,
         721.25,
         725.61,
-        715.34,
-        690.49
+        715.34
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
@@ -405,6 +405,7 @@
       "last": 344.63,
       "change_pct": -1.23,
       "spark": [
+        342.96,
         342.0,
         343.46,
         342.94,
@@ -415,8 +416,7 @@
         343.91,
         347.1,
         343.83,
-        348.91,
-        344.63
+        348.91
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
@@ -430,6 +430,7 @@
       "last": 521.91,
       "change_pct": -1.55,
       "spark": [
+        533.69,
         539.44,
         529.05,
         533.52,
@@ -440,8 +441,7 @@
         532.6,
         531.33,
         531.01,
-        530.14,
-        521.91
+        530.14
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
@@ -455,6 +455,7 @@
       "last": 204.64,
       "change_pct": -4.22,
       "spark": [
+        221.3,
         217.23,
         214.13,
         217.09,
@@ -465,8 +466,7 @@
         216.0,
         217.94,
         215.38,
-        213.66,
-        204.64
+        213.66
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
@@ -480,6 +480,7 @@
       "last": 240.35,
       "change_pct": -1.41,
       "spark": [
+        254.08,
         254.76,
         250.0,
         262.45,
@@ -490,8 +491,7 @@
         249.09,
         253.1,
         254.6,
-        243.79,
-        240.35
+        243.79
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
@@ -505,6 +505,7 @@
       "last": 279.84,
       "change_pct": -1.4,
       "spark": [
+        347.64,
         349.22,
         340.59,
         344.18,
@@ -515,8 +516,7 @@
         316.8,
         320.58,
         324.89,
-        283.82,
-        279.84
+        283.82
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
@@ -530,6 +530,7 @@
       "last": 614.99,
       "change_pct": -1.53,
       "spark": [
+        737.54,
         736.72,
         709.33,
         705.44,
@@ -540,8 +541,7 @@
         630.56,
         620.19,
         612.49,
-        624.52,
-        614.99
+        624.52
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
@@ -555,6 +555,7 @@
       "last": 399.81,
       "change_pct": -0.86,
       "spark": [
+        367.16,
         362.44,
         354.72,
         368.06,
@@ -565,8 +566,7 @@
         391.62,
         407.46,
         404.22,
-        403.3,
-        399.81
+        403.3
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
@@ -1578,7 +1578,7 @@
   },
   "activity": [
     {
-      "t": "2026-10-30T18:35:50-05:00",
+      "t": "2026-10-30T19:01:00-05:00",
       "kind": "quotes",
       "text": "Quotes refreshed 9/9 ok · Yahoo public chart · display only"
     },

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-02T17:05:38-05:00",
+  "updated_at": "2026-11-02T17:06:04-05:00",
   "timezone_note": "Times shown America/New_York; routines run on America/New_York",
   "paper_only": true,
   "quotes": {
@@ -142,7 +142,7 @@
       "kind": "close"
     },
     {
-      "t": "2026-11-02T17:05:38-05:00",
+      "t": "2026-11-02T17:06:04-05:00",
       "equity": 42327.91,
       "kind": "mark"
     }
@@ -1379,9 +1379,14 @@
   },
   "activity": [
     {
-      "t": "2026-11-02T17:05:38-05:00",
+      "t": "2026-11-02T17:06:04-05:00",
       "kind": "quotes",
       "text": "Quotes refreshed 9/9 ok · Yahoo public chart · display only"
+    },
+    {
+      "t": "2026-11-02T17:06:03-05:00",
+      "kind": "journal",
+      "text": "Session journal — 2026-11-02 (Mon) · journal/2026-11-02.md"
     },
     {
       "t": "2026-11-02T16:29:23-05:00",
@@ -1720,12 +1725,6 @@
       "t": "2026-11-02T09:33:34-05:00",
       "kind": "human",
       "text": "CLOSE 2026-10-30_MSFT_03 by human (Oskar) @ 522.29",
-      "symbol": "MSFT"
-    },
-    {
-      "t": "2026-11-02T09:33:34-05:00",
-      "kind": "journal",
-      "text": "Trade closed · loss $-53.90 (-0.01R) · journal/2026-11-02_MSFT.md",
       "symbol": "MSFT"
     }
   ]

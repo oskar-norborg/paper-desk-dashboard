@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-31T18:16:39-04:00",
+  "updated_at": "2026-11-02T09:08:06-05:00",
   "timezone_note": "Times shown America/New_York; routines run on America/New_York",
   "paper_only": true,
   "quotes": {
@@ -142,6 +142,11 @@
     },
     {
       "t": "2026-10-31T18:16:39-04:00",
+      "equity": 55630.25,
+      "kind": "mark"
+    },
+    {
+      "t": "2026-11-02T09:08:06-05:00",
       "equity": 55630.25,
       "kind": "mark"
     }
@@ -1008,13 +1013,13 @@
   ],
   "research": {
     "available": true,
-    "files": 4,
+    "files": 5,
     "handoff_dir": "research/",
     "latest": {
-      "file": "research/daily_2026-10-30.md",
-      "title": "Daily research — 2026-10-30 (CLOSE version; overwrites pre-market)",
-      "t": "2026-10-30T16:23:22-04:00",
-      "summary": "FACT: Broad tech-led risk-off. S&P 500 −2.08% to 7,559.85; Nasdaq Composite −3.37% to 25,303.37 (three-month low, >8% below Oct 6 closing high); Dow −1.08% to 51,778.86 (Reuters). Semis index −8.7% (Reuters) / −9% (NBC). SPY −2.31%, QQQ −3.50% (Yahoo). Drivers: Intel ~−30% on weak Q4 guide (Q4 rev $15–16B); Amazon Q3 m…",
+      "file": "research/daily_2026-11-02.md",
+      "title": "Daily paper-research handoff, 2026-11-02 (pre-market)",
+      "t": "2026-11-02T07:52:11-05:00",
+      "summary": "FACT: Fri 10/30 regular-session closes (Yahoo, 4:00 PM ET): SPY 755.72 (-1.8%), QQQ 690.49 (-3.5%). AP: S&P 500 -1.8%, worst day since June, third straight losing week; Nasdaq Comp -2.9%. · FACT: Pre-market 11/2 ~7:51 AM ET (Yahoo): SPY 758.45 (+0.4%), QQQ 694.97 (+0.6%). ES +0.3%, NQ +0.6% vs Yahoo Friday bar; Reuters…",
       "symbols": [
         "AAPL",
         "AMZN",
@@ -1583,9 +1588,14 @@
   },
   "activity": [
     {
-      "t": "2026-10-31T18:16:39-04:00",
+      "t": "2026-11-02T09:08:06-05:00",
       "kind": "quotes",
       "text": "Quotes refreshed 9/9 ok · Yahoo public chart · display only"
+    },
+    {
+      "t": "2026-11-02T07:52:11-05:00",
+      "kind": "research",
+      "text": "Daily paper-research handoff, 2026-11-02 (pre-market) · research/daily_2026-11-02.md"
     },
     {
       "t": "2026-10-30T17:04:12-04:00",
@@ -1919,11 +1929,6 @@
       "kind": "journal",
       "text": "Trade note opened · journal/2026-10-29_SPY.md",
       "symbol": "SPY"
-    },
-    {
-      "t": "2026-10-29T17:09:47-04:00",
-      "kind": "journal",
-      "text": "Session journal — 2026-10-29 (Thu) · journal/2026-10-29.md"
     }
   ]
 }

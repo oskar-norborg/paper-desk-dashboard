@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-03T17:07:08-05:00",
+  "updated_at": "2026-11-03T17:07:28-05:00",
   "timezone_note": "Times shown America/New_York; routines run on America/New_York",
   "paper_only": true,
   "quotes": {
@@ -147,7 +147,7 @@
       "kind": "mark"
     },
     {
-      "t": "2026-11-03T17:07:08-05:00",
+      "t": "2026-11-03T17:07:28-05:00",
       "equity": 42327.91,
       "kind": "mark"
     }
@@ -1384,9 +1384,19 @@
   },
   "activity": [
     {
-      "t": "2026-11-03T17:07:08-05:00",
+      "t": "2026-11-03T17:07:28-05:00",
       "kind": "quotes",
       "text": "Quotes refreshed 9/9 ok · Yahoo public chart · display only"
+    },
+    {
+      "t": "2026-11-03T17:07:27-05:00",
+      "kind": "journal",
+      "text": "Session journal — 2026-11-03 (Tue, Election Day) · journal/2026-11-03.md"
+    },
+    {
+      "t": "2026-11-03T17:07:27-05:00",
+      "kind": "review",
+      "text": "daily_index.md · reviews/daily_index.md"
     },
     {
       "t": "2026-11-03T16:26:21-05:00",
@@ -1717,18 +1727,6 @@
       "kind": "lesson",
       "text": "2026-10-30_AMZN_03: v1.3 Mon open de-risk — Oskar path",
       "symbol": "AMZN"
-    },
-    {
-      "t": "2026-11-02T09:33:34-05:00",
-      "kind": "human",
-      "text": "CLOSE 2026-10-30_GOOGL_03 by human (Oskar) @ 285.36",
-      "symbol": "GOOGL"
-    },
-    {
-      "t": "2026-11-02T09:33:34-05:00",
-      "kind": "journal",
-      "text": "Trade closed · loss $-2618.61 (-0.46R) · journal/2026-11-02_GOOGL.md",
-      "symbol": "GOOGL"
     }
   ]
 }

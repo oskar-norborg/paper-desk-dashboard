@@ -183,8 +183,8 @@
       "symbol": "QQQ",
       "name": "Invesco QQQ Trust",
       "sector": "index",
-      "last": 687.32,
-      "change_pct": 0.92,
+      "last": 687.31,
+      "change_pct": 0.91,
       "spark": [
         718.36,
         717.63,
@@ -197,11 +197,11 @@
         715.34,
         690.49,
         681.09,
-        687.32
+        687.31
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-11-03T12:09:46-05:00",
+      "quote_time": "2026-11-03T12:09:44-05:00",
       "stale": false
     },
     {
@@ -1053,7 +1053,7 @@
       {
         "id": "QQQ",
         "type": "etf",
-        "change_pct": 0.92,
+        "change_pct": 0.91,
         "sector": "index"
       },
       {

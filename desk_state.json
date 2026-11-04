@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-04T15:31:40-05:00",
+  "updated_at": "2026-11-04T17:05:20-05:00",
   "timezone_note": "Times shown America/New_York; routines run on America/New_York",
   "paper_only": true,
   "quotes": {
@@ -152,7 +152,7 @@
       "kind": "mark"
     },
     {
-      "t": "2026-11-04T15:31:40-05:00",
+      "t": "2026-11-04T17:05:20-05:00",
       "equity": 42327.91,
       "kind": "mark"
     }
@@ -163,8 +163,8 @@
       "symbol": "SPY",
       "name": "SPDR S&P 500 ETF",
       "sector": "index",
-      "last": 768.35,
-      "change_pct": 1.86,
+      "last": 766.81,
+      "change_pct": 1.65,
       "spark": [
         769.05,
         773.09,
@@ -177,19 +177,19 @@
         755.72,
         752.1,
         754.35,
-        768.35
+        766.81
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-11-04T15:31:38-05:00",
+      "quote_time": "2026-11-04T16:00:00-05:00",
       "stale": false
     },
     {
       "symbol": "QQQ",
       "name": "Invesco QQQ Trust",
       "sector": "index",
-      "last": 693.72,
-      "change_pct": 1.23,
+      "last": 691.95,
+      "change_pct": 0.97,
       "spark": [
         717.63,
         725.2,
@@ -202,19 +202,19 @@
         690.49,
         681.09,
         685.28,
-        693.72
+        691.95
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-11-04T15:31:38-05:00",
+      "quote_time": "2026-11-04T16:00:01-05:00",
       "stale": false
     },
     {
       "symbol": "AAPL",
       "name": "Apple",
       "sector": "tech",
-      "last": 352.59,
-      "change_pct": 6.23,
+      "last": 349.51,
+      "change_pct": 5.31,
       "spark": [
         339.5,
         343.99,
@@ -227,19 +227,19 @@
         344.63,
         338.32,
         331.9,
-        352.59
+        349.51
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-11-04T15:31:39-05:00",
+      "quote_time": "2026-11-04T16:00:01-05:00",
       "stale": false
     },
     {
       "symbol": "MSFT",
       "name": "Microsoft",
       "sector": "tech",
-      "last": 558.72,
-      "change_pct": 7.24,
+      "last": 555.8,
+      "change_pct": 6.68,
       "spark": [
         531.87,
         532.95,
@@ -252,19 +252,19 @@
         521.91,
         507.12,
         520.99,
-        558.72
+        555.8
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-11-04T15:31:37-05:00",
+      "quote_time": "2026-11-04T16:00:01-05:00",
       "stale": false
     },
     {
       "symbol": "NVDA",
       "name": "NVIDIA",
       "sector": "semis",
-      "last": 202.25,
-      "change_pct": -2.15,
+      "last": 200.13,
+      "change_pct": -3.17,
       "spark": [
         216.47,
         221.97,
@@ -277,19 +277,19 @@
         204.64,
         202.06,
         206.69,
-        202.25
+        200.13
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-11-04T15:31:39-05:00",
+      "quote_time": "2026-11-04T16:00:01-05:00",
       "stale": false
     },
     {
       "symbol": "AMZN",
       "name": "Amazon",
       "sector": "consumer/cloud",
-      "last": 268.43,
-      "change_pct": 7.08,
+      "last": 266.03,
+      "change_pct": 6.12,
       "spark": [
         262.63,
         262.37,
@@ -302,19 +302,19 @@
         240.35,
         245.63,
         250.69,
-        268.43
+        266.03
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-11-04T15:31:38-05:00",
+      "quote_time": "2026-11-04T16:00:01-05:00",
       "stale": false
     },
     {
       "symbol": "GOOGL",
       "name": "Alphabet Class A",
       "sector": "comm/ads",
-      "last": 290.9,
-      "change_pct": 3.88,
+      "last": 288.93,
+      "change_pct": 3.18,
       "spark": [
         340.28,
         334.76,
@@ -327,19 +327,19 @@
         279.84,
         278.99,
         280.03,
-        290.91
+        288.93
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-11-04T15:31:38-05:00",
+      "quote_time": "2026-11-04T16:00:01-05:00",
       "stale": false
     },
     {
       "symbol": "META",
       "name": "Meta Platforms",
       "sector": "comm/ads",
-      "last": 633.52,
-      "change_pct": 2.01,
+      "last": 630.0,
+      "change_pct": 1.44,
       "spark": [
         694.25,
         697.52,
@@ -352,19 +352,19 @@
         614.99,
         606.73,
         621.03,
-        633.52
+        630.0
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-11-04T15:31:39-05:00",
+      "quote_time": "2026-11-04T16:00:00-05:00",
       "stale": false
     },
     {
       "symbol": "TSLA",
       "name": "Tesla",
       "sector": "auto/EV",
-      "last": 386.24,
-      "change_pct": -3.08,
+      "last": 385.19,
+      "change_pct": -3.34,
       "spark": [
         373.71,
         386.47,
@@ -377,11 +377,11 @@
         399.81,
         403.82,
         398.5,
-        386.24
+        385.19
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-11-04T15:31:39-05:00",
+      "quote_time": "2026-11-04T16:00:01-05:00",
       "stale": false
     }
   ],
@@ -818,9 +818,9 @@
     "handoff_dir": "research/",
     "latest": {
       "file": "research/daily_2026-11-04.md",
-      "title": "Paper research handoff, Wed 2026-11-04 (pre-market, as of ~07:52 ET)",
-      "t": "2026-11-04T07:53:33-05:00",
-      "summary": "FACT: Democrats won majorities in both House and Senate in Nov 3 midterms (AP via Investing.com/Reuters). US futures fell 1-2.5% overnight, then reversed: ES=F 7663.00 at 07:42 ET (+0.9% vs prior daily bar 7596.75, Yahoo). Reuters 06:24 ET: S&P E-minis +1.04%, Nasdaq 100 E-minis +0.93%. · FACT: 10Y yield ~4.92% (Reuter…",
+      "title": "Paper research handoff, Wed 2026-11-04 (CLOSE, as of ~16:24 ET)",
+      "t": "2026-11-04T16:25:12-05:00",
+      "summary": "FACT: Democrats won both House and Senate in Nov 3 midterms. S&P 500 +1.58% to 7,688.73 (Reuters prelim; CNBC 7,688.62), Nasdaq Comp +1.44% to 25,736.51, Dow +3.03% (best day since Apr 9 2025, CNBC). US crude fell >8% (CNBC). PHLX semis hit a 6-month low (Reuters). Long-dated yields lower, dollar weaker (Reuters). · FA…",
       "symbols": [
         "AAPL",
         "AMZN",
@@ -1052,55 +1052,55 @@
       {
         "id": "SPY",
         "type": "etf",
-        "change_pct": 1.86,
+        "change_pct": 1.65,
         "sector": "index"
       },
       {
         "id": "QQQ",
         "type": "etf",
-        "change_pct": 1.23,
+        "change_pct": 0.97,
         "sector": "index"
       },
       {
         "id": "AAPL",
         "type": "stock",
-        "change_pct": 6.23,
+        "change_pct": 5.31,
         "sector": "tech"
       },
       {
         "id": "MSFT",
         "type": "stock",
-        "change_pct": 7.24,
+        "change_pct": 6.68,
         "sector": "tech"
       },
       {
         "id": "NVDA",
         "type": "stock",
-        "change_pct": -2.15,
+        "change_pct": -3.17,
         "sector": "semis"
       },
       {
         "id": "AMZN",
         "type": "stock",
-        "change_pct": 7.08,
+        "change_pct": 6.12,
         "sector": "consumer/cloud"
       },
       {
         "id": "GOOGL",
         "type": "stock",
-        "change_pct": 3.88,
+        "change_pct": 3.18,
         "sector": "comm/ads"
       },
       {
         "id": "META",
         "type": "stock",
-        "change_pct": 2.01,
+        "change_pct": 1.44,
         "sector": "comm/ads"
       },
       {
         "id": "TSLA",
         "type": "stock",
-        "change_pct": -3.08,
+        "change_pct": -3.34,
         "sector": "auto/EV"
       },
       {
@@ -1389,19 +1389,19 @@
   },
   "activity": [
     {
-      "t": "2026-11-04T15:31:40-05:00",
+      "t": "2026-11-04T17:05:20-05:00",
       "kind": "quotes",
       "text": "Quotes refreshed 9/9 ok · Yahoo public chart · display only"
+    },
+    {
+      "t": "2026-11-04T16:25:12-05:00",
+      "kind": "research",
+      "text": "Paper research handoff, Wed 2026-11-04 (CLOSE, as of ~16:24 ET) · research/daily_2026-11-04.md"
     },
     {
       "t": "2026-11-04T09:08:03-05:00",
       "kind": "brief",
       "text": "Morning brief — Wed 2026-11-04 (PAPER ONLY) · briefs/2026-11-04_morning.md"
-    },
-    {
-      "t": "2026-11-04T07:53:33-05:00",
-      "kind": "research",
-      "text": "Paper research handoff, Wed 2026-11-04 (pre-market, as of ~07:52 ET) · research/daily_2026-11-04.md"
     },
     {
       "t": "2026-11-03T17:07:27-05:00",

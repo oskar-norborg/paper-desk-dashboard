@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-03T17:07:28-05:00",
+  "updated_at": "2026-11-04T09:08:04-05:00",
   "timezone_note": "Times shown America/New_York; routines run on America/New_York",
   "paper_only": true,
   "quotes": {
@@ -148,6 +148,11 @@
     },
     {
       "t": "2026-11-03T17:07:28-05:00",
+      "equity": 42327.91,
+      "kind": "mark"
+    },
+    {
+      "t": "2026-11-04T09:08:04-05:00",
       "equity": 42327.91,
       "kind": "mark"
     }
@@ -809,13 +814,13 @@
   ],
   "research": {
     "available": true,
-    "files": 6,
+    "files": 7,
     "handoff_dir": "research/",
     "latest": {
-      "file": "research/daily_2026-11-03.md",
-      "title": "Daily paper-research handoff, 2026-11-03 (CLOSE; overwrites pre-market version)",
-      "t": "2026-11-03T16:26:21-05:00",
-      "summary": "FACT: Regular session closed 4:00 PM ET (Election Day; midterm results tonight). Reuters prelim: S&P 500 +0.35% to 7,568.05; Nasdaq Comp +0.83% to 25,365.67; Dow -0.40% to 51,782.29. AP final: S&P 7,568.92, Nasdaq 25,372.01, Dow 51,786.72. · FACT: Reuters: Nasdaq-100 confirmed correction Monday (>10% below Oct 6 record…",
+      "file": "research/daily_2026-11-04.md",
+      "title": "Paper research handoff, Wed 2026-11-04 (pre-market, as of ~07:52 ET)",
+      "t": "2026-11-04T07:53:33-05:00",
+      "summary": "FACT: Democrats won majorities in both House and Senate in Nov 3 midterms (AP via Investing.com/Reuters). US futures fell 1-2.5% overnight, then reversed: ES=F 7663.00 at 07:42 ET (+0.9% vs prior daily bar 7596.75, Yahoo). Reuters 06:24 ET: S&P E-minis +1.04%, Nasdaq 100 E-minis +0.93%. · FACT: 10Y yield ~4.92% (Reuter…",
       "symbols": [
         "AAPL",
         "AMZN",
@@ -1384,9 +1389,19 @@
   },
   "activity": [
     {
-      "t": "2026-11-03T17:07:28-05:00",
+      "t": "2026-11-04T09:08:04-05:00",
       "kind": "quotes",
       "text": "Quotes refreshed 9/9 ok · Yahoo public chart · display only"
+    },
+    {
+      "t": "2026-11-04T09:08:03-05:00",
+      "kind": "brief",
+      "text": "Morning brief — Wed 2026-11-04 (PAPER ONLY) · briefs/2026-11-04_morning.md"
+    },
+    {
+      "t": "2026-11-04T07:53:33-05:00",
+      "kind": "research",
+      "text": "Paper research handoff, Wed 2026-11-04 (pre-market, as of ~07:52 ET) · research/daily_2026-11-04.md"
     },
     {
       "t": "2026-11-03T17:07:27-05:00",
@@ -1714,18 +1729,6 @@
       "t": "2026-11-02T09:33:34-05:00",
       "kind": "human",
       "text": "CLOSE 2026-10-30_AMZN_03 by human (Oskar) @ 246.10",
-      "symbol": "AMZN"
-    },
-    {
-      "t": "2026-11-02T09:33:34-05:00",
-      "kind": "journal",
-      "text": "Trade closed · loss $-5355.90 (-0.84R) · journal/2026-11-02_AMZN.md",
-      "symbol": "AMZN"
-    },
-    {
-      "t": "2026-11-02T09:33:34-05:00",
-      "kind": "lesson",
-      "text": "2026-10-30_AMZN_03: v1.3 Mon open de-risk — Oskar path",
       "symbol": "AMZN"
     }
   ]

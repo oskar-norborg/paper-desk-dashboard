@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-04T17:05:20-05:00",
+  "updated_at": "2026-11-04T17:05:41-05:00",
   "timezone_note": "Times shown America/New_York; routines run on America/New_York",
   "paper_only": true,
   "quotes": {
@@ -152,7 +152,7 @@
       "kind": "mark"
     },
     {
-      "t": "2026-11-04T17:05:20-05:00",
+      "t": "2026-11-04T17:05:41-05:00",
       "equity": 42327.91,
       "kind": "mark"
     }
@@ -1389,9 +1389,14 @@
   },
   "activity": [
     {
-      "t": "2026-11-04T17:05:20-05:00",
+      "t": "2026-11-04T17:05:41-05:00",
       "kind": "quotes",
       "text": "Quotes refreshed 9/9 ok · Yahoo public chart · display only"
+    },
+    {
+      "t": "2026-11-04T17:05:40-05:00",
+      "kind": "journal",
+      "text": "Session journal — 2026-11-04 (Wed, post-midterm) · journal/2026-11-04.md"
     },
     {
       "t": "2026-11-04T16:25:12-05:00",
@@ -1724,12 +1729,6 @@
       "kind": "lesson",
       "symbol": "AMZN",
       "text": "2026-10-30_AMZN_03: v1.3 Mon open de-risk — Oskar path"
-    },
-    {
-      "t": "2026-11-02T09:33:34-05:00",
-      "kind": "human",
-      "text": "CLOSE 2026-10-30_AMZN_03 by human (Oskar) @ 246.10",
-      "symbol": "AMZN"
     }
   ]
 }

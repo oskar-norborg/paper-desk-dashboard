@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-04T19:55:44-05:00",
+  "updated_at": "2026-11-05T09:05:08-05:00",
   "timezone_note": "Times shown America/New_York; routines run on America/New_York",
   "paper_only": true,
   "quotes": {
@@ -153,6 +153,11 @@
     },
     {
       "t": "2026-11-04T19:55:44-05:00",
+      "equity": 42327.91,
+      "kind": "mark"
+    },
+    {
+      "t": "2026-11-05T09:05:08-05:00",
       "equity": 42327.91,
       "kind": "mark"
     }
@@ -814,13 +819,13 @@
   ],
   "research": {
     "available": true,
-    "files": 7,
+    "files": 8,
     "handoff_dir": "research/",
     "latest": {
-      "file": "research/daily_2026-11-04.md",
-      "title": "Paper research handoff, Wed 2026-11-04 (CLOSE, as of ~16:24 ET)",
-      "t": "2026-11-04T16:25:12-05:00",
-      "summary": "FACT: Democrats won both House and Senate in Nov 3 midterms. S&P 500 +1.58% to 7,688.73 (Reuters prelim; CNBC 7,688.62), Nasdaq Comp +1.44% to 25,736.51, Dow +3.03% (best day since Apr 9 2025, CNBC). US crude fell >8% (CNBC). PHLX semis hit a 6-month low (Reuters). Long-dated yields lower, dollar weaker (Reuters). · FA…",
+      "file": "research/daily_2026-11-05.md",
+      "title": "Paper research handoff, Thu 2026-11-05 (PRE-MARKET, as of ~07:46 ET)",
+      "t": "2026-11-05T07:47:08-05:00",
+      "summary": "FACT: Post-midterm session Wed Nov 4 — Dems won House+Senate Nov 3 (prior brief / Reuters). Yahoo closes 16:00 ET Nov 4: SPY 766.81 (+1.65% vs 754.35), QQQ 691.95 (+0.97% vs 685.28). Reuters/CNBC: S&P ~+1.58% to ~7,688.6–7,688.73; oil plunged >8% Wed then rebound Thu. Semis sold (SMH 504.27, −2.75% Wed). · FACT (future…",
       "symbols": [
         "AAPL",
         "AMZN",
@@ -1389,9 +1394,14 @@
   },
   "activity": [
     {
-      "t": "2026-11-04T19:55:44-05:00",
+      "t": "2026-11-05T09:05:08-05:00",
       "kind": "quotes",
       "text": "Quotes refreshed 9/9 ok · Yahoo public chart · display only"
+    },
+    {
+      "t": "2026-11-05T07:47:08-05:00",
+      "kind": "research",
+      "text": "Paper research handoff, Thu 2026-11-05 (PRE-MARKET, as of ~07:46 ET) · research/daily_2026-11-05.md"
     },
     {
       "t": "2026-11-04T17:05:40-05:00",
@@ -1723,12 +1733,6 @@
       "kind": "card",
       "symbol": "AMZN",
       "text": "2026-10-30_AMZN_03 AMZN short · CLOSED · rec take · risk score 5/5"
-    },
-    {
-      "t": "2026-11-02T09:33:34-05:00",
-      "kind": "lesson",
-      "symbol": "AMZN",
-      "text": "2026-10-30_AMZN_03: v1.3 Mon open de-risk — Oskar path"
     }
   ]
 }

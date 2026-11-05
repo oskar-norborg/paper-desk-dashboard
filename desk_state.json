@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-05T12:01:55-05:00",
+  "updated_at": "2026-11-05T12:03:00-05:00",
   "timezone_note": "Times shown America/New_York; routines run on America/New_York",
   "paper_only": true,
   "quotes": {
@@ -157,7 +157,7 @@
       "kind": "mark"
     },
     {
-      "t": "2026-11-05T12:01:55-05:00",
+      "t": "2026-11-05T12:03:00-05:00",
       "equity": 42327.91,
       "kind": "mark"
     }
@@ -168,8 +168,8 @@
       "symbol": "SPY",
       "name": "SPDR S&P 500 ETF",
       "sector": "index",
-      "last": 740.73,
-      "change_pct": -3.4,
+      "last": 741.0,
+      "change_pct": -3.37,
       "spark": [
         773.09,
         763.96,
@@ -182,19 +182,19 @@
         752.1,
         754.35,
         766.81,
-        740.73
+        741.0
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-11-05T12:01:54-05:00",
+      "quote_time": "2026-11-05T12:02:58-05:00",
       "stale": false
     },
     {
       "symbol": "QQQ",
       "name": "Invesco QQQ Trust",
       "sector": "index",
-      "last": 655.52,
-      "change_pct": -5.26,
+      "last": 656.06,
+      "change_pct": -5.19,
       "spark": [
         725.2,
         704.47,
@@ -207,19 +207,19 @@
         681.09,
         685.28,
         691.95,
-        655.53
+        656.06
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-11-05T12:01:53-05:00",
+      "quote_time": "2026-11-05T12:02:58-05:00",
       "stale": false
     },
     {
       "symbol": "AAPL",
       "name": "Apple",
       "sector": "tech",
-      "last": 345.21,
-      "change_pct": -1.23,
+      "last": 345.37,
+      "change_pct": -1.18,
       "spark": [
         343.99,
         348.22,
@@ -232,19 +232,19 @@
         338.32,
         331.9,
         349.51,
-        345.21
+        345.37
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-11-05T12:01:54-05:00",
+      "quote_time": "2026-11-05T12:02:59-05:00",
       "stale": false
     },
     {
       "symbol": "MSFT",
       "name": "Microsoft",
       "sector": "tech",
-      "last": 541.83,
-      "change_pct": -2.51,
+      "last": 541.82,
+      "change_pct": -2.52,
       "spark": [
         532.95,
         521.08,
@@ -257,19 +257,19 @@
         507.12,
         520.99,
         555.8,
-        541.83
+        541.82
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-11-05T12:01:53-05:00",
+      "quote_time": "2026-11-05T12:02:57-05:00",
       "stale": false
     },
     {
       "symbol": "NVDA",
       "name": "NVIDIA",
       "sector": "semis",
-      "last": 185.41,
-      "change_pct": -7.36,
+      "last": 185.77,
+      "change_pct": -7.17,
       "spark": [
         221.97,
         212.21,
@@ -282,19 +282,19 @@
         202.06,
         206.69,
         200.13,
-        185.41
+        185.77
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-11-05T12:01:55-05:00",
+      "quote_time": "2026-11-05T12:02:59-05:00",
       "stale": false
     },
     {
       "symbol": "AMZN",
       "name": "Amazon",
       "sector": "consumer/cloud",
-      "last": 261.41,
-      "change_pct": -1.74,
+      "last": 261.3,
+      "change_pct": -1.78,
       "spark": [
         262.37,
         250.38,
@@ -307,19 +307,19 @@
         245.63,
         250.69,
         266.03,
-        261.41
+        261.3
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-11-05T12:01:54-05:00",
+      "quote_time": "2026-11-05T12:02:59-05:00",
       "stale": false
     },
     {
       "symbol": "GOOGL",
       "name": "Alphabet Class A",
       "sector": "comm/ads",
-      "last": 284.19,
-      "change_pct": -1.64,
+      "last": 284.31,
+      "change_pct": -1.6,
       "spark": [
         334.76,
         324.22,
@@ -332,19 +332,19 @@
         278.99,
         280.03,
         288.93,
-        284.19
+        284.31
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-11-05T12:01:55-05:00",
+      "quote_time": "2026-11-05T12:02:59-05:00",
       "stale": false
     },
     {
       "symbol": "META",
       "name": "Meta Platforms",
       "sector": "comm/ads",
-      "last": 604.91,
-      "change_pct": -3.98,
+      "last": 605.93,
+      "change_pct": -3.82,
       "spark": [
         697.52,
         648.85,
@@ -357,19 +357,19 @@
         606.73,
         621.03,
         630.0,
-        604.91
+        605.93
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-11-05T12:01:54-05:00",
+      "quote_time": "2026-11-05T12:02:58-05:00",
       "stale": false
     },
     {
       "symbol": "TSLA",
       "name": "Tesla",
       "sector": "auto/EV",
-      "last": 344.1,
-      "change_pct": -10.67,
+      "last": 344.41,
+      "change_pct": -10.59,
       "spark": [
         386.47,
         374.58,
@@ -382,11 +382,11 @@
         403.82,
         398.5,
         385.19,
-        344.1
+        344.41
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-11-05T12:01:54-05:00",
+      "quote_time": "2026-11-05T12:03:00-05:00",
       "stale": false
     }
   ],
@@ -1057,55 +1057,55 @@
       {
         "id": "SPY",
         "type": "etf",
-        "change_pct": -3.4,
+        "change_pct": -3.37,
         "sector": "index"
       },
       {
         "id": "QQQ",
         "type": "etf",
-        "change_pct": -5.26,
+        "change_pct": -5.19,
         "sector": "index"
       },
       {
         "id": "AAPL",
         "type": "stock",
-        "change_pct": -1.23,
+        "change_pct": -1.18,
         "sector": "tech"
       },
       {
         "id": "MSFT",
         "type": "stock",
-        "change_pct": -2.51,
+        "change_pct": -2.52,
         "sector": "tech"
       },
       {
         "id": "NVDA",
         "type": "stock",
-        "change_pct": -7.36,
+        "change_pct": -7.17,
         "sector": "semis"
       },
       {
         "id": "AMZN",
         "type": "stock",
-        "change_pct": -1.74,
+        "change_pct": -1.78,
         "sector": "consumer/cloud"
       },
       {
         "id": "GOOGL",
         "type": "stock",
-        "change_pct": -1.64,
+        "change_pct": -1.6,
         "sector": "comm/ads"
       },
       {
         "id": "META",
         "type": "stock",
-        "change_pct": -3.98,
+        "change_pct": -3.82,
         "sector": "comm/ads"
       },
       {
         "id": "TSLA",
         "type": "stock",
-        "change_pct": -10.67,
+        "change_pct": -10.59,
         "sector": "auto/EV"
       },
       {
@@ -1394,7 +1394,7 @@
   },
   "activity": [
     {
-      "t": "2026-11-05T12:01:55-05:00",
+      "t": "2026-11-05T12:03:00-05:00",
       "kind": "quotes",
       "text": "Quotes refreshed 9/9 ok · Yahoo public chart · display only"
     },

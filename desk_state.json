@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-05T17:07:07-05:00",
+  "updated_at": "2026-11-05T17:07:54-05:00",
   "timezone_note": "Times shown America/New_York; routines run on America/New_York",
   "paper_only": true,
   "quotes": {
@@ -157,7 +157,7 @@
       "kind": "mark"
     },
     {
-      "t": "2026-11-05T17:07:07-05:00",
+      "t": "2026-11-05T17:07:54-05:00",
       "equity": 42327.91,
       "kind": "mark"
     }
@@ -1394,9 +1394,19 @@
   },
   "activity": [
     {
-      "t": "2026-11-05T17:07:07-05:00",
+      "t": "2026-11-05T17:07:54-05:00",
       "kind": "quotes",
       "text": "Quotes refreshed 9/9 ok · Yahoo public chart · display only"
+    },
+    {
+      "t": "2026-11-05T17:07:50-05:00",
+      "kind": "journal",
+      "text": "Session journal — 2026-11-05 (Thu) · journal/2026-11-05.md"
+    },
+    {
+      "t": "2026-11-05T17:07:50-05:00",
+      "kind": "review",
+      "text": "Daily review pointer — 2026-11-05 · reviews/2026-11-05.md"
     },
     {
       "t": "2026-11-05T16:23:28-05:00",
@@ -1720,18 +1730,6 @@
       "kind": "lesson",
       "symbol": "MSFT",
       "text": "2026-10-30_MSFT_03: v1.3 Mon open de-risk — Oskar path"
-    },
-    {
-      "t": "2026-11-02T09:33:34-05:00",
-      "kind": "card",
-      "symbol": "GOOGL",
-      "text": "2026-10-30_GOOGL_03 GOOGL short · CLOSED · rec take · risk score 5/5"
-    },
-    {
-      "t": "2026-11-02T09:33:34-05:00",
-      "kind": "lesson",
-      "symbol": "GOOGL",
-      "text": "2026-10-30_GOOGL_03: v1.3 Mon open de-risk — Oskar path"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-05T17:07:54-05:00",
+  "updated_at": "2026-11-06T09:13:06-05:00",
   "timezone_note": "Times shown America/New_York; routines run on America/New_York",
   "paper_only": true,
   "quotes": {
@@ -158,6 +158,11 @@
     },
     {
       "t": "2026-11-05T17:07:54-05:00",
+      "equity": 42327.91,
+      "kind": "mark"
+    },
+    {
+      "t": "2026-11-06T09:13:06-05:00",
       "equity": 42327.91,
       "kind": "mark"
     }
@@ -819,13 +824,13 @@
   ],
   "research": {
     "available": true,
-    "files": 8,
+    "files": 9,
     "handoff_dir": "research/",
     "latest": {
-      "file": "research/daily_2026-11-05.md",
-      "title": "Paper research handoff, Thu 2026-11-05 (CLOSE, as of ~16:25 ET)",
-      "t": "2026-11-05T16:23:28-05:00",
-      "summary": "FACT: Regular US equity session closed ~16:00 ET Thu Nov 5 (not a holiday). Yahoo Finance v8 chart closes (as-of 16:00–16:04 ET): SPY 733.00 (−4.41% vs Wed 766.81), QQQ 647.05 (−6.49% vs 691.95). Index prints cited by Yahoo Finance live / NBC News / TradingKey: S&P 500 ~7,353.73 (−4.3% to −4.4%); Nasdaq Composite ~24,3…",
+      "file": "research/daily_2026-11-06.md",
+      "title": "Paper research handoff, Fri 2026-11-06 (PRE-MARKET, as of ~07:55 ET)",
+      "t": "2026-11-06T07:56:17-05:00",
+      "summary": "FACT: US cash equities open for regular session today (Friday; not a holiday). Pre-market session active. Veterans Day Wed Nov 11 — US markets closed (BLS calendar notes holiday). · FACT: Thu Nov 5 regular close (Yahoo Finance v8 daily chart, as-of ~16:00 ET): SPY 733.00 (−4.41% vs Wed 766.81, vol 125.3M); QQQ 647.05 (…",
       "symbols": [
         "AAPL",
         "AMZN",
@@ -1394,9 +1399,19 @@
   },
   "activity": [
     {
-      "t": "2026-11-05T17:07:54-05:00",
+      "t": "2026-11-06T09:13:06-05:00",
       "kind": "quotes",
       "text": "Quotes refreshed 9/9 ok · Yahoo public chart · display only"
+    },
+    {
+      "t": "2026-11-06T09:13:05-05:00",
+      "kind": "brief",
+      "text": "Morning brief — Fri 2026-11-06 (PAPER ONLY · rules v3.0-CHAOS) · briefs/2026-11-06_morning.md"
+    },
+    {
+      "t": "2026-11-06T07:56:17-05:00",
+      "kind": "research",
+      "text": "Paper research handoff, Fri 2026-11-06 (PRE-MARKET, as of ~07:55 ET) · research/daily_2026-11-06.md"
     },
     {
       "t": "2026-11-05T17:07:50-05:00",
@@ -1718,18 +1733,6 @@
       "kind": "lesson",
       "symbol": "NVDA",
       "text": "2026-10-30_NVDA_03: v1.3 Mon open de-risk — Oskar path"
-    },
-    {
-      "t": "2026-11-02T09:33:34-05:00",
-      "kind": "card",
-      "symbol": "MSFT",
-      "text": "2026-10-30_MSFT_03 MSFT short · CLOSED · rec take · risk score 5/5"
-    },
-    {
-      "t": "2026-11-02T09:33:34-05:00",
-      "kind": "lesson",
-      "symbol": "MSFT",
-      "text": "2026-10-30_MSFT_03: v1.3 Mon open de-risk — Oskar path"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-06T16:03:18-05:00",
+  "updated_at": "2026-11-06T17:01:16-05:00",
   "timezone_note": "Times shown America/New_York; routines run on America/New_York",
   "paper_only": true,
   "quotes": {
@@ -176,7 +176,7 @@
       "kind": "open"
     },
     {
-      "t": "2026-11-06T16:03:18-05:00",
+      "t": "2026-11-06T17:01:16-05:00",
       "equity": 56508.67,
       "kind": "mark"
     }
@@ -205,8 +205,8 @@
       "symbol": "SPY",
       "name": "SPDR S&P 500 ETF",
       "sector": "index",
-      "last": 735.36,
-      "change_pct": 0.32,
+      "last": 735.29,
+      "change_pct": 0.31,
       "spark": [
         763.96,
         759.97,
@@ -219,7 +219,7 @@
         754.35,
         766.81,
         733.0,
-        735.36
+        735.29
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
@@ -373,7 +373,7 @@
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-11-06T16:00:00-05:00",
+      "quote_time": "2026-11-06T16:00:01-05:00",
       "stale": false
     },
     {
@@ -885,9 +885,9 @@
     "handoff_dir": "research/",
     "latest": {
       "file": "research/daily_2026-11-06.md",
-      "title": "Paper research handoff, Fri 2026-11-06 (PRE-MARKET, as of ~07:55 ET)",
-      "t": "2026-11-06T07:56:17-05:00",
-      "summary": "FACT: US cash equities open for regular session today (Friday; not a holiday). Pre-market session active. Veterans Day Wed Nov 11 — US markets closed (BLS calendar notes holiday). · FACT: Thu Nov 5 regular close (Yahoo Finance v8 daily chart, as-of ~16:00 ET): SPY 733.00 (−4.41% vs Wed 766.81, vol 125.3M); QQQ 647.05 (…",
+      "title": "Paper research handoff, Fri 2026-11-06 (CLOSE, as of ~16:22 ET)",
+      "t": "2026-11-06T16:23:10-05:00",
+      "summary": "FACT: US cash equities regular session closed Fri Nov 6 16:00 ET (not a holiday). After-hours: Yahoo `postMarketPrice` null on chart meta; 1m includePrePost last prints ~16:14–16:22 ET used as AH color below. · FACT: Index closes (Fox Business wrap updated ~16:10 ET / Yahoo Finance live updated 16:04 ET): Dow 51,285.73…",
       "symbols": [
         "AAPL",
         "AMZN",
@@ -1119,7 +1119,7 @@
       {
         "id": "SPY",
         "type": "etf",
-        "change_pct": 0.32,
+        "change_pct": 0.31,
         "sector": "index"
       },
       {
@@ -1468,9 +1468,14 @@
   },
   "activity": [
     {
-      "t": "2026-11-06T16:03:18-05:00",
+      "t": "2026-11-06T17:01:16-05:00",
       "kind": "quotes",
       "text": "Quotes refreshed 9/9 ok · Yahoo public chart · display only"
+    },
+    {
+      "t": "2026-11-06T16:23:10-05:00",
+      "kind": "research",
+      "text": "Paper research handoff, Fri 2026-11-06 (CLOSE, as of ~16:22 ET) · research/daily_2026-11-06.md"
     },
     {
       "t": "2026-11-06T10:42:02-05:00",
@@ -1510,11 +1515,6 @@
       "t": "2026-11-06T09:13:05-05:00",
       "kind": "brief",
       "text": "Morning brief — Fri 2026-11-06 (PAPER ONLY · rules v3.0-CHAOS) · briefs/2026-11-06_morning.md"
-    },
-    {
-      "t": "2026-11-06T07:56:17-05:00",
-      "kind": "research",
-      "text": "Paper research handoff, Fri 2026-11-06 (PRE-MARKET, as of ~07:55 ET) · research/daily_2026-11-06.md"
     },
     {
       "t": "2026-11-05T17:07:50-05:00",

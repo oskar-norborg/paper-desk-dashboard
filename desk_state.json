@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-06T17:01:16-05:00",
+  "updated_at": "2026-11-06T17:02:11-05:00",
   "timezone_note": "Times shown America/New_York; routines run on America/New_York",
   "paper_only": true,
   "quotes": {
@@ -176,7 +176,7 @@
       "kind": "open"
     },
     {
-      "t": "2026-11-06T17:01:16-05:00",
+      "t": "2026-11-06T17:02:11-05:00",
       "equity": 56508.67,
       "kind": "mark"
     }
@@ -1468,9 +1468,19 @@
   },
   "activity": [
     {
-      "t": "2026-11-06T17:01:16-05:00",
+      "t": "2026-11-06T17:02:11-05:00",
       "kind": "quotes",
       "text": "Quotes refreshed 9/9 ok · Yahoo public chart · display only"
+    },
+    {
+      "t": "2026-11-06T17:02:06-05:00",
+      "kind": "journal",
+      "text": "Session journal — 2026-11-06 (Fri) · race-end day · journal/2026-11-06.md"
+    },
+    {
+      "t": "2026-11-06T17:02:06-05:00",
+      "kind": "review",
+      "text": "Daily review pointer — 2026-11-06 (race-end) · reviews/2026-11-06.md"
     },
     {
       "t": "2026-11-06T16:23:10-05:00",
@@ -1787,18 +1797,6 @@
       "t": "2026-11-02T09:33:35-05:00",
       "kind": "human",
       "text": "CLOSE 2026-10-29_SPY_02 by human (Oskar) @ 759.59",
-      "symbol": "SPY"
-    },
-    {
-      "t": "2026-11-02T09:33:35-05:00",
-      "kind": "journal",
-      "text": "Trade closed · win $+149.93 (0.23R) · journal/2026-11-02_SPY.md",
-      "symbol": "SPY"
-    },
-    {
-      "t": "2026-11-02T09:33:35-05:00",
-      "kind": "lesson",
-      "text": "2026-10-29_SPY_02: v1.3 Mon open de-risk — Oskar path",
       "symbol": "SPY"
     }
   ]

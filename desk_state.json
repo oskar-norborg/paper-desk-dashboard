@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-09T12:05:26-05:00",
+  "updated_at": "2026-11-09T17:05:24-05:00",
   "timezone_note": "Times shown America/New_York; routines run on America/New_York",
   "paper_only": true,
   "quotes": {
@@ -180,7 +180,7 @@
       "kind": "mark"
     },
     {
-      "t": "2026-11-09T12:05:26-05:00",
+      "t": "2026-11-09T17:05:24-05:00",
       "equity": 122613.93,
       "kind": "mark"
     }
@@ -191,8 +191,8 @@
       "symbol": "SPY",
       "name": "SPDR S&P 500 ETF",
       "sector": "index",
-      "last": 751.45,
-      "change_pct": 2.2,
+      "last": 752.69,
+      "change_pct": 2.37,
       "spark": [
         759.97,
         765.37,
@@ -205,19 +205,19 @@
         766.81,
         733.0,
         735.29,
-        751.45
+        752.69
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-11-09T12:05:22-05:00",
+      "quote_time": "2026-11-09T16:00:00-05:00",
       "stale": false
     },
     {
       "symbol": "QQQ",
       "name": "Invesco QQQ Trust",
       "sector": "index",
-      "last": 676.95,
-      "change_pct": 3.18,
+      "last": 679.35,
+      "change_pct": 3.54,
       "spark": [
         704.4,
         712.2,
@@ -230,19 +230,19 @@
         691.95,
         647.05,
         656.1,
-        676.95
+        679.35
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-11-09T12:05:23-05:00",
+      "quote_time": "2026-11-09T16:00:00-05:00",
       "stale": false
     },
     {
       "symbol": "AAPL",
       "name": "Apple",
       "sector": "tech",
-      "last": 349.91,
-      "change_pct": 2.2,
+      "last": 350.69,
+      "change_pct": 2.43,
       "spark": [
         347.73,
         343.91,
@@ -255,19 +255,19 @@
         349.51,
         344.17,
         342.37,
-        349.91
+        350.69
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-11-09T12:05:23-05:00",
+      "quote_time": "2026-11-09T16:00:01-05:00",
       "stale": false
     },
     {
       "symbol": "MSFT",
       "name": "Microsoft",
       "sector": "tech",
-      "last": 542.18,
-      "change_pct": 2.18,
+      "last": 545.18,
+      "change_pct": 2.75,
       "spark": [
         524.51,
         532.6,
@@ -280,19 +280,19 @@
         555.8,
         535.93,
         530.61,
-        542.18
+        545.18
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-11-09T12:05:23-05:00",
+      "quote_time": "2026-11-09T16:00:01-05:00",
       "stale": false
     },
     {
       "symbol": "NVDA",
       "name": "NVIDIA",
       "sector": "semis",
-      "last": 177.34,
-      "change_pct": -4.98,
+      "last": 178.67,
+      "change_pct": -4.27,
       "spark": [
         210.96,
         216.0,
@@ -305,19 +305,19 @@
         200.13,
         181.6,
         186.64,
-        177.34
+        178.67
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-11-09T12:05:25-05:00",
+      "quote_time": "2026-11-09T16:00:00-05:00",
       "stale": false
     },
     {
       "symbol": "AMZN",
       "name": "Amazon",
       "sector": "consumer/cloud",
-      "last": 268.25,
-      "change_pct": 3.45,
+      "last": 266.93,
+      "change_pct": 2.94,
       "spark": [
         248.0,
         249.09,
@@ -330,19 +330,19 @@
         266.03,
         260.21,
         259.3,
-        268.26
+        266.93
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-11-09T12:05:25-05:00",
+      "quote_time": "2026-11-09T16:00:01-05:00",
       "stale": false
     },
     {
       "symbol": "GOOGL",
       "name": "Alphabet Class A",
       "sector": "comm/ads",
-      "last": 290.95,
-      "change_pct": 2.17,
+      "last": 288.15,
+      "change_pct": 1.18,
       "spark": [
         320.21,
         316.8,
@@ -355,19 +355,19 @@
         288.93,
         282.57,
         284.78,
-        290.95
+        288.15
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-11-09T12:05:24-05:00",
+      "quote_time": "2026-11-09T16:00:01-05:00",
       "stale": false
     },
     {
       "symbol": "META",
       "name": "Meta Platforms",
       "sector": "comm/ads",
-      "last": 641.71,
-      "change_pct": 5.17,
+      "last": 641.37,
+      "change_pct": 5.12,
       "spark": [
         642.62,
         630.56,
@@ -380,19 +380,19 @@
         630.0,
         605.08,
         610.15,
-        641.71
+        641.37
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-11-09T12:05:17-05:00",
+      "quote_time": "2026-11-09T16:00:01-05:00",
       "stale": false
     },
     {
       "symbol": "TSLA",
       "name": "Tesla",
       "sector": "auto/EV",
-      "last": 377.69,
-      "change_pct": 5.44,
+      "last": 378.05,
+      "change_pct": 5.54,
       "spark": [
         372.22,
         391.62,
@@ -405,11 +405,11 @@
         385.19,
         343.69,
         358.22,
-        377.7
+        378.05
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-11-09T12:05:23-05:00",
+      "quote_time": "2026-11-09T16:00:00-05:00",
       "stale": false
     }
   ],
@@ -871,9 +871,9 @@
     "handoff_dir": "research/",
     "latest": {
       "file": "research/daily_2026-11-09.md",
-      "title": "Daily paper-research handoff, 2026-11-09 (pre-market)",
-      "t": "2026-11-09T07:51:06-05:00",
-      "summary": "FACT: Fri 11/6 close (4:00 PM ET): SPY 735.29 (+0.3%), QQQ 656.10 (+1.4%). Prior week: S&P 500 -2.68%, Nasdaq Comp -3.37% (FXStreet). · FACT: Pre-market ~7:50 AM ET (Yahoo): SPY 742.53 (+1.0%), QQQ 662.71 (+1.0%); ES 7454.25 (+0.7%), NQ 27262.75 (+0.7%) at 7:40 AM ET. · FACT: CPI (Oct) Tue 11/10, PPI Fri 11/13. CME Fed…",
+      "title": "Daily research handoff — 2026-11-09 (CLOSE version, overwrites pre-market)",
+      "t": "2026-11-09T16:29:54-05:00",
+      "summary": "FACT: Broad rebound day. S&P 500 +2.3%, Nasdaq Composite ~+2.7%, Dow +2.2% (Yahoo Finance/AP). SPY 752.69 (+2.37%), QQQ 679.35 (+3.54%). AP: best S&P day since April; index ~3.4% below its October record. · FACT: Brent ~$91 (Yahoo Finance), extending last week's slide. · FACT: NVDA fell against the tape on reports its …",
       "symbols": [
         "AAPL",
         "AMZN",
@@ -1105,55 +1105,55 @@
       {
         "id": "SPY",
         "type": "etf",
-        "change_pct": 2.2,
+        "change_pct": 2.37,
         "sector": "index"
       },
       {
         "id": "QQQ",
         "type": "etf",
-        "change_pct": 3.18,
+        "change_pct": 3.54,
         "sector": "index"
       },
       {
         "id": "AAPL",
         "type": "stock",
-        "change_pct": 2.2,
+        "change_pct": 2.43,
         "sector": "tech"
       },
       {
         "id": "MSFT",
         "type": "stock",
-        "change_pct": 2.18,
+        "change_pct": 2.75,
         "sector": "tech"
       },
       {
         "id": "NVDA",
         "type": "stock",
-        "change_pct": -4.98,
+        "change_pct": -4.27,
         "sector": "semis"
       },
       {
         "id": "AMZN",
         "type": "stock",
-        "change_pct": 3.45,
+        "change_pct": 2.94,
         "sector": "consumer/cloud"
       },
       {
         "id": "GOOGL",
         "type": "stock",
-        "change_pct": 2.17,
+        "change_pct": 1.18,
         "sector": "comm/ads"
       },
       {
         "id": "META",
         "type": "stock",
-        "change_pct": 5.17,
+        "change_pct": 5.12,
         "sector": "comm/ads"
       },
       {
         "id": "TSLA",
         "type": "stock",
-        "change_pct": 5.44,
+        "change_pct": 5.54,
         "sector": "auto/EV"
       },
       {
@@ -1454,9 +1454,14 @@
   },
   "activity": [
     {
-      "t": "2026-11-09T12:05:26-05:00",
+      "t": "2026-11-09T17:05:24-05:00",
       "kind": "quotes",
       "text": "Quotes refreshed 9/9 ok · Yahoo public chart · display only"
+    },
+    {
+      "t": "2026-11-09T16:29:54-05:00",
+      "kind": "research",
+      "text": "Daily research handoff — 2026-11-09 (CLOSE version, overwrites pre-market) · research/daily_2026-11-09.md"
     },
     {
       "t": "2026-11-09T12:04:53-05:00",
@@ -1509,11 +1514,6 @@
       "t": "2026-11-09T09:05:55-05:00",
       "kind": "brief",
       "text": "Morning brief 2026-11-09 (paper only) · briefs/2026-11-09_morning.md"
-    },
-    {
-      "t": "2026-11-09T07:51:06-05:00",
-      "kind": "research",
-      "text": "Daily paper-research handoff, 2026-11-09 (pre-market) · research/daily_2026-11-09.md"
     },
     {
       "t": "2026-11-06T17:02:06-05:00",

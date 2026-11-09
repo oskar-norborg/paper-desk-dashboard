@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-06T17:02:11-05:00",
+  "updated_at": "2026-11-09T09:05:56-05:00",
   "timezone_note": "Times shown America/New_York; routines run on America/New_York",
   "paper_only": true,
   "quotes": {
@@ -19,9 +19,9 @@
     "cash": 1393224.35,
     "realized_pnl": -7672.09,
     "unrealized_pnl": 14180.76,
-    "day_pnl": 14180.76,
-    "day_pnl_pct": 33.502,
-    "day_baseline": 42327.91,
+    "day_pnl": 0.0,
+    "day_pnl_pct": 0.0,
+    "day_baseline": 56508.67,
     "open_positions": 1,
     "max_open": 99,
     "max_risk_per_trade": 56508.67,
@@ -177,6 +177,11 @@
     },
     {
       "t": "2026-11-06T17:02:11-05:00",
+      "equity": 56508.67,
+      "kind": "mark"
+    },
+    {
+      "t": "2026-11-09T09:05:56-05:00",
       "equity": 56508.67,
       "kind": "mark"
     }
@@ -881,13 +886,13 @@
   ],
   "research": {
     "available": true,
-    "files": 9,
+    "files": 10,
     "handoff_dir": "research/",
     "latest": {
-      "file": "research/daily_2026-11-06.md",
-      "title": "Paper research handoff, Fri 2026-11-06 (CLOSE, as of ~16:22 ET)",
-      "t": "2026-11-06T16:23:10-05:00",
-      "summary": "FACT: US cash equities regular session closed Fri Nov 6 16:00 ET (not a holiday). After-hours: Yahoo `postMarketPrice` null on chart meta; 1m includePrePost last prints ~16:14–16:22 ET used as AH color below. · FACT: Index closes (Fox Business wrap updated ~16:10 ET / Yahoo Finance live updated 16:04 ET): Dow 51,285.73…",
+      "file": "research/daily_2026-11-09.md",
+      "title": "Daily paper-research handoff, 2026-11-09 (pre-market)",
+      "t": "2026-11-09T07:51:06-05:00",
+      "summary": "FACT: Fri 11/6 close (4:00 PM ET): SPY 735.29 (+0.3%), QQQ 656.10 (+1.4%). Prior week: S&P 500 -2.68%, Nasdaq Comp -3.37% (FXStreet). · FACT: Pre-market ~7:50 AM ET (Yahoo): SPY 742.53 (+1.0%), QQQ 662.71 (+1.0%); ES 7454.25 (+0.7%), NQ 27262.75 (+0.7%) at 7:40 AM ET. · FACT: CPI (Oct) Tue 11/10, PPI Fri 11/13. CME Fed…",
       "symbols": [
         "AAPL",
         "AMZN",
@@ -1468,9 +1473,19 @@
   },
   "activity": [
     {
-      "t": "2026-11-06T17:02:11-05:00",
+      "t": "2026-11-09T09:05:56-05:00",
       "kind": "quotes",
       "text": "Quotes refreshed 9/9 ok · Yahoo public chart · display only"
+    },
+    {
+      "t": "2026-11-09T09:05:55-05:00",
+      "kind": "brief",
+      "text": "Morning brief 2026-11-09 (paper only) · briefs/2026-11-09_morning.md"
+    },
+    {
+      "t": "2026-11-09T07:51:06-05:00",
+      "kind": "research",
+      "text": "Daily paper-research handoff, 2026-11-09 (pre-market) · research/daily_2026-11-09.md"
     },
     {
       "t": "2026-11-06T17:02:06-05:00",
@@ -1786,18 +1801,6 @@
       "kind": "journal",
       "text": "Trade closed · win $+1707.10 (0.93R) · journal/2026-11-02_QQQ.md",
       "symbol": "QQQ"
-    },
-    {
-      "t": "2026-11-02T09:33:35-05:00",
-      "kind": "lesson",
-      "text": "2026-10-29_QQQ_02: v1.3 Mon open de-risk — Oskar path",
-      "symbol": "QQQ"
-    },
-    {
-      "t": "2026-11-02T09:33:35-05:00",
-      "kind": "human",
-      "text": "CLOSE 2026-10-29_SPY_02 by human (Oskar) @ 759.59",
-      "symbol": "SPY"
     }
   ]
 }

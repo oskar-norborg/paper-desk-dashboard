@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-09T17:05:24-05:00",
+  "updated_at": "2026-11-09T17:05:32-05:00",
   "timezone_note": "Times shown America/New_York; routines run on America/New_York",
   "paper_only": true,
   "quotes": {
@@ -180,7 +180,7 @@
       "kind": "mark"
     },
     {
-      "t": "2026-11-09T17:05:24-05:00",
+      "t": "2026-11-09T17:05:32-05:00",
       "equity": 122613.93,
       "kind": "mark"
     }
@@ -1454,9 +1454,14 @@
   },
   "activity": [
     {
-      "t": "2026-11-09T17:05:24-05:00",
+      "t": "2026-11-09T17:05:32-05:00",
       "kind": "quotes",
       "text": "Quotes refreshed 9/9 ok · Yahoo public chart · display only"
+    },
+    {
+      "t": "2026-11-09T17:05:31-05:00",
+      "kind": "journal",
+      "text": "Session journal — 2026-11-09 (paper only) · journal/2026-11-09.md"
     },
     {
       "t": "2026-11-09T16:29:54-05:00",
@@ -1775,12 +1780,6 @@
       "kind": "lesson",
       "text": "2026-10-29_GOOGL_02: v1.3 Mon open de-risk — Oskar path",
       "symbol": "GOOGL"
-    },
-    {
-      "t": "2026-11-02T09:33:35-05:00",
-      "kind": "human",
-      "text": "CLOSE 2026-10-29_MSFT_02 by human (Oskar) @ 522.28",
-      "symbol": "MSFT"
     }
   ]
 }

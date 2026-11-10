@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-10T16:57:54-05:00",
+  "updated_at": "2026-11-10T16:58:01-05:00",
   "timezone_note": "Times shown America/New_York; routines run on America/New_York",
   "paper_only": true,
   "quotes": {
@@ -185,7 +185,7 @@
       "kind": "mark"
     },
     {
-      "t": "2026-11-10T16:57:54-05:00",
+      "t": "2026-11-10T16:58:01-05:00",
       "equity": 122613.93,
       "kind": "mark"
     }
@@ -1459,9 +1459,14 @@
   },
   "activity": [
     {
-      "t": "2026-11-10T16:57:54-05:00",
+      "t": "2026-11-10T16:58:01-05:00",
       "kind": "quotes",
       "text": "Quotes refreshed 9/9 ok · Yahoo public chart · display only"
+    },
+    {
+      "t": "2026-11-10T16:58:00-05:00",
+      "kind": "journal",
+      "text": "Journal 2026-11-10 (paper only) · journal/2026-11-10.md"
     },
     {
       "t": "2026-11-10T16:30:38-05:00",
@@ -1764,11 +1769,6 @@
       "t": "2026-11-10T09:04:45-05:00",
       "kind": "review",
       "text": "Daily review pointer — 2026-10-30 · reviews/2026-10-30.md"
-    },
-    {
-      "t": "2026-11-10T09:04:45-05:00",
-      "kind": "research",
-      "text": "Daily research — 2026-10-30 (CLOSE version; overwrites pre-market) · research/daily_2026-10-30.md"
     }
   ]
 }

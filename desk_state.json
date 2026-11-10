@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-09T17:05:32-05:00",
+  "updated_at": "2026-11-10T09:09:05-05:00",
   "timezone_note": "Times shown America/New_York; routines run on America/New_York",
   "paper_only": true,
   "quotes": {
@@ -19,9 +19,9 @@
     "cash": 122613.93,
     "realized_pnl": 72613.93,
     "unrealized_pnl": 0,
-    "day_pnl": 66105.26,
-    "day_pnl_pct": 116.983,
-    "day_baseline": 56508.67,
+    "day_pnl": 0.0,
+    "day_pnl_pct": 0.0,
+    "day_baseline": 122613.93,
     "open_positions": 0,
     "max_open": 99,
     "max_risk_per_trade": 122613.93,
@@ -181,6 +181,11 @@
     },
     {
       "t": "2026-11-09T17:05:32-05:00",
+      "equity": 122613.93,
+      "kind": "mark"
+    },
+    {
+      "t": "2026-11-10T09:09:05-05:00",
       "equity": 122613.93,
       "kind": "mark"
     }
@@ -867,13 +872,13 @@
   ],
   "research": {
     "available": true,
-    "files": 10,
+    "files": 11,
     "handoff_dir": "research/",
     "latest": {
-      "file": "research/daily_2026-11-09.md",
-      "title": "Daily research handoff — 2026-11-09 (CLOSE version, overwrites pre-market)",
-      "t": "2026-11-09T16:29:54-05:00",
-      "summary": "FACT: Broad rebound day. S&P 500 +2.3%, Nasdaq Composite ~+2.7%, Dow +2.2% (Yahoo Finance/AP). SPY 752.69 (+2.37%), QQQ 679.35 (+3.54%). AP: best S&P day since April; index ~3.4% below its October record. · FACT: Brent ~$91 (Yahoo Finance), extending last week's slide. · FACT: NVDA fell against the tape on reports its …",
+      "file": "research/daily_2026-11-10.md",
+      "title": "Daily paper-research handoff, 2026-11-10 (pre-market)",
+      "t": "2026-11-10T09:05:02-05:00",
+      "summary": "FACT: Mon Nov 9 S&P 500 +2.35% to 7,549.94 (best day since April), Nasdaq Comp +2.74%, Dow +1,104 pts (CNBC/TipRanks), rebound after last week's post-midterm AI/data-center selloff. · FACT: ES=F 7,577.50 (+0.04% vs 7,574.25) and NQ=F 27,921.50 (-0.33% vs 28,014.50) as of 7:41 AM ET. VIX 20.14 (7:36 AM ET). 10y yield 4.…",
       "symbols": [
         "AAPL",
         "AMZN",
@@ -1024,40 +1029,22 @@
     },
     "recent": [
       {
-        "id": "2026-10-27_TSLA_212317",
-        "symbol": "TSLA",
-        "direction": "long",
-        "outcome": "PASS",
-        "risk_score": 4,
-        "t": "2026-10-27T21:23:18-03:00",
-        "file": "reviews/ticker/2026-10-27_TSLA_212317.md"
-      },
-      {
-        "id": "2026-10-27_META_212317",
-        "symbol": "META",
+        "id": "2026-10-27_SPY_212316",
+        "symbol": "SPY",
         "direction": "long",
         "outcome": "PASS",
         "risk_score": 3,
-        "t": "2026-10-27T21:23:17-03:00",
-        "file": "reviews/ticker/2026-10-27_META_212317.md"
+        "t": "2026-10-27T21:23:16-03:00",
+        "file": "reviews/ticker/2026-10-27_SPY_212316.md"
       },
       {
-        "id": "2026-10-27_GOOGL_212317",
-        "symbol": "GOOGL",
+        "id": "2026-10-27_QQQ_212316",
+        "symbol": "QQQ",
         "direction": "long",
         "outcome": "PASS",
         "risk_score": 3,
-        "t": "2026-10-27T21:23:17-03:00",
-        "file": "reviews/ticker/2026-10-27_GOOGL_212317.md"
-      },
-      {
-        "id": "2026-10-27_AMZN_212317",
-        "symbol": "AMZN",
-        "direction": "long",
-        "outcome": "PASS",
-        "risk_score": 3,
-        "t": "2026-10-27T21:23:17-03:00",
-        "file": "reviews/ticker/2026-10-27_AMZN_212317.md"
+        "t": "2026-10-27T21:23:16-03:00",
+        "file": "reviews/ticker/2026-10-27_QQQ_212316.md"
       },
       {
         "id": "2026-10-27_NVDA_212317",
@@ -1069,13 +1056,22 @@
         "file": "reviews/ticker/2026-10-27_NVDA_212317.md"
       },
       {
-        "id": "2026-10-27_MSFT_212317",
+        "id": "2026-10-27_TSLA_212317",
+        "symbol": "TSLA",
+        "direction": "long",
+        "outcome": "PASS",
+        "risk_score": 4,
+        "t": "2026-10-27T21:23:18-03:00",
+        "file": "reviews/ticker/2026-10-27_TSLA_212317.md"
+      },
+      {
+        "id": "2026-10-27_MSFT_212006",
         "symbol": "MSFT",
         "direction": "long",
         "outcome": "PASS",
         "risk_score": 3,
-        "t": "2026-10-27T21:23:17-03:00",
-        "file": "reviews/ticker/2026-10-27_MSFT_212317.md"
+        "t": "2026-10-27T21:20:06-03:00",
+        "file": "reviews/ticker/2026-10-27_MSFT_212006.md"
       },
       {
         "id": "2026-10-27_AAPL_212317",
@@ -1087,13 +1083,22 @@
         "file": "reviews/ticker/2026-10-27_AAPL_212317.md"
       },
       {
-        "id": "2026-10-27_QQQ_212316",
-        "symbol": "QQQ",
+        "id": "2026-10-27_MSFT_211534",
+        "symbol": "MSFT",
         "direction": "long",
         "outcome": "PASS",
         "risk_score": 3,
-        "t": "2026-10-27T21:23:16-03:00",
-        "file": "reviews/ticker/2026-10-27_QQQ_212316.md"
+        "t": "2026-10-27T21:15:34-03:00",
+        "file": "reviews/ticker/2026-10-27_MSFT_211534.md"
+      },
+      {
+        "id": "2026-10-27_NVDA_211535",
+        "symbol": "NVDA",
+        "direction": "long",
+        "outcome": "PASS",
+        "risk_score": 3,
+        "t": "2026-10-27T21:15:35-03:00",
+        "file": "reviews/ticker/2026-10-27_NVDA_211535.md"
       }
     ],
     "count": 17,
@@ -1454,332 +1459,316 @@
   },
   "activity": [
     {
-      "t": "2026-11-09T17:05:32-05:00",
+      "t": "2026-11-10T09:09:05-05:00",
       "kind": "quotes",
       "text": "Quotes refreshed 9/9 ok · Yahoo public chart · display only"
     },
     {
-      "t": "2026-11-09T17:05:31-05:00",
+      "t": "2026-11-10T09:09:03-05:00",
+      "kind": "brief",
+      "text": "Morning brief 2026-11-10 (paper only) · briefs/2026-11-10_morning.md"
+    },
+    {
+      "t": "2026-11-10T09:05:02-05:00",
       "kind": "journal",
       "text": "Session journal — 2026-11-09 (paper only) · journal/2026-11-09.md"
     },
     {
-      "t": "2026-11-09T16:29:54-05:00",
+      "t": "2026-11-10T09:05:02-05:00",
+      "kind": "journal",
+      "text": "Trade journal — NVDA — 2026-11-06_NVDA_01 · journal/2026-11-09_NVDA.md"
+    },
+    {
+      "t": "2026-11-10T09:05:02-05:00",
+      "kind": "research",
+      "text": "Daily paper-research handoff, 2026-11-10 (pre-market) · research/daily_2026-11-10.md"
+    },
+    {
+      "t": "2026-11-10T09:05:01-05:00",
+      "kind": "brief",
+      "text": "Morning brief 2026-11-09 (paper only) · briefs/2026-11-09_morning.md"
+    },
+    {
+      "t": "2026-11-10T09:05:01-05:00",
       "kind": "research",
       "text": "Daily research handoff — 2026-11-09 (CLOSE version, overwrites pre-market) · research/daily_2026-11-09.md"
     },
     {
-      "t": "2026-11-09T12:04:53-05:00",
+      "t": "2026-11-10T09:04:56-05:00",
+      "kind": "journal",
+      "text": "Session journal — 2026-11-06 (Fri) · race-end day · journal/2026-11-06.md"
+    },
+    {
+      "t": "2026-11-10T09:04:56-05:00",
+      "kind": "review",
+      "text": "Daily review pointer — 2026-11-06 (race-end) · reviews/2026-11-06.md"
+    },
+    {
+      "t": "2026-11-10T09:04:55-05:00",
       "kind": "card",
       "symbol": "NVDA",
       "text": "2026-11-06_NVDA_01 NVDA short · CLOSED · rec take · risk score 5/5"
     },
     {
-      "t": "2026-11-09T12:04:53-05:00",
+      "t": "2026-11-10T09:04:55-05:00",
       "kind": "lesson",
       "symbol": "NVDA",
       "text": "2026-11-06_NVDA_01: Auto-exit: NVDA target hit near 177.41 (plan target 179.76). Bank the R; next trade needs a fresh setup."
     },
     {
-      "t": "2026-11-09T12:04:53-05:00",
-      "kind": "journal",
-      "text": "Trade journal — NVDA — 2026-11-06_NVDA_01 · journal/2026-11-09_NVDA.md"
-    },
-    {
-      "t": "2026-11-09T12:04:53-05:00",
-      "kind": "human",
-      "text": "CLOSE 2026-11-06_NVDA_01 by desk-auto @ 177.41",
-      "symbol": "NVDA"
-    },
-    {
-      "t": "2026-11-09T12:04:53-05:00",
-      "kind": "journal",
-      "text": "Trade closed · win $+80286.02 (1.9R) · journal/2026-11-09_NVDA.md",
-      "symbol": "NVDA"
-    },
-    {
-      "t": "2026-11-09T12:04:53-05:00",
-      "kind": "lesson",
-      "text": "2026-11-06_NVDA_01: Auto-exit: NVDA target hit near 177.41 (plan target 179.76). Bank the R; next trade needs a fresh setup.",
-      "symbol": "NVDA"
-    },
-    {
-      "t": "2026-11-09T12:04:53-05:00",
-      "kind": "auto",
-      "text": "AUTO-EXIT 2026-11-06_NVDA_01 · NVDA short @ 177.41 · target · target hit/near (mark 177.41 ≤ target 179.76 + tol)",
-      "symbol": "NVDA"
-    },
-    {
-      "t": "2026-11-09T12:04:53-05:00",
-      "kind": "lesson",
-      "text": "2026-11-06_NVDA_01: Auto-exit: NVDA target hit near 177.41 (plan target 179.76). Bank the R; next trade needs a fresh setup.",
-      "symbol": "NVDA"
-    },
-    {
-      "t": "2026-11-09T09:05:55-05:00",
-      "kind": "brief",
-      "text": "Morning brief 2026-11-09 (paper only) · briefs/2026-11-09_morning.md"
-    },
-    {
-      "t": "2026-11-06T17:02:06-05:00",
-      "kind": "journal",
-      "text": "Session journal — 2026-11-06 (Fri) · race-end day · journal/2026-11-06.md"
-    },
-    {
-      "t": "2026-11-06T17:02:06-05:00",
-      "kind": "review",
-      "text": "Daily review pointer — 2026-11-06 (race-end) · reviews/2026-11-06.md"
-    },
-    {
-      "t": "2026-11-06T16:23:10-05:00",
-      "kind": "research",
-      "text": "Paper research handoff, Fri 2026-11-06 (CLOSE, as of ~16:22 ET) · research/daily_2026-11-06.md"
-    },
-    {
-      "t": "2026-11-06T10:42:02-05:00",
+      "t": "2026-11-10T09:04:55-05:00",
       "kind": "journal",
       "text": "Trade journal — NVDA — 2026-11-06_NVDA_01 · journal/2026-11-06_NVDA.md"
     },
     {
-      "t": "2026-11-06T10:42:02-05:00",
-      "kind": "auto",
-      "text": "AUTO-FILL 2026-11-06_NVDA_01 · short 7162 NVDA @ 188.62 · risk $42327.42 · PASS: risk-check outcome PASS; exit plan complete (stop + target + invalidation); risk $42,327.42 ≤ $42,328 [3.0-CHAOS] (rule 1); open 0/99 (rule 2); daily loss pause OFF (YOLO) (rule 3); notional new $1,350,896.44 / total $1,350,896.44 ≤ $4,232,791.00 (100× equity); cash after $1,393,224.35 (paper margin allowed, YOLO) (rule 9); event notional cap OFF (3.0-CHAOS) (rule 10)",
-      "symbol": "NVDA"
-    },
-    {
-      "t": "2026-11-06T10:42:02-05:00",
-      "kind": "equity",
-      "text": "OPEN NVDA short 7162 @ 188.62 · risk $42327.42 · equity flat at fill",
-      "symbol": "NVDA"
-    },
-    {
-      "t": "2026-11-06T10:42:02-05:00",
-      "kind": "journal",
-      "text": "Trade note opened · journal/2026-11-06_NVDA.md",
-      "symbol": "NVDA"
-    },
-    {
-      "t": "2026-11-06T12:41:48-03:00",
-      "kind": "risk",
-      "text": "2026-11-06_NVDA_01 → PASS · risk $42327.42 · opens 0 · v3.0-CHAOS OR breakdown short; risk 100% equity; notional ~1.35M; event cap OFF; R:R 1.5"
-    },
-    {
-      "t": "2026-11-06T09:13:05-05:00",
+      "t": "2026-11-10T09:04:55-05:00",
       "kind": "brief",
       "text": "Morning brief — Fri 2026-11-06 (PAPER ONLY · rules v3.0-CHAOS) · briefs/2026-11-06_morning.md"
     },
     {
-      "t": "2026-11-05T17:07:50-05:00",
+      "t": "2026-11-10T09:04:55-05:00",
+      "kind": "research",
+      "text": "Paper research handoff, Fri 2026-11-06 (CLOSE, as of ~16:22 ET) · research/daily_2026-11-06.md"
+    },
+    {
+      "t": "2026-11-10T09:04:53-05:00",
       "kind": "journal",
       "text": "Session journal — 2026-11-05 (Thu) · journal/2026-11-05.md"
     },
     {
-      "t": "2026-11-05T17:07:50-05:00",
+      "t": "2026-11-10T09:04:53-05:00",
       "kind": "review",
       "text": "Daily review pointer — 2026-11-05 · reviews/2026-11-05.md"
     },
     {
-      "t": "2026-11-05T16:23:28-05:00",
-      "kind": "research",
-      "text": "Paper research handoff, Thu 2026-11-05 (CLOSE, as of ~16:25 ET) · research/daily_2026-11-05.md"
-    },
-    {
-      "t": "2026-11-05T09:05:30-05:00",
+      "t": "2026-11-10T09:04:52-05:00",
       "kind": "brief",
       "text": "Morning brief — Thu 2026-11-05 (PAPER ONLY · rules v3.0-CHAOS) · briefs/2026-11-05_morning.md"
     },
     {
-      "t": "2026-11-04T17:05:40-05:00",
+      "t": "2026-11-10T09:04:52-05:00",
+      "kind": "research",
+      "text": "Paper research handoff, Thu 2026-11-05 (CLOSE, as of ~16:25 ET) · research/daily_2026-11-05.md"
+    },
+    {
+      "t": "2026-11-10T09:04:51-05:00",
       "kind": "journal",
       "text": "Session journal — 2026-11-04 (Wed, post-midterm) · journal/2026-11-04.md"
     },
     {
-      "t": "2026-11-04T16:25:12-05:00",
-      "kind": "research",
-      "text": "Paper research handoff, Wed 2026-11-04 (CLOSE, as of ~16:24 ET) · research/daily_2026-11-04.md"
-    },
-    {
-      "t": "2026-11-04T09:08:03-05:00",
-      "kind": "brief",
-      "text": "Morning brief — Wed 2026-11-04 (PAPER ONLY) · briefs/2026-11-04_morning.md"
-    },
-    {
-      "t": "2026-11-03T17:07:27-05:00",
-      "kind": "journal",
-      "text": "Session journal — 2026-11-03 (Tue, Election Day) · journal/2026-11-03.md"
-    },
-    {
-      "t": "2026-11-03T17:07:27-05:00",
+      "t": "2026-11-10T09:04:51-05:00",
       "kind": "review",
       "text": "daily_index.md · reviews/daily_index.md"
     },
     {
-      "t": "2026-11-03T16:26:21-05:00",
-      "kind": "research",
-      "text": "Daily paper-research handoff, 2026-11-03 (CLOSE; overwrites pre-market version) · research/daily_2026-11-03.md"
+      "t": "2026-11-10T09:04:50-05:00",
+      "kind": "journal",
+      "text": "Session journal — 2026-11-03 (Tue, Election Day) · journal/2026-11-03.md"
     },
     {
-      "t": "2026-11-03T09:10:30-05:00",
+      "t": "2026-11-10T09:04:50-05:00",
       "kind": "brief",
-      "text": "Morning brief — Tue 2026-11-03 (PAPER ONLY) · briefs/2026-11-03_morning.md"
+      "text": "Morning brief — Wed 2026-11-04 (PAPER ONLY) · briefs/2026-11-04_morning.md"
     },
     {
-      "t": "2026-11-02T17:06:03-05:00",
+      "t": "2026-11-10T09:04:50-05:00",
+      "kind": "research",
+      "text": "Paper research handoff, Wed 2026-11-04 (CLOSE, as of ~16:24 ET) · research/daily_2026-11-04.md"
+    },
+    {
+      "t": "2026-11-10T09:04:49-05:00",
+      "kind": "journal",
+      "text": "Trade journal — MSFT — 2026-10-30_MSFT_03 · journal/2026-11-02_MSFT.md"
+    },
+    {
+      "t": "2026-11-10T09:04:49-05:00",
       "kind": "journal",
       "text": "Session journal — 2026-11-02 (Mon) · journal/2026-11-02.md"
     },
     {
-      "t": "2026-11-02T16:29:23-05:00",
+      "t": "2026-11-10T09:04:49-05:00",
+      "kind": "journal",
+      "text": "Trade journal — AMZN — 2026-10-30_AMZN_03 · journal/2026-11-02_AMZN.md"
+    },
+    {
+      "t": "2026-11-10T09:04:49-05:00",
+      "kind": "journal",
+      "text": "Trade journal — SPY — 2026-10-30_SPY_03 · journal/2026-11-02_SPY.md"
+    },
+    {
+      "t": "2026-11-10T09:04:49-05:00",
+      "kind": "journal",
+      "text": "Trade journal — GOOGL — 2026-10-30_GOOGL_03 · journal/2026-11-02_GOOGL.md"
+    },
+    {
+      "t": "2026-11-10T09:04:49-05:00",
+      "kind": "journal",
+      "text": "Trade journal — QQQ — 2026-10-30_QQQ_03 · journal/2026-11-02_QQQ.md"
+    },
+    {
+      "t": "2026-11-10T09:04:49-05:00",
+      "kind": "journal",
+      "text": "Trade journal — NVDA — 2026-10-30_NVDA_03 · journal/2026-11-02_NVDA.md"
+    },
+    {
+      "t": "2026-11-10T09:04:49-05:00",
+      "kind": "brief",
+      "text": "Morning brief — Tue 2026-11-03 (PAPER ONLY) · briefs/2026-11-03_morning.md"
+    },
+    {
+      "t": "2026-11-10T09:04:49-05:00",
+      "kind": "research",
+      "text": "Daily paper-research handoff, 2026-11-03 (CLOSE; overwrites pre-market version) · research/daily_2026-11-03.md"
+    },
+    {
+      "t": "2026-11-10T09:04:48-05:00",
+      "kind": "brief",
+      "text": "Morning brief — Mon 2026-11-02 (written 09:08 ET) · PAPER ONLY · briefs/2026-11-02_morning.md"
+    },
+    {
+      "t": "2026-11-10T09:04:48-05:00",
       "kind": "research",
       "text": "Daily paper-research handoff, 2026-11-02 (CLOSE, overwrites pre-market) · research/daily_2026-11-02.md"
     },
     {
-      "t": "2026-11-02T09:33:51-05:00",
-      "kind": "equity",
-      "text": "Mon open de-risk complete: 12/12 closed at live RTH marks 09:33 ET → equity $42327.91 (day -$13,302.34); rule 3 pause ON, QQQ/NVDA adds moved to Tue Nov 3"
+      "t": "2026-11-10T09:04:45-05:00",
+      "kind": "card",
+      "symbol": "SPY",
+      "text": "2026-10-30_SPY_03 SPY short · CLOSED · rec take · risk score 5/5"
     },
     {
-      "t": "2026-11-02T09:33:51-05:00",
-      "kind": "auto",
-      "text": "RULE 3 daily-loss pause ON (day -$13,302.34 ≤ -$1,000): no new cards/fills Mon Nov 2; QQQ_04/NVDA_04 deferred to Tue Nov 3 per Oskar path"
+      "t": "2026-11-10T09:04:45-05:00",
+      "kind": "lesson",
+      "symbol": "SPY",
+      "text": "2026-10-30_SPY_03: v1.3 Mon open de-risk — Oskar path"
     },
     {
-      "t": "2026-11-02T09:33:35-05:00",
+      "t": "2026-11-10T09:04:45-05:00",
+      "kind": "card",
+      "symbol": "QQQ",
+      "text": "2026-10-30_QQQ_03 QQQ short · CLOSED · rec take · risk score 5/5"
+    },
+    {
+      "t": "2026-11-10T09:04:45-05:00",
+      "kind": "lesson",
+      "symbol": "QQQ",
+      "text": "2026-10-30_QQQ_03: v1.3 Mon open de-risk — Oskar path"
+    },
+    {
+      "t": "2026-11-10T09:04:45-05:00",
+      "kind": "card",
+      "symbol": "MSFT",
+      "text": "2026-10-30_MSFT_03 MSFT short · CLOSED · rec take · risk score 5/5"
+    },
+    {
+      "t": "2026-11-10T09:04:45-05:00",
+      "kind": "lesson",
+      "symbol": "MSFT",
+      "text": "2026-10-30_MSFT_03: v1.3 Mon open de-risk — Oskar path"
+    },
+    {
+      "t": "2026-11-10T09:04:45-05:00",
+      "kind": "card",
+      "symbol": "GOOGL",
+      "text": "2026-10-30_GOOGL_03 GOOGL short · CLOSED · rec take · risk score 5/5"
+    },
+    {
+      "t": "2026-11-10T09:04:45-05:00",
+      "kind": "lesson",
+      "symbol": "GOOGL",
+      "text": "2026-10-30_GOOGL_03: v1.3 Mon open de-risk — Oskar path"
+    },
+    {
+      "t": "2026-11-10T09:04:45-05:00",
       "kind": "card",
       "symbol": "SPY",
       "text": "2026-10-29_SPY_02 SPY short · CLOSED · rec take · risk score 5/5"
     },
     {
-      "t": "2026-11-02T09:33:35-05:00",
+      "t": "2026-11-10T09:04:45-05:00",
       "kind": "lesson",
       "symbol": "SPY",
       "text": "2026-10-29_SPY_02: v1.3 Mon open de-risk — Oskar path"
     },
     {
-      "t": "2026-11-02T09:33:35-05:00",
-      "kind": "card",
-      "symbol": "QQQ",
-      "text": "2026-10-29_QQQ_02 QQQ short · CLOSED · rec take · risk score 5/5"
-    },
-    {
-      "t": "2026-11-02T09:33:35-05:00",
-      "kind": "lesson",
-      "symbol": "QQQ",
-      "text": "2026-10-29_QQQ_02: v1.3 Mon open de-risk — Oskar path"
-    },
-    {
-      "t": "2026-11-02T09:33:35-05:00",
-      "kind": "card",
-      "symbol": "NVDA",
-      "text": "2026-10-29_NVDA_02 NVDA short · CLOSED · rec take · risk score 5/5"
-    },
-    {
-      "t": "2026-11-02T09:33:35-05:00",
-      "kind": "lesson",
-      "symbol": "NVDA",
-      "text": "2026-10-29_NVDA_02: v1.3 Mon open de-risk — Oskar path"
-    },
-    {
-      "t": "2026-11-02T09:33:35-05:00",
-      "kind": "card",
-      "symbol": "MSFT",
-      "text": "2026-10-29_MSFT_02 MSFT short · CLOSED · rec take · risk score 5/5"
-    },
-    {
-      "t": "2026-11-02T09:33:35-05:00",
-      "kind": "lesson",
-      "symbol": "MSFT",
-      "text": "2026-10-29_MSFT_02: v1.3 Mon open de-risk — Oskar path"
-    },
-    {
-      "t": "2026-11-02T09:33:35-05:00",
-      "kind": "card",
-      "symbol": "GOOGL",
-      "text": "2026-10-29_GOOGL_02 GOOGL short · CLOSED · rec take · risk score 5/5"
-    },
-    {
-      "t": "2026-11-02T09:33:35-05:00",
-      "kind": "lesson",
-      "symbol": "GOOGL",
-      "text": "2026-10-29_GOOGL_02: v1.3 Mon open de-risk — Oskar path"
-    },
-    {
-      "t": "2026-11-02T09:33:35-05:00",
-      "kind": "card",
-      "symbol": "AMZN",
-      "text": "2026-10-29_AMZN_02 AMZN short · CLOSED · rec take · risk score 5/5"
-    },
-    {
-      "t": "2026-11-02T09:33:35-05:00",
-      "kind": "lesson",
-      "symbol": "AMZN",
-      "text": "2026-10-29_AMZN_02: v1.3 Mon open de-risk — Oskar path"
-    },
-    {
-      "t": "2026-11-02T09:33:35-05:00",
+      "t": "2026-11-10T09:04:45-05:00",
       "kind": "journal",
-      "text": "Trade journal — MSFT — 2026-10-30_MSFT_03 · journal/2026-11-02_MSFT.md"
+      "text": "Trade journal — META — 2026-10-29_META_02 · journal/2026-10-30_META.md"
     },
     {
-      "t": "2026-11-02T09:33:35-05:00",
+      "t": "2026-11-10T09:04:45-05:00",
       "kind": "journal",
-      "text": "Trade journal — AMZN — 2026-10-30_AMZN_03 · journal/2026-11-02_AMZN.md"
+      "text": "Trade journal — QQQ — 2026-10-30_QQQ_03 · journal/2026-10-30_QQQ.md"
     },
     {
-      "t": "2026-11-02T09:33:35-05:00",
+      "t": "2026-11-10T09:04:45-05:00",
       "kind": "journal",
-      "text": "Trade journal — SPY — 2026-10-30_SPY_03 · journal/2026-11-02_SPY.md"
+      "text": "Session journal — 2026-10-29 (Thu) · journal/2026-10-29.md"
     },
     {
-      "t": "2026-11-02T09:33:35-05:00",
+      "t": "2026-11-10T09:04:45-05:00",
       "kind": "journal",
-      "text": "Trade journal — GOOGL — 2026-10-30_GOOGL_03 · journal/2026-11-02_GOOGL.md"
+      "text": "Trade journal — SPY — 2026-10-30_SPY_03 · journal/2026-10-30_SPY.md"
     },
     {
-      "t": "2026-11-02T09:33:35-05:00",
+      "t": "2026-11-10T09:04:45-05:00",
       "kind": "journal",
-      "text": "Trade journal — QQQ — 2026-10-30_QQQ_03 · journal/2026-11-02_QQQ.md"
+      "text": "Trade journal — GOOGL — 2026-10-30_GOOGL_03 · journal/2026-10-30_GOOGL.md"
     },
     {
-      "t": "2026-11-02T09:33:35-05:00",
+      "t": "2026-11-10T09:04:45-05:00",
       "kind": "journal",
-      "text": "Trade journal — NVDA — 2026-10-30_NVDA_03 · journal/2026-11-02_NVDA.md"
+      "text": "Trade journal — NVDA — 2026-10-30_NVDA_03 · journal/2026-10-30_NVDA.md"
     },
     {
-      "t": "2026-11-02T09:33:35-05:00",
-      "kind": "human",
-      "text": "CLOSE 2026-10-29_AMZN_02 by human (Oskar) @ 246.10",
-      "symbol": "AMZN"
-    },
-    {
-      "t": "2026-11-02T09:33:35-05:00",
+      "t": "2026-11-10T09:04:45-05:00",
       "kind": "journal",
-      "text": "Trade closed · win $+10.04 (0.0R) · journal/2026-11-02_AMZN.md",
-      "symbol": "AMZN"
+      "text": "Trade journal — TSLA — 2026-10-29_TSLA_02 · journal/2026-10-30_TSLA.md"
     },
     {
-      "t": "2026-11-02T09:33:35-05:00",
-      "kind": "lesson",
-      "text": "2026-10-29_AMZN_02: v1.3 Mon open de-risk — Oskar path",
-      "symbol": "AMZN"
-    },
-    {
-      "t": "2026-11-02T09:33:35-05:00",
-      "kind": "human",
-      "text": "CLOSE 2026-10-29_GOOGL_02 by human (Oskar) @ 285.35",
-      "symbol": "GOOGL"
-    },
-    {
-      "t": "2026-11-02T09:33:35-05:00",
+      "t": "2026-11-10T09:04:45-05:00",
       "kind": "journal",
-      "text": "Trade closed · loss $-418.56 (-0.11R) · journal/2026-11-02_GOOGL.md",
-      "symbol": "GOOGL"
+      "text": "Trade journal — AMZN — 2026-10-30_AMZN_03 · journal/2026-10-30_AMZN.md"
     },
     {
-      "t": "2026-11-02T09:33:35-05:00",
-      "kind": "lesson",
-      "text": "2026-10-29_GOOGL_02: v1.3 Mon open de-risk — Oskar path",
-      "symbol": "GOOGL"
+      "t": "2026-11-10T09:04:45-05:00",
+      "kind": "journal",
+      "text": "Trade journal — SPY — 2026-10-29_SPY_02 · journal/2026-10-29_SPY.md"
+    },
+    {
+      "t": "2026-11-10T09:04:45-05:00",
+      "kind": "journal",
+      "text": "Trade journal — AAPL — 2026-10-27_AAPL_01 · journal/2026-10-30_AAPL.md"
+    },
+    {
+      "t": "2026-11-10T09:04:45-05:00",
+      "kind": "journal",
+      "text": "Trade journal — MSFT — 2026-10-30_MSFT_03 · journal/2026-10-30_MSFT.md"
+    },
+    {
+      "t": "2026-11-10T09:04:45-05:00",
+      "kind": "journal",
+      "text": "Session journal — 2026-10-30 (Fri) · journal/2026-10-30.md"
+    },
+    {
+      "t": "2026-11-10T09:04:45-05:00",
+      "kind": "brief",
+      "text": "Morning brief — 2026-10-30 (Fri) · briefs/2026-10-30_morning.md"
+    },
+    {
+      "t": "2026-11-10T09:04:45-05:00",
+      "kind": "review",
+      "text": "Daily review pointer — 2026-10-29 · reviews/2026-10-29.md"
+    },
+    {
+      "t": "2026-11-10T09:04:45-05:00",
+      "kind": "review",
+      "text": "Daily review pointer — 2026-10-30 · reviews/2026-10-30.md"
+    },
+    {
+      "t": "2026-11-10T09:04:45-05:00",
+      "kind": "research",
+      "text": "Daily research — 2026-10-30 (CLOSE version; overwrites pre-market) · research/daily_2026-10-30.md"
     }
   ]
 }

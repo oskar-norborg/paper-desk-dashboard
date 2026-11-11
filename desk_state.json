@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-11T17:00:53-05:00",
+  "updated_at": "2026-11-11T17:01:00-05:00",
   "timezone_note": "Times shown America/New_York; routines run on America/New_York",
   "paper_only": true,
   "quotes": {
@@ -190,7 +190,7 @@
       "kind": "mark"
     },
     {
-      "t": "2026-11-11T17:00:53-05:00",
+      "t": "2026-11-11T17:01:00-05:00",
       "equity": 122613.93,
       "kind": "mark"
     }
@@ -1464,9 +1464,14 @@
   },
   "activity": [
     {
-      "t": "2026-11-11T17:00:53-05:00",
+      "t": "2026-11-11T17:01:00-05:00",
       "kind": "quotes",
       "text": "Quotes refreshed 9/9 ok · Yahoo public chart · display only"
+    },
+    {
+      "t": "2026-11-11T17:00:59-05:00",
+      "kind": "journal",
+      "text": "Journal 2026-11-11 (paper only) · journal/2026-11-11.md"
     },
     {
       "t": "2026-11-11T16:27:20-05:00",
@@ -1769,11 +1774,6 @@
       "t": "2026-11-10T09:04:45-05:00",
       "kind": "journal",
       "text": "Session journal — 2026-10-30 (Fri) · journal/2026-10-30.md"
-    },
-    {
-      "t": "2026-11-10T09:04:45-05:00",
-      "kind": "brief",
-      "text": "Morning brief — 2026-10-30 (Fri) · briefs/2026-10-30_morning.md"
     }
   ]
 }

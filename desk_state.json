@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-10T16:58:01-05:00",
+  "updated_at": "2026-11-11T09:04:36-05:00",
   "timezone_note": "Times shown America/New_York; routines run on America/New_York",
   "paper_only": true,
   "quotes": {
@@ -186,6 +186,11 @@
     },
     {
       "t": "2026-11-10T16:58:01-05:00",
+      "equity": 122613.93,
+      "kind": "mark"
+    },
+    {
+      "t": "2026-11-11T09:04:36-05:00",
       "equity": 122613.93,
       "kind": "mark"
     }
@@ -872,13 +877,13 @@
   ],
   "research": {
     "available": true,
-    "files": 11,
+    "files": 12,
     "handoff_dir": "research/",
     "latest": {
-      "file": "research/daily_2026-11-10.md",
-      "title": "Daily paper-research handoff, 2026-11-10 (CLOSE; replaces pre-market version)",
-      "t": "2026-11-10T16:30:38-05:00",
-      "summary": "FACT: S&P 500 -0.38% to 7,521.48, Nasdaq Comp -0.74% to 25,067.23, Dow -0.31% to 52,227.80 (Reuters preliminary). Tech the worst S&P sector (>-1%). · FACT: October CPI +0.4% m/m (est. +0.3%), core +0.3% (est. +0.2%); no official y/y (2025 shutdown gap). Haver estimate: headline y/y 4.1%, core 2.8%. · FACT: CME FedWatch…",
+      "file": "research/daily_2026-11-11.md",
+      "title": "Daily paper-research handoff, 2026-11-11 (PRE-MARKET)",
+      "t": "2026-11-11T07:47:13-05:00",
+      "summary": "FACT: Veterans Day. Stocks open; US bond market closed (Yahoo Finance). · FACT: ES=F 7,612.50 (+0.90% vs prior settle 7,544.25), NQ=F 28,377.50 (+1.95%), as of 7:36 AM ET (Yahoo). Yahoo live blog 7:34 AM ET: Dow fut +0.1%, S&P +0.8%, NDX +1.9%. · FACT: Driver = chip rebound + CoreWeave Q3 beat/raised FY outlook (CRWV +…",
       "symbols": [
         "AAPL",
         "AMZN",
@@ -1459,9 +1464,19 @@
   },
   "activity": [
     {
-      "t": "2026-11-10T16:58:01-05:00",
+      "t": "2026-11-11T09:04:36-05:00",
       "kind": "quotes",
       "text": "Quotes refreshed 9/9 ok · Yahoo public chart · display only"
+    },
+    {
+      "t": "2026-11-11T09:04:35-05:00",
+      "kind": "brief",
+      "text": "Morning brief 2026-11-11 (paper only) · briefs/2026-11-11_morning.md"
+    },
+    {
+      "t": "2026-11-11T07:47:13-05:00",
+      "kind": "research",
+      "text": "Daily paper-research handoff, 2026-11-11 (PRE-MARKET) · research/daily_2026-11-11.md"
     },
     {
       "t": "2026-11-10T16:58:00-05:00",
@@ -1759,16 +1774,6 @@
       "t": "2026-11-10T09:04:45-05:00",
       "kind": "brief",
       "text": "Morning brief — 2026-10-30 (Fri) · briefs/2026-10-30_morning.md"
-    },
-    {
-      "t": "2026-11-10T09:04:45-05:00",
-      "kind": "review",
-      "text": "Daily review pointer — 2026-10-29 · reviews/2026-10-29.md"
-    },
-    {
-      "t": "2026-11-10T09:04:45-05:00",
-      "kind": "review",
-      "text": "Daily review pointer — 2026-10-30 · reviews/2026-10-30.md"
     }
   ]
 }

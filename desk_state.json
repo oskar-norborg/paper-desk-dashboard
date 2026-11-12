@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-12T16:56:56-05:00",
+  "updated_at": "2026-11-12T16:57:04-05:00",
   "timezone_note": "Times shown America/New_York; routines run on America/New_York",
   "paper_only": true,
   "quotes": {
@@ -195,7 +195,7 @@
       "kind": "mark"
     },
     {
-      "t": "2026-11-12T16:56:56-05:00",
+      "t": "2026-11-12T16:57:04-05:00",
       "equity": 122613.93,
       "kind": "mark"
     }
@@ -1469,9 +1469,14 @@
   },
   "activity": [
     {
-      "t": "2026-11-12T16:56:56-05:00",
+      "t": "2026-11-12T16:57:04-05:00",
       "kind": "quotes",
       "text": "Quotes refreshed 9/9 ok · Yahoo public chart · display only"
+    },
+    {
+      "t": "2026-11-12T16:57:03-05:00",
+      "kind": "journal",
+      "text": "Session journal — 2026-11-12 · journal/2026-11-12.md"
     },
     {
       "t": "2026-11-12T16:25:47-05:00",
@@ -1774,11 +1779,6 @@
       "t": "2026-11-10T09:04:45-05:00",
       "kind": "journal",
       "text": "Trade journal — SPY — 2026-10-29_SPY_02 · journal/2026-10-29_SPY.md"
-    },
-    {
-      "t": "2026-11-10T09:04:45-05:00",
-      "kind": "journal",
-      "text": "Trade journal — AAPL — 2026-10-27_AAPL_01 · journal/2026-10-30_AAPL.md"
     }
   ]
 }

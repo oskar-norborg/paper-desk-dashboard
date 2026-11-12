@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-11T17:01:00-05:00",
+  "updated_at": "2026-11-12T09:04:47-05:00",
   "timezone_note": "Times shown America/New_York; routines run on America/New_York",
   "paper_only": true,
   "quotes": {
@@ -193,6 +193,11 @@
       "t": "2026-11-11T17:01:00-05:00",
       "equity": 122613.93,
       "kind": "mark"
+    },
+    {
+      "t": "2026-11-12T09:04:47-05:00",
+      "equity": 122613.93,
+      "kind": "mark"
     }
   ],
   "positions": [],
@@ -290,7 +295,7 @@
         530.61,
         545.18,
         533.16,
-        521.12
+        521.13
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
@@ -877,13 +882,13 @@
   ],
   "research": {
     "available": true,
-    "files": 12,
+    "files": 13,
     "handoff_dir": "research/",
     "latest": {
-      "file": "research/daily_2026-11-11.md",
-      "title": "Daily paper-research handoff, 2026-11-11 (CLOSE, overwrites pre-market)",
-      "t": "2026-11-11T16:27:20-05:00",
-      "summary": "FACT: Veterans Day. Stocks open, bond market closed (Yahoo). No US data today. · FACT: S&P 500 +1.3% to 7,619.38; Nasdaq Comp +1.6% to 25,466.19; Dow +0.5% to 52,486.49 (AP). S&P within 2.6% of Oct record (AP). · FACT: Chip rebound led. SOX +6.6% intraday (IBD 2:49 PM ET); SMH +4.82%. CoreWeave +24% after raising its o…",
+      "file": "research/daily_2026-11-12.md",
+      "title": "Daily paper-research handoff, 2026-11-12 (PRE-MARKET)",
+      "t": "2026-11-12T07:47:42-05:00",
+      "summary": "FACT: Futures lower, led by tech. ES 7,611.50 and NQ 28,214.75 at 7:36 AM ET (Yahoo). Yahoo live blog (7:34 AM ET): ES -0.4%, NQ -0.8%, Dow futures green. CNBC (7:32 AM ET): NQ -0.9%. · FACT: NVDA's board met Wed to weigh removing CEO Jensen Huang (CNBC confirmed), after an NYT report of a second relationship, this one…",
       "symbols": [
         "AAPL",
         "AMZN",
@@ -1464,9 +1469,19 @@
   },
   "activity": [
     {
-      "t": "2026-11-11T17:01:00-05:00",
+      "t": "2026-11-12T09:04:47-05:00",
       "kind": "quotes",
       "text": "Quotes refreshed 9/9 ok · Yahoo public chart · display only"
+    },
+    {
+      "t": "2026-11-12T09:04:45-05:00",
+      "kind": "brief",
+      "text": "Morning brief 2026-11-12 (paper only) · briefs/2026-11-12_morning.md"
+    },
+    {
+      "t": "2026-11-12T07:47:42-05:00",
+      "kind": "research",
+      "text": "Daily paper-research handoff, 2026-11-12 (PRE-MARKET) · research/daily_2026-11-12.md"
     },
     {
       "t": "2026-11-11T17:00:59-05:00",
@@ -1764,16 +1779,6 @@
       "t": "2026-11-10T09:04:45-05:00",
       "kind": "journal",
       "text": "Trade journal — AAPL — 2026-10-27_AAPL_01 · journal/2026-10-30_AAPL.md"
-    },
-    {
-      "t": "2026-11-10T09:04:45-05:00",
-      "kind": "journal",
-      "text": "Trade journal — MSFT — 2026-10-30_MSFT_03 · journal/2026-10-30_MSFT.md"
-    },
-    {
-      "t": "2026-11-10T09:04:45-05:00",
-      "kind": "journal",
-      "text": "Session journal — 2026-10-30 (Fri) · journal/2026-10-30.md"
     }
   ]
 }

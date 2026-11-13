@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-12T16:57:04-05:00",
+  "updated_at": "2026-11-13T09:05:36-05:00",
   "timezone_note": "Times shown America/New_York; routines run on America/New_York",
   "paper_only": true,
   "quotes": {
@@ -196,6 +196,11 @@
     },
     {
       "t": "2026-11-12T16:57:04-05:00",
+      "equity": 122613.93,
+      "kind": "mark"
+    },
+    {
+      "t": "2026-11-13T09:05:36-05:00",
       "equity": 122613.93,
       "kind": "mark"
     }
@@ -882,13 +887,13 @@
   ],
   "research": {
     "available": true,
-    "files": 13,
+    "files": 14,
     "handoff_dir": "research/",
     "latest": {
-      "file": "research/daily_2026-11-12.md",
-      "title": "Daily paper-research handoff: 2026-11-12 (close version, overwrites pre-market)",
-      "t": "2026-11-12T16:25:47-05:00",
-      "summary": "FACT: SPY 757.12 (-0.35%), QQQ 688.17 (-0.32%), regular-session close 4:00 PM ET (Yahoo Finance chart data). · FACT: Yahoo Finance reports the 10-yr Treasury yield climbed above 5%. Oct CPI on 11/10 came in at +0.4% m/m vs +0.3% expected. A $25B 30-yr auction on 11/12 cleared at a 5.441% high yield (helious.io calendar…",
+      "file": "research/daily_2026-11-13.md",
+      "title": "Paper research handoff — 2026-11-13 (pre-market, as of ~7:46 AM ET)",
+      "t": "2026-11-13T07:46:37-05:00",
+      "summary": "FACT: ES=F 7634.5 (+0.25%), NQ=F 28417.5 (+0.12%) as of 7:35 AM ET (Yahoo). VIX 18.26 (7:30 AM ET). 10Y yield 5.10% at 11/12 close (up from ~5.00% 11/11). · FACT: Oct PPI due 8:30 AM ET today; Fed speakers Collins 9:10, Bowman 10:50, Daly 12:00 ET. Dow Jones/Morningstar: dollar near 19-month high on talk of up to 50bp …",
       "symbols": [
         "AAPL",
         "AMZN",
@@ -1469,9 +1474,19 @@
   },
   "activity": [
     {
-      "t": "2026-11-12T16:57:04-05:00",
+      "t": "2026-11-13T09:05:36-05:00",
       "kind": "quotes",
       "text": "Quotes refreshed 9/9 ok · Yahoo public chart · display only"
+    },
+    {
+      "t": "2026-11-13T09:05:35-05:00",
+      "kind": "brief",
+      "text": "Morning brief 2026-11-13 (paper only) · briefs/2026-11-13_morning.md"
+    },
+    {
+      "t": "2026-11-13T07:46:37-05:00",
+      "kind": "research",
+      "text": "Paper research handoff — 2026-11-13 (pre-market, as of ~7:46 AM ET) · research/daily_2026-11-13.md"
     },
     {
       "t": "2026-11-12T16:57:03-05:00",
@@ -1769,16 +1784,6 @@
       "t": "2026-11-10T09:04:45-05:00",
       "kind": "journal",
       "text": "Trade journal — TSLA — 2026-10-29_TSLA_02 · journal/2026-10-30_TSLA.md"
-    },
-    {
-      "t": "2026-11-10T09:04:45-05:00",
-      "kind": "journal",
-      "text": "Trade journal — AMZN — 2026-10-30_AMZN_03 · journal/2026-10-30_AMZN.md"
-    },
-    {
-      "t": "2026-11-10T09:04:45-05:00",
-      "kind": "journal",
-      "text": "Trade journal — SPY — 2026-10-29_SPY_02 · journal/2026-10-29_SPY.md"
     }
   ]
 }

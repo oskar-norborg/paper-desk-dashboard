@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-13T16:58:09-05:00",
+  "updated_at": "2026-11-13T16:58:18-05:00",
   "timezone_note": "Times shown America/New_York; routines run on America/New_York",
   "paper_only": true,
   "quotes": {
@@ -200,7 +200,7 @@
       "kind": "mark"
     },
     {
-      "t": "2026-11-13T16:58:09-05:00",
+      "t": "2026-11-13T16:58:18-05:00",
       "equity": 122613.93,
       "kind": "mark"
     }
@@ -1474,9 +1474,14 @@
   },
   "activity": [
     {
-      "t": "2026-11-13T16:58:09-05:00",
+      "t": "2026-11-13T16:58:18-05:00",
       "kind": "quotes",
       "text": "Quotes refreshed 9/9 ok · Yahoo public chart · display only"
+    },
+    {
+      "t": "2026-11-13T16:58:17-05:00",
+      "kind": "journal",
+      "text": "Session journal — 2026-11-13 · journal/2026-11-13.md"
     },
     {
       "t": "2026-11-13T16:23:10-05:00",
@@ -1779,11 +1784,6 @@
       "t": "2026-11-10T09:04:45-05:00",
       "kind": "journal",
       "text": "Trade journal — NVDA — 2026-10-30_NVDA_03 · journal/2026-10-30_NVDA.md"
-    },
-    {
-      "t": "2026-11-10T09:04:45-05:00",
-      "kind": "journal",
-      "text": "Trade journal — TSLA — 2026-10-29_TSLA_02 · journal/2026-10-30_TSLA.md"
     }
   ]
 }

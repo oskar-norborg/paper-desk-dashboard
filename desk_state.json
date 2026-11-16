@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-16T11:52:43-05:00",
+  "updated_at": "2026-11-16T17:06:15-05:00",
   "timezone_note": "Times shown America/New_York; routines run on America/New_York",
   "paper_only": true,
   "quotes": {
@@ -205,7 +205,7 @@
       "kind": "mark"
     },
     {
-      "t": "2026-11-16T11:52:43-05:00",
+      "t": "2026-11-16T17:06:15-05:00",
       "equity": 122613.93,
       "kind": "mark"
     }
@@ -216,8 +216,8 @@
       "symbol": "SPY",
       "name": "SPDR S&P 500 ETF",
       "sector": "index",
-      "last": 745.03,
-      "change_pct": -1.24,
+      "last": 739.95,
+      "change_pct": -1.91,
       "spark": [
         755.72,
         752.1,
@@ -230,19 +230,19 @@
         759.81,
         757.12,
         754.37,
-        745.03
+        739.95
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-11-16T11:52:41-05:00",
+      "quote_time": "2026-11-16T16:00:00-05:00",
       "stale": false
     },
     {
       "symbol": "QQQ",
       "name": "Invesco QQQ Trust",
       "sector": "index",
-      "last": 667.41,
-      "change_pct": -1.84,
+      "last": 661.75,
+      "change_pct": -2.67,
       "spark": [
         690.49,
         681.09,
@@ -255,19 +255,19 @@
         690.38,
         688.17,
         679.89,
-        667.41
+        661.75
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-11-16T11:52:38-05:00",
+      "quote_time": "2026-11-16T16:00:00-05:00",
       "stale": false
     },
     {
       "symbol": "AAPL",
       "name": "Apple",
       "sector": "tech",
-      "last": 353.77,
-      "change_pct": -0.7,
+      "last": 352.78,
+      "change_pct": -0.98,
       "spark": [
         344.63,
         338.32,
@@ -280,19 +280,19 @@
         355.63,
         354.88,
         356.27,
-        353.77
+        352.78
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-11-16T11:52:41-05:00",
+      "quote_time": "2026-11-16T16:00:01-05:00",
       "stale": false
     },
     {
       "symbol": "MSFT",
       "name": "Microsoft",
       "sector": "tech",
-      "last": 524.4,
-      "change_pct": 0.1,
+      "last": 517.99,
+      "change_pct": -1.12,
       "spark": [
         521.91,
         507.12,
@@ -305,19 +305,19 @@
         521.13,
         523.0,
         523.88,
-        524.4
+        517.99
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-11-16T11:52:41-05:00",
+      "quote_time": "2026-11-16T16:00:01-05:00",
       "stale": false
     },
     {
       "symbol": "NVDA",
       "name": "NVIDIA",
       "sector": "semis",
-      "last": 159.01,
-      "change_pct": -2.36,
+      "last": 156.14,
+      "change_pct": -4.12,
       "spark": [
         204.64,
         202.06,
@@ -330,19 +330,19 @@
         173.73,
         166.19,
         162.85,
-        159.01
+        156.14
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-11-16T11:52:41-05:00",
+      "quote_time": "2026-11-16T16:00:01-05:00",
       "stale": false
     },
     {
       "symbol": "AMZN",
       "name": "Amazon",
       "sector": "consumer/cloud",
-      "last": 260.56,
-      "change_pct": -2.29,
+      "last": 257.75,
+      "change_pct": -3.34,
       "spark": [
         240.35,
         245.63,
@@ -355,19 +355,19 @@
         266.17,
         267.44,
         266.66,
-        260.55
+        257.75
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-11-16T11:52:42-05:00",
+      "quote_time": "2026-11-16T16:00:00-05:00",
       "stale": false
     },
     {
       "symbol": "GOOGL",
       "name": "Alphabet Class A",
       "sector": "comm/ads",
-      "last": 288.19,
-      "change_pct": -2.56,
+      "last": 283.72,
+      "change_pct": -4.07,
       "spark": [
         279.84,
         278.99,
@@ -380,19 +380,19 @@
         293.45,
         298.7,
         295.77,
-        288.19
+        283.72
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-11-16T11:52:42-05:00",
+      "quote_time": "2026-11-16T16:00:01-05:00",
       "stale": false
     },
     {
       "symbol": "META",
       "name": "Meta Platforms",
       "sector": "comm/ads",
-      "last": 629.05,
-      "change_pct": -1.97,
+      "last": 626.41,
+      "change_pct": -2.38,
       "spark": [
         614.99,
         606.73,
@@ -405,19 +405,19 @@
         628.77,
         623.61,
         641.69,
-        629.05
+        626.41
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-11-16T11:52:42-05:00",
+      "quote_time": "2026-11-16T16:00:01-05:00",
       "stale": false
     },
     {
       "symbol": "TSLA",
       "name": "Tesla",
       "sector": "auto/EV",
-      "last": 380.9,
-      "change_pct": -2.39,
+      "last": 379.74,
+      "change_pct": -2.69,
       "spark": [
         399.81,
         403.82,
@@ -430,11 +430,11 @@
         390.84,
         397.45,
         390.22,
-        380.9
+        379.74
       ],
       "quote_source": "yahoo_finance_chart",
       "quote_ok": true,
-      "quote_time": "2026-11-16T11:52:38-05:00",
+      "quote_time": "2026-11-16T16:00:00-05:00",
       "stale": false
     }
   ],
@@ -896,9 +896,9 @@
     "handoff_dir": "research/",
     "latest": {
       "file": "research/daily_2026-11-16.md",
-      "title": "Daily paper-research handoff — 2026-11-16 (pre-market)",
-      "t": "2026-11-16T07:56:34-05:00",
-      "summary": "FACT: ES=F 7,543.50 (-0.52%) and NQ=F 27,704.25 (-1.18%) at 7:44 AM ET (Yahoo). 10Y yield closed Fri 5.154% (Yahoo ^TNX, 2:59 PM ET Fri). Reuters: markets fully price a Dec rate hike after last week's hot inflation data. · FACT: NVDA filed an 8-K on 2026-11-12 (Item 5.02, officer change) — CEO Jensen Huang exit. FT (vi…",
+      "title": "Daily paper-research handoff — 2026-11-16 (CLOSE, overwrites pre-market)",
+      "t": "2026-11-16T16:29:15-05:00",
+      "summary": "FACT: Broad risk-off. S&P 500 7,416.59 (-1.92%), Nasdaq Comp 24,509.76 (-2.49%), Dow -1.41% (Yahoo / Nasdaq.com / TipRanks, 4:00 PM ET close). VIX 23.01 vs 19.30 Fri (Yahoo). 10Y 5.121% (Yahoo ^TNX 2:59 PM ET) vs CNBC 5.131% — small source gap. · FACT: Commerce Dept moving to close loophole letting Chinese firms rent a…",
       "symbols": [
         "AAPL",
         "AMZN",
@@ -1130,55 +1130,55 @@
       {
         "id": "SPY",
         "type": "etf",
-        "change_pct": -1.24,
+        "change_pct": -1.91,
         "sector": "index"
       },
       {
         "id": "QQQ",
         "type": "etf",
-        "change_pct": -1.84,
+        "change_pct": -2.67,
         "sector": "index"
       },
       {
         "id": "AAPL",
         "type": "stock",
-        "change_pct": -0.7,
+        "change_pct": -0.98,
         "sector": "tech"
       },
       {
         "id": "MSFT",
         "type": "stock",
-        "change_pct": 0.1,
+        "change_pct": -1.12,
         "sector": "tech"
       },
       {
         "id": "NVDA",
         "type": "stock",
-        "change_pct": -2.36,
+        "change_pct": -4.12,
         "sector": "semis"
       },
       {
         "id": "AMZN",
         "type": "stock",
-        "change_pct": -2.29,
+        "change_pct": -3.34,
         "sector": "consumer/cloud"
       },
       {
         "id": "GOOGL",
         "type": "stock",
-        "change_pct": -2.56,
+        "change_pct": -4.07,
         "sector": "comm/ads"
       },
       {
         "id": "META",
         "type": "stock",
-        "change_pct": -1.97,
+        "change_pct": -2.38,
         "sector": "comm/ads"
       },
       {
         "id": "TSLA",
         "type": "stock",
-        "change_pct": -2.39,
+        "change_pct": -2.69,
         "sector": "auto/EV"
       },
       {
@@ -1479,19 +1479,19 @@
   },
   "activity": [
     {
-      "t": "2026-11-16T11:52:43-05:00",
+      "t": "2026-11-16T17:06:15-05:00",
       "kind": "quotes",
       "text": "Quotes refreshed 9/9 ok · Yahoo public chart · display only"
+    },
+    {
+      "t": "2026-11-16T16:29:15-05:00",
+      "kind": "research",
+      "text": "Daily paper-research handoff — 2026-11-16 (CLOSE, overwrites pre-market) · research/daily_2026-11-16.md"
     },
     {
       "t": "2026-11-16T09:14:21-05:00",
       "kind": "brief",
       "text": "Morning brief — Mon 2026-11-16 (paper only) · briefs/2026-11-16_morning.md"
-    },
-    {
-      "t": "2026-11-16T07:56:34-05:00",
-      "kind": "research",
-      "text": "Daily paper-research handoff — 2026-11-16 (pre-market) · research/daily_2026-11-16.md"
     },
     {
       "t": "2026-11-13T16:58:17-05:00",

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-13T16:58:18-05:00",
+  "updated_at": "2026-11-16T09:14:24-05:00",
   "timezone_note": "Times shown America/New_York; routines run on America/New_York",
   "paper_only": true,
   "quotes": {
@@ -201,6 +201,11 @@
     },
     {
       "t": "2026-11-13T16:58:18-05:00",
+      "equity": 122613.93,
+      "kind": "mark"
+    },
+    {
+      "t": "2026-11-16T09:14:24-05:00",
       "equity": 122613.93,
       "kind": "mark"
     }
@@ -887,13 +892,13 @@
   ],
   "research": {
     "available": true,
-    "files": 14,
+    "files": 15,
     "handoff_dir": "research/",
     "latest": {
-      "file": "research/daily_2026-11-13.md",
-      "title": "Daily paper-research handoff — 2026-11-13 (CLOSE version, overwrites pre-market)",
-      "t": "2026-11-13T16:23:10-05:00",
-      "summary": "FACT: S&P 500 -0.4%, Nasdaq Comp -0.9%, Dow +0.1% (Yahoo Finance, close 11/13). SOX -3.4% (Yahoo/aistockwire). · FACT: Chip sell-off continued after Jensen Huang resigned as NVDA CEO (11/12; CFO Colette Kress interim CEO). NVDA mkt cap closed below $4T (Yahoo). · FACT: 10Y yield hit 5.17% intraday, highest since Octobe…",
+      "file": "research/daily_2026-11-16.md",
+      "title": "Daily paper-research handoff — 2026-11-16 (pre-market)",
+      "t": "2026-11-16T07:56:34-05:00",
+      "summary": "FACT: ES=F 7,543.50 (-0.52%) and NQ=F 27,704.25 (-1.18%) at 7:44 AM ET (Yahoo). 10Y yield closed Fri 5.154% (Yahoo ^TNX, 2:59 PM ET Fri). Reuters: markets fully price a Dec rate hike after last week's hot inflation data. · FACT: NVDA filed an 8-K on 2026-11-12 (Item 5.02, officer change) — CEO Jensen Huang exit. FT (vi…",
       "symbols": [
         "AAPL",
         "AMZN",
@@ -1474,9 +1479,19 @@
   },
   "activity": [
     {
-      "t": "2026-11-13T16:58:18-05:00",
+      "t": "2026-11-16T09:14:24-05:00",
       "kind": "quotes",
       "text": "Quotes refreshed 9/9 ok · Yahoo public chart · display only"
+    },
+    {
+      "t": "2026-11-16T09:14:21-05:00",
+      "kind": "brief",
+      "text": "Morning brief — Mon 2026-11-16 (paper only) · briefs/2026-11-16_morning.md"
+    },
+    {
+      "t": "2026-11-16T07:56:34-05:00",
+      "kind": "research",
+      "text": "Daily paper-research handoff — 2026-11-16 (pre-market) · research/daily_2026-11-16.md"
     },
     {
       "t": "2026-11-13T16:58:17-05:00",
@@ -1774,16 +1789,6 @@
       "t": "2026-11-10T09:04:45-05:00",
       "kind": "journal",
       "text": "Trade journal — SPY — 2026-10-30_SPY_03 · journal/2026-10-30_SPY.md"
-    },
-    {
-      "t": "2026-11-10T09:04:45-05:00",
-      "kind": "journal",
-      "text": "Trade journal — GOOGL — 2026-10-30_GOOGL_03 · journal/2026-10-30_GOOGL.md"
-    },
-    {
-      "t": "2026-11-10T09:04:45-05:00",
-      "kind": "journal",
-      "text": "Trade journal — NVDA — 2026-10-30_NVDA_03 · journal/2026-10-30_NVDA.md"
     }
   ]
 }
